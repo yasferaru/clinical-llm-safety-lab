@@ -8,7 +8,7 @@ from the UK AI Security Institute.
 
 ## Status
 
-**v0, in progress.** The evaluation itself has not been run. No results exist yet.
+**v0, in progress.** The harness is built and tested; the full evaluation has not been run. No results exist yet.
 
 What exists today:
 
@@ -17,11 +17,14 @@ What exists today:
 
 Planned:
 
-- [ ] Case set for the four categories below, grounded in cited guidelines
-- [ ] Inspect tasks and weighted rubric scorers
+- [x] Inspect task with weighted rubric scorer and a per-line judge (`evals/run_eval.py`), with tests
+- [x] Case checker and compiler (`check_cases.py`); first 2 case clusters written (4 of ~40 records)
+- [x] Judge-validation tooling: blind labelling sheet, agreement statistics (`evals/judge_validation/`)
+- [x] Red-team harness for injection through patient notes, with deterministic checks (`redteam/`); not yet run at scale
+- [ ] Full case set for the four categories below, grounded in cited guidelines
 - [ ] Runs on small and mid-size local models plus one hosted reference model
 - [ ] Judge-validation study (blind human labels vs an LLM judge)
-- [ ] Red-team: medical prompt injection via patient notes, open-weight models only
+- [ ] Red-team results: baseline vs hardened prompt on local open-weight models
 - [ ] Datasheet and data documentation
 
 Results (filled only from runs that can be reproduced from this repo):
@@ -68,15 +71,20 @@ Out of scope: hazardous or biohazard content. No case asks for it.
 ## Repo layout
 
 ```
-README.md          this file
-TODO.md            public work plan
-LICENSE            MIT
-requirements.txt   pinned Python dependencies
-smoke_test.py      Inspect smoke test (one sample)
+README.md            this file
+TODO.md              public work plan
+LICENSE              MIT
+requirements.txt     pinned Python dependencies
+smoke_test.py        Inspect smoke test (one sample)
+check_cases.py       validates evals/cases/*.yaml and compiles evals/cases.jsonl
+evals/               cases, Inspect task and scorer, judge-validation tooling
+redteam/             injection test: cases, prompts, taxonomy, scorer, summary
+scripts/run_one.sh   runs everything for one model and records what was run
+data_docs/           annotation guidelines, datasheet
+tests/               plain-Python checks for the scoring and agreement code
 ```
 
-Planned (not in the repo yet): `cases/`, `tasks/`, `scorers/`, `judge_validation/`, `redteam/`, `data_docs/`,
-`reports/`.
+Planned (not in the repo yet): `reports/`.
 
 ## Limitations
 
@@ -97,7 +105,20 @@ ollama pull qwen3:8b
 .venv/bin/inspect eval smoke_test.py --model ollama/qwen3:8b
 ```
 
-The evaluation itself: coming with v0.1.
+The evaluation harness (the full case set is still being written, so no results yet):
+
+Needs Python 3.11 or newer, [Ollama](https://ollama.com) for local models, and API keys in a `.env` file
+(never committed) for any hosted model or judge.
+
+```
+python check_cases.py --build                      # validate cases, compile evals/cases.jsonl
+python tests/test_scoring.py                       # scoring rules
+inspect eval evals/run_eval.py --model ollama/qwen3:8b -T judge=<judge model>
+inspect eval redteam/run_redteam.py --model ollama/qwen3:8b -T prompt=baseline
+python redteam/summarize.py
+```
+
+`scripts/run_one.sh <model>` does all of it for one model and appends the exact versions to `logs/run_manifest.txt`.
 
 ## Contact
 
