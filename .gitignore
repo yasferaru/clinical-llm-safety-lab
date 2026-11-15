@@ -23,3 +23,6 @@ models/
 
 # os
 .DS_Store
+
+# Blind-labelling sheet, answer key and labels: keep private until labelling is finished
+evals/judge_validation/labelling/
