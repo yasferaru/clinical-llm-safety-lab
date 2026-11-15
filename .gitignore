@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# Inspect logs and raw outputs (contain full API traces)
+logs/
+outputs/raw/
+traces/
+*.eval
+
+# model files
+models/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+
+# os
+.DS_Store
