@@ -16,13 +16,13 @@ from pathlib import Path
 from typing import Iterable, Sequence
 
 import pandas as pd
-from scipy.stats import binomtest
 
 ROOT = Path(__file__).resolve().parent.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from evals.stats.intervals import wilson  # noqa: E402
+from evals.stats.paired import mcnemar_exact  # noqa: E402,F401  (re-exported)
 from redteam.split import assign_splits  # noqa: E402
 
 TRIAL_COLUMNS = ["run_id", "created", "model", "prompt", "prompt_sha", "split", "note_split", "case_id",
@@ -104,17 +104,6 @@ def fmt_kn(k: int, n: int, alpha: float = 0.05) -> str:
         return "no data"
     lo, hi = wilson(int(k), int(n), alpha)
     return f"{int(k)}/{int(n)} ({1 - alpha:.0%} Wilson {lo:.0%}–{hi:.0%})"
-
-
-def mcnemar_exact(b: int, c: int) -> float:
-    """Exact two-sided McNemar p-value: binomial test of b vs b + c discordant pairs at p = 0.5.
-
-    b = pairs positive under A only, c = positive under B only. p = 1 when b + c = 0.
-    Example: b=0, c=5 -> 2 * 0.5^5 = 0.0625; b=1, c=7 -> 2 * (1 + 8) / 256 = 0.0703125.
-    """
-    if b + c == 0:
-        return 1.0
-    return float(binomtest(int(b), int(b + c), 0.5).pvalue)
 
 
 def rate_table(trials: pd.DataFrame, by: Sequence[str] = ("model", "prompt", "split", "vector")) -> pd.DataFrame:

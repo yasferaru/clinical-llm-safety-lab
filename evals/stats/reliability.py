@@ -15,16 +15,14 @@ counting as failures). A case with n trials and c successes gives, for 1 <= k <=
 
 The pass^k and pass@k estimators are unbiased (pass@k: Chen et al. 2021; pass^k: Yao et al. 2024,
 tau-bench, arXiv:2406.12045). Summaries average the per-case values with equal weight per case.
-Intervals come from a bootstrap over scenario clusters (scenario_id), because the base and pressure
-variants of one scenario are not independent.
+Intervals come from a bootstrap over scenario clusters (scenario_id; evals.stats.inference.cluster_bootstrap,
+percentile interval), because the base and pressure variants of one scenario are not independent.
 """
 from __future__ import annotations
 
-from dataclasses import asdict, dataclass
 from math import comb
-from typing import Callable, Iterable, Sequence
+from typing import Iterable, Sequence
 
-import numpy as np
 import pandas as pd
 
 SUCCESS_RULE = "critical_pass == 1"
@@ -134,49 +132,8 @@ def max_k(cases: pd.DataFrame) -> int:
 # --------------------------------------------------------------------------------------------
 # Scenario-cluster bootstrap
 # --------------------------------------------------------------------------------------------
-@dataclass
-class BootstrapResult:
-    """Same fields as evals.stats.inference.BootstrapResult (percentile only in this stub)."""
-    estimate: float
-    percentile_ci: tuple
-    bca_ci: tuple
-    se: float
-    n_clusters: int
-    B: int
-    bca_note: str = ""
-
-    def to_dict(self):
-        return asdict(self)
-
-
-def cluster_bootstrap(stat_fn: Callable[[pd.DataFrame], float], df: pd.DataFrame,
-                      cluster_col: str = "scenario_id", B: int = 10000, seed: int = 0,
-                      level: float = 0.95) -> BootstrapResult:
-    """Resample whole clusters with replacement; percentile CI of stat_fn(df).
-
-    TODO: replace with evals.stats.inference.cluster_bootstrap (P1, same signature, adds BCa) once
-    it is merged; this local stub exists so the reliability branch does not depend on unmerged work.
-    Percentile CI = (alpha/2, 1 - alpha/2) quantiles of the B replicates; bca_ci = percentile_ci.
-    Example: 2 clusters with case values 0 and 1, stat = mean -> replicates take 0, 0.5, 1 with
-    probabilities 1/4, 1/2, 1/4, so the 95% percentile CI is (0, 1).
-    """
-    labels = df[cluster_col].astype(str).to_numpy()
-    uniq = np.unique(labels)
-    g = len(uniq)
-    if g < 2:
-        raise ValueError("need at least 2 clusters to bootstrap")
-    members = [np.flatnonzero(labels == u) for u in uniq]
-    rng = np.random.default_rng(seed)
-    theta = float(stat_fn(df))
-    boot = np.empty(B)
-    for b in range(B):
-        idx = np.concatenate([members[c] for c in rng.integers(0, g, size=g)])
-        boot[b] = stat_fn(df.iloc[idx])
-    alpha = 1 - level
-    lo, hi = np.quantile(boot, [alpha / 2, 1 - alpha / 2])
-    pct = (float(lo), float(hi))
-    return BootstrapResult(theta, pct, pct, float(boot.std(ddof=1)), g, B,
-                           "stub: percentile interval only (BCa pending P1)")
+# P1's implementation (percentile + BCa); this module reports the percentile interval.
+from evals.stats.inference import BootstrapResult, cluster_bootstrap  # noqa: E402,F401
 
 
 # --------------------------------------------------------------------------------------------

@@ -38,9 +38,8 @@ mean over cases, with every case weighted equally.
   before scoring) are dropped.
 - Intervals come from a bootstrap that resamples whole scenarios (`scenario_id`), because the base and
   pressure variants of one scenario are not independent. With fewer than about 5 scenarios these intervals
-  are degenerate (the report says so). The bootstrap is currently a local percentile-only stub in
-  `reliability.py`. **TODO:** switch to `evals.stats.inference.cluster_bootstrap` (same signature, adds BCa)
-  once it is merged.
+  are degenerate (the report says so). The bootstrap is `evals.stats.inference.cluster_bootstrap` (P1); the
+  percentile interval is reported.
 
 ## Current data
 
