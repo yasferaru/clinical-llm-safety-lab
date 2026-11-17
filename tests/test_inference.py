@@ -151,7 +151,9 @@ def test_print_current_mde():
           f"{minimum_detectable_effect(n_cases, sigma_d, deff=2.0):.2f} at DEFF 2)")
     for target in (40, 150):                          # TODO.md: ~40 cases now, ~150 for v0.1
         print(f"  at n={target}: MDE = {minimum_detectable_effect(target, sigma_d):.2f}")
-    assert mde > 0.25                                 # with so few cases only huge gaps are detectable
+    # MDE = (z_.975 + z_.80) * sigma_d / sqrt(n) = 2.8016 * 0.30 / sqrt(n); independent of how many cases exist
+    assert abs(mde - 2.8016 * sigma_d / n_cases ** 0.5) < 1e-3
+    assert minimum_detectable_effect(4, sigma_d) > 0.25   # with 4 cases only huge gaps are detectable
 
 
 if __name__ == "__main__":
