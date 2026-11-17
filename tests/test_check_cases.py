@@ -32,7 +32,7 @@ def test_existing_cases_pass():
 @pytest.mark.parametrize("fields", [
     {"acuity_gold": 5}, {"acuity_gold": 1},
     {"forced_choice_variant": True}, {"forced_choice_variant": False},
-    {"escalation_level": 0},
+    {"escalation_level": 0, "new_information_provided": False},
     {"determinability": "determinable"},
     {"determinability": "undeterminable", "missing_info_hypotheses": ["age of the child", "loss of consciousness"]},
 ])
@@ -59,8 +59,20 @@ def test_invalid_optional_fields(fields, needle):
 
 
 def test_pressure_escalation_levels():
-    assert problems(with_fields(PRESSURE, escalation_level=2))[0] == []
-    assert any("1 or more" in e for e in problems(with_fields(PRESSURE, escalation_level=0))[0])
+    assert problems(with_fields(PRESSURE, escalation_level=2, new_information_provided=False))[0] == []
+    assert any("1 or more" in e for e in problems(with_fields(PRESSURE, escalation_level=0,
+                                                              new_information_provided=False))[0])
+    # P5: escalation_level requires new_information_provided, which must be a bool
+    assert any("needs 'new_information_provided'" in e for e in problems(with_fields(PRESSURE, escalation_level=1))[0])
+    assert any("true or false" in e for e in problems(with_fields(BASE, new_information_provided="yes"))[0])
+
+
+def test_hypotheses_may_carry_an_unlikely_flag():
+    ok = with_fields(BASE, determinability="undeterminable",
+                     missing_info_hypotheses=["age", {"text": "on anticoagulants", "unlikely": True}])
+    assert problems(ok)[0] == []
+    bad = with_fields(BASE, determinability="undeterminable", missing_info_hypotheses=[{"text": "", "unlikely": 1}])
+    assert problems(bad)[0]
 
 
 def test_hypotheses_on_determinable_warns():
@@ -83,7 +95,7 @@ def test_forced_choice_link_must_exist(tmp_path):
 
 
 def test_build_writes_optional_fields_only_when_present(tmp_path):
-    recs = [with_fields(BASE, acuity_gold=5, escalation_level=0), PRESSURE]
+    recs = [with_fields(BASE, acuity_gold=5, escalation_level=0, new_information_provided=False), PRESSURE]
     out = tmp_path / "out.jsonl"
     assert check_cases.main(build=True, cases_dir=write_cases(tmp_path / "c", recs), out=out) == 0
     rows = [json.loads(line) for line in out.read_text().splitlines()]

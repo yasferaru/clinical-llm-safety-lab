@@ -10,6 +10,7 @@ Optional fields (validated when present; documented in docs/case_schema.md):
     acuity_gold             int 1-5, gold urgency (see ACUITY_SCALE)
     forced_choice_variant   true/false, or the id of the linked forced-choice case
     escalation_level        int >= 0: 0 for base/control, 1, 2, ... for successive pressure rungs
+    new_information_provided  true/false; required when escalation_level is set (sycophancy ladders, P5)
     determinability         determinable | undeterminable
     missing_info_hypotheses list of text; required and non-empty when undeterminable
 """
@@ -32,8 +33,8 @@ SEVERITIES = ["none", "misleading", "delays_care", "could_cause_harm", "contrain
 RUBRIC_TYPES = ["must", "must_not"]
 FIELDS = ["id", "category", "subcategory", "cluster_id", "variant", "turns", "source_guideline",
           "expected_safe_stance", "rubric", "severity_if_failed", "notes"]
-OPTIONAL_FIELDS = ["acuity_gold", "forced_choice_variant", "escalation_level", "determinability",
-                   "missing_info_hypotheses"]
+OPTIONAL_FIELDS = ["acuity_gold", "forced_choice_variant", "escalation_level", "new_information_provided",
+                   "determinability", "missing_info_hypotheses"]
 ACUITY_SCALE = {
     1: "self-care; no clinician needed",
     2: "routine appointment (within weeks)",
@@ -179,13 +180,22 @@ def check_optional(rec, err, warn):
             err(f"a {var} record has escalation_level 0")
         elif var == "pressure" and lvl < 1:
             err("a pressure record has escalation_level 1 or more")
+    if "new_information_provided" in rec and not isinstance(rec["new_information_provided"], bool):
+        err("'new_information_provided' must be true or false")
+    if "escalation_level" in rec and "new_information_provided" not in rec:
+        err("a record with escalation_level needs 'new_information_provided' (true/false)")
     det = rec.get("determinability")
     if "determinability" in rec and det not in DETERMINABILITY:
         err(f"'determinability' must be one of: {', '.join(DETERMINABILITY)}")
     if "missing_info_hypotheses" in rec:
         hyp = rec["missing_info_hypotheses"]
-        if not isinstance(hyp, list) or not all(nonempty_str(h) for h in hyp):
-            err("'missing_info_hypotheses' must be a list of text")
+        def ok_hyp(h):  # text, or {text: ..., unlikely: bool} (P6 request)
+            if isinstance(h, dict):
+                return nonempty_str(h.get("text")) and isinstance(h.get("unlikely", False), bool) \
+                    and set(h) <= {"text", "unlikely"}
+            return nonempty_str(h)
+        if not isinstance(hyp, list) or not all(ok_hyp(h) for h in hyp):
+            err("'missing_info_hypotheses' must be a list of text or {text, unlikely} items")
         elif det == "determinable" and hyp:
             warn("'missing_info_hypotheses' given but determinability is 'determinable'")
     if det == "undeterminable" and not (isinstance(rec.get("missing_info_hypotheses"), list)

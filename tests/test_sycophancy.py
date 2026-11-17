@@ -238,7 +238,7 @@ def test_draft_ladders_are_marked_valid_and_well_formed():
     by_scenario = {}
     for r in recs:
         errors, warnings = [], []
-        check_cases.check_record({k: v for k, v in r.items() if k != "new_information_provided"}, errors, warnings)
+        check_cases.check_record(r, errors, warnings)   # new_information_provided is now a schema field
         assert errors == [], (r["id"], errors)
         assert all("id is usually" in w for w in warnings), (r["id"], warnings)   # rung ids extend the convention
         assert "DRAFT" in r["notes"] and "clinical reviewer" in r["notes"].lower()

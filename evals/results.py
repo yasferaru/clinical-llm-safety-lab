@@ -28,8 +28,11 @@ KEY_COLUMNS = ["run_id", "model", "model_version", "judge_model", "case_id", "sc
                "variant", "epoch", "turn", "category"]
 LINE_COLUMNS = KEY_COLUMNS + ["rubric_line_id", "line_index", "line_type", "weight", "critical",
                               "judged_pass", "judge_error"]
-SAMPLE_COLUMNS = KEY_COLUMNS + ["n_lines", "judge_errors", "rubric_score", "critical_pass",
-                                "scored", "rubric_score_logged", "critical_pass_logged"]
+# Optional case fields passed through from sample metadata (run_eval.OPTIONAL_META), plus the scored reply.
+CASE_FIELDS = ["acuity_gold", "forced_choice_variant", "escalation_level", "new_information_provided",
+               "determinability", "missing_info_hypotheses"]
+LOGGED_COLUMNS = ["scored", "rubric_score_logged", "critical_pass_logged", "response"] + CASE_FIELDS
+SAMPLE_COLUMNS = KEY_COLUMNS + ["n_lines", "judge_errors", "rubric_score", "critical_pass"] + LOGGED_COLUMNS
 
 # case-file variant -> results variant
 VARIANTS = {"base": "base", "pressure": "pressure", "control": "benign", "benign": "benign"}
@@ -89,12 +92,16 @@ def rows_from_log(log: Any) -> tuple[list[dict], list[dict]]:
     for s in log.samples or []:
         keys = _sample_keys(log, s)
         sc = next(iter(s.scores.values()), None) if s.scores else None
+        md = s.metadata or {}
+        extra = {f: md.get(f) for f in CASE_FIELDS}
         if sc is None or not sc.metadata or "lines" not in sc.metadata:
-            samples.append({**keys, "scored": False, "rubric_score_logged": None, "critical_pass_logged": None})
+            samples.append({**keys, **extra, "scored": False, "rubric_score_logged": None,
+                            "critical_pass_logged": None, "response": None})
             continue
         lines += _line_rows(keys, sc.metadata["lines"])
         value = sc.value if isinstance(sc.value, dict) else {}
-        samples.append({**keys, "scored": True, "rubric_score_logged": value.get("rubric_score"),
+        samples.append({**keys, **extra, "response": getattr(sc, "answer", None),
+                        "scored": True, "rubric_score_logged": value.get("rubric_score"),
                         "critical_pass_logged": value.get("critical_pass")})
     return lines, samples
 
@@ -139,7 +146,7 @@ def samples_from_lines(lines: pd.DataFrame) -> pd.DataFrame:
                         "judge_errors": int(g["judge_error"].sum()), "rubric_score": rubric_score,
                         "critical_pass": critical, "scored": True})
     df = pd.DataFrame(out, columns=KEY_COLUMNS + ["n_lines", "judge_errors", "rubric_score", "critical_pass", "scored"])
-    for col in ("rubric_score_logged", "critical_pass_logged"):
+    for col in LOGGED_COLUMNS[1:]:
         df[col] = None
     return df[SAMPLE_COLUMNS]
 
@@ -168,10 +175,9 @@ def load_samples(log_dir: str | Path = "logs") -> pd.DataFrame:
 
 
 def merge_samples(scored: pd.DataFrame, sample_rows: list[dict]) -> pd.DataFrame:
-    """Attach logged values to recomputed scores and append unscored samples (pure)."""
-    logged = pd.DataFrame(sample_rows, columns=KEY_COLUMNS + ["scored", "rubric_score_logged",
-                                                              "critical_pass_logged"])
-    base = scored.drop(columns=["rubric_score_logged", "critical_pass_logged"])
+    """Attach logged values, the reply and case fields to recomputed scores; append unscored samples (pure)."""
+    logged = pd.DataFrame(sample_rows, columns=KEY_COLUMNS + LOGGED_COLUMNS)
+    base = scored.drop(columns=LOGGED_COLUMNS[1:])
     ok = logged["scored"].astype(bool)
     merged = base.merge(logged.loc[ok].drop(columns=["scored"]), on=KEY_COLUMNS, how="left")
     unscored = logged.loc[~ok].copy()
@@ -184,6 +190,14 @@ def merge_samples(scored: pd.DataFrame, sample_rows: list[dict]) -> pd.DataFrame
         return scored.iloc[0:0]
     return pd.concat(parts, ignore_index=True)[SAMPLE_COLUMNS]
 
+
+def case_table(samples: pd.DataFrame) -> pd.DataFrame:
+    """One row per case_id: scenario_id, variant, category and the optional CASE_FIELDS, from a sample table
+    (i.e. the cases as they were actually run). Feeds evals.sycophancy.attach_case_fields and friends."""
+    cols = ["case_id", "scenario_id", "variant", "category"] + CASE_FIELDS
+    if samples.empty:
+        return pd.DataFrame(columns=cols)
+    return samples[cols].drop_duplicates(subset=["case_id"]).reset_index(drop=True)
 
 if __name__ == "__main__":
     d = sys.argv[1] if len(sys.argv) > 1 else "logs"
