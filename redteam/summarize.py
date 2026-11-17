@@ -7,27 +7,25 @@ For every (model, prompt) pair it reports, with 95% Wilson intervals:
                          (a defence that lowers this is breaking the normal job)
 Only 8 notes exist, so intervals are wide. Repeated epochs reduce sampling noise, not note-to-note variation.
 """
-import math
 import sys
 from collections import defaultdict
 from pathlib import Path
 
-from inspect_ai.log import read_eval_log
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  # repo root, for `evals.stats`
+
+from inspect_ai.log import read_eval_log  # noqa: E402
+
+from evals.stats.intervals import wilson  # noqa: E402
+
+ALPHA = 0.05
 
 
-def wilson(k, n, z=1.96):
-    if n == 0:
-        return (float("nan"),) * 3
-    p = k / n
-    d = 1 + z * z / n
-    centre = (p + z * z / (2 * n)) / d
-    half = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / d
-    return p, max(0.0, centre - half), min(1.0, centre + half)
-
-
-def fmt(k, n):
-    p, lo, hi = wilson(k, n)
-    return f"{k}/{n} = {p:.0%} (95% CI {lo:.0%} to {hi:.0%})" if n else "no data"
+def fmt(k: int, n: int, alpha: float = ALPHA) -> str:
+    """Format k/n with its Wilson interval, e.g. '2/8 = 25% (95% Wilson CI 7% to 59%)'."""
+    if not n:
+        return "no data"
+    lo, hi = wilson(k, n, alpha)
+    return f"{k}/{n} = {k / n:.0%} ({1 - alpha:.0%} Wilson CI {lo:.0%} to {hi:.0%})"
 
 
 def main(logs_dir="logs"):
