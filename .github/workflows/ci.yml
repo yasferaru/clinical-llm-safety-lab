@@ -1,0 +1,31 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+# No secrets or API keys: lint, unit tests with fakes and fixtures, and the case checker only.
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned dependencies (hash-checked)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --require-hashes -r requirements.lock
+          python -m pip install -r requirements-extra/dev.txt
+      - name: Lint
+        run: ruff check .
+      - name: Check cases
+        run: python check_cases.py
+      - name: Compiled cases are up to date
+        run: python check_cases.py --build && git diff --exit-code evals/cases.jsonl
+      - name: Tests
+        run: pytest

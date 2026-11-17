@@ -185,14 +185,14 @@ The smoke test works today, on a Mac with [Ollama](https://ollama.com) installed
 
 ```bash
 python3.12 -m venv .venv
-.venv/bin/pip install -r requirements.txt
+.venv/bin/pip install -r requirements.txt     # or, hash-checked: --require-hashes -r requirements.lock
 ollama pull qwen3:8b
 .venv/bin/inspect eval smoke_test.py --model ollama/qwen3:8b
 ```
 
 The evaluation harness (the full case set is still being written):
 
-Needs Python 3.11 or newer, [Ollama](https://ollama.com) for local models, and API keys in a `.env` file
+Needs Python 3.12 or newer (the pinned numpy requires it), [Ollama](https://ollama.com) for local models, and API keys in a `.env` file
 (never committed) for the hosted model and the judge (`MISTRAL_API_KEY`, `GROQ_API_KEY`). Inspect also needs the
 `mistralai` and `groq` Python packages for those providers; they are not in `requirements.txt` yet, so install
 them separately (`pip install mistralai groq`).
