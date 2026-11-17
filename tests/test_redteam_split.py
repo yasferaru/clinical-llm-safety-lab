@@ -119,3 +119,12 @@ def test_task_defaults_to_dev_with_five_repeats(tmp_path):
 def test_task_refuses_unfrozen_prompt_on_test(tmp_path):
     with pytest.raises(PromptGuardError):
         redteam(prompt="hardened_v1", split="test", prompt_log=str(tmp_path / "log.jsonl"))
+
+
+def test_harm_judge_must_be_independent(tmp_path, monkeypatch):
+    import inspect_ai.model
+
+    from evals.judge_validation.independence import JudgeIndependenceError
+    monkeypatch.setattr(inspect_ai.model, "get_model", lambda *a, **k: "ollama/qwen3:8b")
+    with pytest.raises(JudgeIndependenceError):
+        redteam(prompt="baseline", judge="ollama/qwen3:32b", prompt_log=str(tmp_path / "log.jsonl"))

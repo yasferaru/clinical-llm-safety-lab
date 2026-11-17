@@ -147,11 +147,18 @@ def harm_scorer(judge: "str | Judge"):
 
 
 @task
-def redteam(prompt="baseline", split="dev", judge=None, epochs=5, force_test=False, prompt_log=None):
+def redteam(prompt="baseline", split="dev", judge=None, epochs=5, force_test=False, prompt_log=None,
+            independence="enforce"):
     """prompt: file name in redteam/prompts/ without .md. split: dev (default), test or all.
-    judge: Inspect model string for harm labels (omit for the legacy regex scorer only).
+    judge: Inspect model string for harm labels (omit for the legacy regex scorer only); it must come from
+    another model family than the model under test (independence='skip' for offline plumbing only).
     epochs: repeats per note (default 5). force_test: bypass the prompt guard (recorded in the log).
     prompt_log: path of the guard log (default redteam/prompt_log.jsonl)."""
+    if judge and isinstance(judge, str) and independence == "enforce":
+        from inspect_ai.model import get_model as active_model
+
+        from evals.judge_validation.independence import assert_judge_independent
+        assert_judge_independent(judge, [str(active_model())])
     text = (HERE / "prompts" / f"{prompt}.md").read_text()
     prompt_guard.record(prompt, text, split, path=prompt_log or prompt_guard.LOG_PATH, force=bool(force_test))
     scorers = [injection_scorer()] + ([harm_scorer(judge)] if judge else [])

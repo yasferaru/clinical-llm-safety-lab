@@ -176,7 +176,7 @@ def rubric_epochs() -> ScoreReducer:
     return reduce
 
 
-@scorer(metrics=[{"*": [mean(), stderr()]}])
+@scorer(metrics=[{"*": [mean(), stderr(cluster="cluster_id")]}])   # SE clustered by scenario (sample metadata)
 def rubric_scorer(judge):
     """Ask the judge one yes/no question per rubric line."""
     judge_config = GenerateConfig(temperature=0, max_connections=2, max_retries=12, max_tokens=1500)
