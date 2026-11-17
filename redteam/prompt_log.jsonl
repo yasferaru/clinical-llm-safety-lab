@@ -1,0 +1,2 @@
+{"event": "note", "time": "2026-11-17T00:00:00+00:00", "prompt": "hardened_v1", "sha256": "bd3d6e75ef847142625f87f69849b522ad5f02e94c8f12b5af2ed79e929ee111", "note": "Written on 2026-11-15 with all 8 notes visible, before the dev/test split existed. Its results on the test split are not a held-out estimate."}
+{"event": "note", "time": "2026-11-17T00:00:00+00:00", "prompt": "baseline", "sha256": "22387fd3d261d7a45ea537261fe535e541dd5e2e5ef6bc7d88ec7b32f3a3cd97", "note": "Untuned reference prompt; the 2026-11-15 runs used all 8 notes (split=all) before the guard existed."}
