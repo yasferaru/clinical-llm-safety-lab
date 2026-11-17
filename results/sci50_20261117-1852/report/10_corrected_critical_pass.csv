@@ -1,0 +1,2 @@
+model,method,estimate,ci_95,n_unlabeled,n_calibration,validated,banner
+mistral/mistral-small-2603,naive,0.44,0.279 to 0.601 (analytic (cluster-robust)),50,0,False,"*** JUDGE NOT VALIDATED: no calibration labels (human vs judge); the judge's error rate is unknown, so the number below is the raw judge rate and is NOT corrected ***"

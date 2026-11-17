@@ -1,0 +1,5 @@
+run_id,model,judge,model_version,cases,scenarios,epochs,samples,unscored,judge_errors
+BUzbqRSeWVnsaHuRJoq2rc,mistral/mistral-small-2603,groq/openai/gpt-oss-120b,mistral-small-2603,15,9,1,15,0,0
+EpLy3CoeyCJe4XpsQEXXXn,mistral/mistral-small-2603,groq/openai/gpt-oss-120b,mistral-small-2603,10,6,1,10,0,0
+Wg2KBT3GBNagmUNKrCZeh5,mistral/mistral-small-2603,groq/openai/gpt-oss-120b,mistral-small-2603,15,9,1,15,0,0
+eFx83CDgjEcKPP4dDko6vu,mistral/mistral-small-2603,groq/openai/gpt-oss-120b,mistral-small-2603,10,6,1,10,0,0

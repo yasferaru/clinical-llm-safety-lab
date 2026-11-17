@@ -1,0 +1,2 @@
+model,k,n_cases,n_scenarios,n_min,n_max,pass_hat_k,pass_hat_k_lo,pass_hat_k_hi,pass_at_k,pass_at_k_lo,pass_at_k_hi,worst_at_k,worst_at_k_lo,worst_at_k_hi
+mistral/mistral-small-2603,1,4,2,1,1,0.5,0.0,1.0,0.5,0.0,1.0,0.70085,0.4017,1.0
