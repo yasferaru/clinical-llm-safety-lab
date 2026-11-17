@@ -17,7 +17,8 @@ colliding. When a rule and your prompt disagree, the prompt wins only if it expl
 
 - Never add to `requirements.txt`. Put a new dependency in `requirements-extra/<name>.txt` with an exact pin
   (`package==x.y.z`), where `<name>` describes the feature (e.g. `requirements-extra/plots.txt`).
-- Dev tools (pytest, ruff) are in `requirements-extra/dev.txt`.
+- The integration step merges `requirements-extra/*.txt` into `requirements.txt` and regenerates the lock
+  (`requirements-extra/README.md`). Dev tools (pytest, ruff) are pinned in `requirements.txt`.
 
 ## Metrics and statistics
 

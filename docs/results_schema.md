@@ -53,6 +53,10 @@ The key columns, plus:
 | `critical_pass` | float (0/1) | 1 only if every critical line has `judged_pass == True`. A judge error on a critical line gives 0 (fail-safe) |
 | `scored` | bool | False if the sample errored before scoring; its scores are then NaN |
 | `rubric_score_logged`, `critical_pass_logged` | float or None | What the run itself logged. These can differ from the recomputed values for logs written before the fail-safe rule (2026-11-17) |
+| `response` | str or None | The scored reply (`Score.answer`); used by the triage and abstention metrics |
+| `acuity_gold`, `forced_choice_variant`, `escalation_level`, `new_information_provided`, `determinability`, `missing_info_hypotheses` | as in `docs/case_schema.md`, or None | Optional case fields, passed through from sample metadata (`run_eval.OPTIONAL_META`); None for logs that predate them |
+
+`results.case_table(samples)` gives one row per case with these fields, i.e. the cases as they were actually run.
 
 `rubric_score` and `critical_pass` are **recomputed** from the line table with `evals.run_eval.combine`, so
 every log is scored under the current rules.
