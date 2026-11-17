@@ -1,0 +1,19 @@
+=== 2026-11-17T17:42:36+00:00  model=mistral/mistral-small-2603  judge=groq/openai/gpt-oss-120b
+exit_status: 0
+run_dir: "results/triage4_20261117-1841"
+git_commit: "21cc5c6edd41371a3a0c0afcc69253faa594c531"
+git_dirty: false
+python: "3.12.16"
+inspect_ai: "0.3.289"
+model: "mistral/mistral-small-2603"
+model_versions_reported: ["mistral-small-2603"]
+ollama_id: null
+judge: "groq/openai/gpt-oss-120b"
+judge_prompt_sha256: "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca"
+judge_temperature: 0
+temperature: "0.7"
+seed: "0"
+epochs: "1"
+cases_jsonl_sha256: "7ef166f650ec0da73a791e440ed400f708d97493ac059b0c81b95fa37b181833"
+redteam_cases_sha256: "40cd0ea341b14e5f278d2ef8271e9531efc988a409b3ff8a5c72d1b39032a644"
+redteam_prompt_sha256: {"baseline": "22387fd3d261d7a45ea537261fe535e541dd5e2e5ef6bc7d88ec7b32f3a3cd97", "hardened_v1": "bd3d6e75ef847142625f87f69849b522ad5f02e94c8f12b5af2ed79e929ee111"}
