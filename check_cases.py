@@ -5,6 +5,13 @@ Run from the project folder, with the Python workspace active:
     python check_cases.py            # check only
     python check_cases.py --build    # check, then write evals/cases.jsonl if there are no errors
 Files starting with an underscore in evals/cases/ are ignored.
+
+Optional fields (validated when present; documented in docs/case_schema.md):
+    acuity_gold             int 1-5, gold urgency (see ACUITY_SCALE)
+    forced_choice_variant   true/false, or the id of the linked forced-choice case
+    escalation_level        int >= 0: 0 for base/control, 1, 2, ... for successive pressure rungs
+    determinability         determinable | undeterminable
+    missing_info_hypotheses list of text; required and non-empty when undeterminable
 """
 import json
 import re
@@ -14,8 +21,8 @@ from pathlib import Path
 
 import yaml
 
-CASES_DIR = Path("evals/cases")
-OUT = Path("evals/cases.jsonl")
+CASES_DIR = Path(__file__).resolve().parent / "evals" / "cases"
+OUT = Path(__file__).resolve().parent / "evals" / "cases.jsonl"
 
 CATEGORIES = ["emergency_triage", "dosing_interactions", "context_seeking", "sycophancy"]
 VARIANTS = ["base", "pressure", "control"]
@@ -25,6 +32,16 @@ SEVERITIES = ["none", "misleading", "delays_care", "could_cause_harm", "contrain
 RUBRIC_TYPES = ["must", "must_not"]
 FIELDS = ["id", "category", "subcategory", "cluster_id", "variant", "turns", "source_guideline",
           "expected_safe_stance", "rubric", "severity_if_failed", "notes"]
+OPTIONAL_FIELDS = ["acuity_gold", "forced_choice_variant", "escalation_level", "determinability",
+                   "missing_info_hypotheses"]
+ACUITY_SCALE = {
+    1: "self-care; no clinician needed",
+    2: "routine appointment (within weeks)",
+    3: "see a clinician within 1 to 3 days",
+    4: "same-day urgent assessment (urgent care, same-day GP or specialist), not the emergency department",
+    5: "emergency now: emergency department or call emergency services",
+}
+DETERMINABILITY = ["determinable", "undeterminable"]
 TARGET = {"base": 4, "pressure": 4, "control": 2}  # per category
 VAGUE = [r"\be\.g\.", r"\bi\.e\.", r"\betc\b", r"\bappropriate(ly)?\b", r"\bproperly\b"]
 
@@ -135,12 +152,70 @@ def check_record(rec, errors, warnings):
     elif "rubric" in rec:
         err("'rubric' must be a list")
 
+    check_optional(rec, err, warn)
 
-def main(build=False):
+
+def is_int(x):
+    return isinstance(x, int) and not isinstance(x, bool)
+
+
+def check_optional(rec, err, warn):
+    """Validate the optional fields of one record (absent fields are fine)."""
+    var = rec.get("variant")
+    if "acuity_gold" in rec:
+        if not is_int(rec["acuity_gold"]) or rec["acuity_gold"] not in ACUITY_SCALE:
+            err(f"'acuity_gold' must be a whole number {min(ACUITY_SCALE)}-{max(ACUITY_SCALE)} (see ACUITY_SCALE)")
+    if "forced_choice_variant" in rec:
+        fc = rec["forced_choice_variant"]
+        if not (isinstance(fc, bool) or nonempty_str(fc)):
+            err("'forced_choice_variant' must be true/false or the id of the linked case")
+        elif fc == rec.get("id"):
+            err("'forced_choice_variant' cannot link a case to itself")
+    if "escalation_level" in rec:
+        lvl = rec["escalation_level"]
+        if not is_int(lvl) or lvl < 0:
+            err("'escalation_level' must be a whole number >= 0")
+        elif var in ("base", "control") and lvl != 0:
+            err(f"a {var} record has escalation_level 0")
+        elif var == "pressure" and lvl < 1:
+            err("a pressure record has escalation_level 1 or more")
+    det = rec.get("determinability")
+    if "determinability" in rec and det not in DETERMINABILITY:
+        err(f"'determinability' must be one of: {', '.join(DETERMINABILITY)}")
+    if "missing_info_hypotheses" in rec:
+        hyp = rec["missing_info_hypotheses"]
+        if not isinstance(hyp, list) or not all(nonempty_str(h) for h in hyp):
+            err("'missing_info_hypotheses' must be a list of text")
+        elif det == "determinable" and hyp:
+            warn("'missing_info_hypotheses' given but determinability is 'determinable'")
+    if det == "undeterminable" and not (isinstance(rec.get("missing_info_hypotheses"), list)
+                                         and rec["missing_info_hypotheses"]):
+        err("an undeterminable record needs a non-empty 'missing_info_hypotheses' list")
+
+
+def check_links(records, errors):
+    """Cross-record checks for optional fields: forced_choice_variant ids must exist."""
+    ids = {r.get("id") for r in records if isinstance(r, dict)}
+    for r in records:
+        if isinstance(r, dict) and isinstance(r.get("forced_choice_variant"), str):
+            if r["forced_choice_variant"] not in ids:
+                errors.append(f"{r.get('id')}: forced_choice_variant '{r['forced_choice_variant']}' is not a case id")
+
+
+def compile_record(rec):
+    """The JSON object written to cases.jsonl: required fields, then optional fields that are present."""
+    out = {k: rec[k] for k in FIELDS}
+    out.update({k: rec[k] for k in OPTIONAL_FIELDS if k in rec})
+    return out
+
+
+def main(build=False, cases_dir=None, out=None):
+    cases_dir = Path(cases_dir) if cases_dir else CASES_DIR
+    out_path = Path(out) if out else OUT
     errors, warnings, records = [], [], []
-    files = sorted(p for p in CASES_DIR.glob("*.yaml") if not p.name.startswith("_"))
+    files = sorted(p for p in cases_dir.glob("*.yaml") if not p.name.startswith("_"))
     if not files:
-        print(f"No case files found in {CASES_DIR}/")
+        print(f"No case files found in {cases_dir}/")
         return 1
     for path in files:
         text = path.read_text(encoding="utf-8")
@@ -163,6 +238,7 @@ def main(build=False):
         errors += [f"{path.name} / {m}" for m in e]
         warnings += [f"{path.name} / {m}" for m in w]
 
+    check_links(records, errors)
     ids = Counter(r.get("id") for r in records if isinstance(r, dict))
     for i, c in ids.items():
         if c > 1:
@@ -196,11 +272,11 @@ def main(build=False):
     print(f"  total records: {total}/40")
 
     if build and not errors:
-        OUT.parent.mkdir(parents=True, exist_ok=True)
-        with OUT.open("w", encoding="utf-8") as f:
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        with out_path.open("w", encoding="utf-8") as f:
             for r in records:
-                f.write(json.dumps({k: r[k] for k in FIELDS}, ensure_ascii=False, default=str) + "\n")
-        print(f"\nWrote {len(records)} records to {OUT}")
+                f.write(json.dumps(compile_record(r), ensure_ascii=False, default=str) + "\n")
+        print(f"\nWrote {len(records)} records to {out_path}")
     elif build:
         print("\nNot built: fix the errors first.")
     return 1 if errors else 0
