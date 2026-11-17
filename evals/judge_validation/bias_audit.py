@@ -405,6 +405,10 @@ def results_markdown(summary: pd.DataFrame) -> str:
            "Judge errors |", "|---|---|---|---|---|---|---|---|---|"]
     for _, r in summary.iterrows():
         k = r["yes_to_no"] + r["no_to_yes"]
+        if not r["n_pairs"]:
+            out.append(f"| {r['name']} | 0 | no pairs (perturbation changed no reply) | – | – | – | – | "
+                       f"{r['n_skipped']} | {r['n_judge_errors']} |")
+            continue
         lo, hi = r["change_ci"]
         ctrl = "–"
         if r.get("control_pairs"):
