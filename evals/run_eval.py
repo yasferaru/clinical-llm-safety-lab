@@ -14,7 +14,6 @@ Run from the project folder (see README.md):
     inspect eval evals/run_eval.py --model ollama/qwen3:8b -T judge=<judge model> --limit 5
 """
 import asyncio
-import json
 import re
 from pathlib import Path
 
@@ -102,8 +101,8 @@ def record_to_sample(rec):
 @scorer(metrics=[{"*": [mean(), stderr()]}])
 def rubric_scorer(judge):
     """Ask the judge one yes/no question per rubric line."""
-    judge_model = get_model(judge, config=GenerateConfig(temperature=0, max_connections=2, max_retries=12, max_tokens=1500)) \
-        if isinstance(judge, str) else judge
+    judge_config = GenerateConfig(temperature=0, max_connections=2, max_retries=12, max_tokens=1500)
+    judge_model = get_model(judge, config=judge_config) if isinstance(judge, str) else judge
     # Qwen3 models obey '/no_think', which skips their long reasoning and makes judging much faster.
     suffix = "\n/no_think" if "qwen3" in str(getattr(judge_model, "name", judge)).lower() else ""
 

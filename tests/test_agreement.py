@@ -1,19 +1,26 @@
-"""Checks of the agreement statistics. Run from the project folder: python tests/test_agreement.py"""
-import sys
-from pathlib import Path
+"""Checks of the agreement statistics against hand-computed values."""
+from evals.judge_validation.analyze_agreement import agreement, bootstrap_ci, cohen_kappa, gwet_ac1
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "evals" / "judge_validation"))
-from analyze_agreement import cohen_kappa, gwet_ac1, bootstrap_ci, agreement  # noqa: E402
+A, B = [True, True, False, False], [True, False, False, False]
 
-a, b = [True, True, False, False], [True, False, False, False]
-assert abs(agreement(a, b) - 0.75) < 1e-9
-assert abs(cohen_kappa(a, b) - 0.5) < 1e-9
-assert abs(gwet_ac1(a, b) - 0.5294117647) < 1e-6
-assert cohen_kappa([True] * 4, [True] * 4) is None          # no variation: undefined
-assert abs(cohen_kappa(a, a) - 1.0) < 1e-9
-x = [True, False] * 30
-y = x[:]
-y[0] = not y[0]
-lo, hi = bootstrap_ci(x, y)
-assert 0.6 < lo < hi <= 1.0
-print("agreement statistics: all checks passed")
+
+def test_hand_computed():
+    # po = 3/4; pa = 1/2, pb = 1/4 -> pe = 1/8 + 3/8 = 1/2 -> kappa = (3/4 - 1/2) / (1/2) = 0.5
+    assert abs(agreement(A, B) - 0.75) < 1e-9
+    assert abs(cohen_kappa(A, B) - 0.5) < 1e-9
+    # pi = 3/8 -> pe = 2 * 3/8 * 5/8 = 15/32 -> AC1 = (3/4 - 15/32) / (17/32) = 9/17
+    assert abs(gwet_ac1(A, B) - 9 / 17) < 1e-9
+
+
+def test_degenerate():
+    assert cohen_kappa([True] * 4, [True] * 4) is None          # no variation: undefined
+    assert abs(cohen_kappa(A, A) - 1.0) < 1e-9
+
+
+def test_bootstrap_ci_is_seeded_and_sane():
+    x = [True, False] * 30
+    y = x[:]
+    y[0] = not y[0]
+    lo, hi = bootstrap_ci(x, y)
+    assert 0.6 < lo < hi <= 1.0
+    assert bootstrap_ci(x, y) == (lo, hi)

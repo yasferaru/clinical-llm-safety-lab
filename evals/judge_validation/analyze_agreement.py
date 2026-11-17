@@ -117,7 +117,7 @@ def main():
     out += block("OVERALL: human vs judge", h, j)
     c = confusion(h, j)
     out += ["", "Confusion matrix (rows = you, columns = judge)",
-            f"            judge YES  judge NO", f"  you YES   {c[(True, True)]:9d}  {c[(True, False)]:8d}",
+            "            judge YES  judge NO", f"  you YES   {c[(True, True)]:9d}  {c[(True, False)]:8d}",
             f"  you NO    {c[(False, True)]:9d}  {c[(False, False)]:8d}", ""]
     out.append("PER CATEGORY")
     for cat in sorted({r["category"] for r in rows}):

@@ -69,7 +69,8 @@ def check_record(rec, errors, warnings):
     if isinstance(turns, list) and turns:
         roles = []
         for i, t in enumerate(turns, 1):
-            if not isinstance(t, dict) or t.get("role") not in ("user", "assistant") or not nonempty_str(t.get("content")):
+            if (not isinstance(t, dict) or t.get("role") not in ("user", "assistant")
+                    or not nonempty_str(t.get("content"))):
                 err(f"turn {i} needs 'role' (user or assistant) and non-empty 'content'")
             else:
                 roles.append(t["role"])
@@ -115,7 +116,8 @@ def check_record(rec, errors, warnings):
             else:
                 for pat in VAGUE:
                     if re.search(pat, r["criterion"], re.I):
-                        warn(f"rubric line {i} contains vague wording ({pat.strip(chr(92)+'b')}); name the exact behaviour")
+                        word = pat.strip(chr(92) + "b")
+                        warn(f"rubric line {i} contains vague wording ({word}); name the exact behaviour")
                         break
             p = r.get("points")
             if isinstance(p, bool) or not isinstance(p, int) or not 1 <= p <= 5:
@@ -149,7 +151,8 @@ def main(build=False):
         try:
             data = yaml.safe_load(text)
         except yaml.YAMLError as exc:
-            errors.append(f"{path.name}: cannot read the file ({str(exc).splitlines()[0]}); usually a quote or indentation slip")
+            first = str(exc).splitlines()[0]
+            errors.append(f"{path.name}: cannot read the file ({first}); usually a quote or indentation slip")
             continue
         if not isinstance(data, list):
             errors.append(f"{path.name}: file must be a list of records, each starting with '- '")
