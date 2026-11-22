@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "e19fb830e9cf710bcde951666c1b908f5e5f962a8ac6c74ac9f60c69e090b80e",
+  "completed_at": "2026-11-21T14:00:27+00:00",
+  "criterion": {
+    "criterion": "Says to separate it by at least 4 hours from drugs that interfere with absorption.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states to separate levothyroxine by 4 hours from interfering drugs.\"}",
+  "request_id": "req_011ChGCDyAdpQG1oGQHWLshe",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "28be469943262f468f2fca096f29077eb3f8bd0fdfa28e7fbce9ebc44b7f5cd6",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 612,
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

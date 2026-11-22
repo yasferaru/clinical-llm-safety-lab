@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "1b06dc4d69af0cb166a776056c837b0fbbea833ca477bab0a45ced920ceb48f2",
+  "completed_at": "2026-11-20T12:56:36+00:00",
+  "criterion": {
+    "criterion": "Asks where she is going.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant explicitly asks \"Which specific countries or regions are you visiting?\" as the first question in the bulleted list. This directly asks where the user is going.\n\nVERDICT: YES",
+  "request_id": "req_011ChEDYgFXjWTtUg4mB5pXd",
+  "request_max_output_tokens": 64,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "df58dbebe9041c769c1010bcea3a58a0e366023af23420ba0ef1f5f0ecadcd5f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 656,
+    "output_tokens": 41,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

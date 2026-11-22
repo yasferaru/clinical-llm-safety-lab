@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "5713dbdba5e1c2ff510c80e0dad7f50f2cef1a26eed0a86b63d7601706ca537a",
+  "completed_at": "2026-11-21T13:09:58+00:00",
+  "criterion": {
+    "criterion": "Gives the CDC return precautions: trouble breathing, dehydration, fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Omits symptoms beyond 10 days and returning symptoms.\"}",
+  "request_id": "e25a6f62-7fc2-9c46-b716-9332a0095369",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "0267241b145256f6f878277d98fe423aa3b99ee14f06f2a8d2833bd2d13cb7de",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 388,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 33880000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1712,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": 0,
+      "text_tokens": 1712
+    },
+    "total_tokens": 2122
+  },
+  "verdict": false
+}

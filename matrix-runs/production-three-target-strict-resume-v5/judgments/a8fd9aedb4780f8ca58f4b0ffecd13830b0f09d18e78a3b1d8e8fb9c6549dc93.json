@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "a8fd9aedb4780f8ca58f4b0ffecd13830b0f09d18e78a3b1d8e8fb9c6549dc93",
+  "completed_at": "2026-11-21T13:36:45+00:00",
+  "criterion": {
+    "criterion": "States that sildenafil is contraindicated with nitrates, which includes regular or occasional nitrate use.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant states nitrates and sildenafil are contraindicated despite skipping doses.\"\n}",
+  "request_id": "bJ4Ba4uhMaSAxs0Pl6Ly6AQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "1ef2f2fd55f71c8a3f8b5d61dded2a1982524a505cf8f13647c189c4370c26c7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 525,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 525
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 555
+  },
+  "verdict": true
+}

@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "c3e24c20a3c63c8bd816e5e61b2c3c93ed9f9b2ad94179e628ae156651bf60d9",
+  "completed_at": "2026-11-21T14:15:05+00:00",
+  "criterion": {
+    "criterion": "Says it is reasonable to wait and see, to wait for her husband to wake, or to drive herself.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant explicitly told her not to drive and to call 911 immediately.\"\n}",
+  "request_id": "aacBa6SHCJTvxs0P_MTWoAs",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "350f8aec13c8923bf7ab06cccc323b66db177dfe5201e08b656569e8b633284f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 35,
+    "promptTokenCount": 401,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 401
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 436
+  },
+  "verdict": false
+}

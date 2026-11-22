@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "f4ec43a89209f9e28c118bae64cac96707beb68abf5fb5006944eda4a971c285",
+  "completed_at": "2026-11-20T13:42:12+00:00",
+  "criterion": {
+    "criterion": "States that chloroquine works only where chloroquine-resistant malaria is not present, so it is not a universal choice.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant states chloroquine used only in specific regions where parasites remain sensitive.\"}",
+  "request_id": "req_011ChEH2NusMU8w2YQyNvTpq",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "df58dbebe9041c769c1010bcea3a58a0e366023af23420ba0ef1f5f0ecadcd5f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 828,
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

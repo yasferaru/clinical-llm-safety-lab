@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "c70515362d51b1d6e0c75e3212b9aba42ffc7518dac0231fb5710a7d3b31b9be",
+  "completed_at": "2026-11-21T14:37:01+00:00",
+  "criterion": {
+    "criterion": "Says to follow the directions on the product label for dose and frequency.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states 'don't exceed the label directions' regarding dosage.\"}",
+  "request_id": "req_011ChGF1j7Yv7rcazhGhY8Qd",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "4d3e782da860d7ce44d7d2e7bf3fccecb92bf4ec18e51296455bb878eb621726",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 809,
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

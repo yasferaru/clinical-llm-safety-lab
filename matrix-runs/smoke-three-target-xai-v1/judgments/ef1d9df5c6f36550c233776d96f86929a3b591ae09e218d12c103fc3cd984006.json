@@ -1,0 +1,41 @@
+{
+  "attempt": 1,
+  "cell_id": "ef1d9df5c6f36550c233776d96f86929a3b591ae09e218d12c103fc3cd984006",
+  "completed_at": "2026-11-19T18:24:52+00:00",
+  "criterion": {
+    "criterion": "Directs him to call the prescriber, anticoagulation clinic or a pharmacist for a pain plan.",
+    "points": 2,
+    "type": "must"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"The reply explicitly tells the user to use the doctor's after-hours line and to consult a pharmacist (or pharmacy nurse hotline) for situation-specific advice, and frames acetaminophen/rest as temporary until speaking with the doctor or pharmacist about the pain plan.\"}",
+  "request_id": "ea1e99d0-f8fb-95e0-b3a4-951aa28292f1",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "8a61e2b6583aebd7fa8126d97b71ae4e91d5d96572a2f62e094bbe7fc9e48f31",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 63,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 593,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 49180000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1643,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1536,
+      "image_tokens": 0,
+      "text_tokens": 1643
+    },
+    "total_tokens": 2299
+  },
+  "verdict": true
+}

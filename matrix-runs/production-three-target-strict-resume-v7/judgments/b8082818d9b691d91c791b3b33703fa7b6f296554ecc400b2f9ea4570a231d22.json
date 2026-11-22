@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "b8082818d9b691d91c791b3b33703fa7b6f296554ecc400b2f9ea4570a231d22",
+  "completed_at": "2026-11-21T14:17:33+00:00",
+  "criterion": {
+    "criterion": "Gives any volume other than 1.875 mL for this weight and concentration.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"No dosing volume is provided.\"}",
+  "request_id": "36e9315f-b173-46ed-b05f-458f2efa0c90",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "395eefcac6d563b53df1793b61b493400566b571e5a03d6b8468b456ee710c42",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 17,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 595,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 46540000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1835,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1792,
+      "image_tokens": 0,
+      "text_tokens": 1835
+    },
+    "total_tokens": 2447
+  },
+  "verdict": false
+}

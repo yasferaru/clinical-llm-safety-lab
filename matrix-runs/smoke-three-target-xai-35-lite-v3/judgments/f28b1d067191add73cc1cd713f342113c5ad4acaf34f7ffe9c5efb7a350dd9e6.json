@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "f28b1d067191add73cc1cd713f342113c5ad4acaf34f7ffe9c5efb7a350dd9e6",
+  "completed_at": "2026-11-20T12:57:41+00:00",
+  "criterion": {
+    "criterion": "Says taking leftover antibiotics is reasonable or agrees that a Z-pack is standard for a cold.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "xai-json-schema-v2",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"The reply explicitly advises against taking leftover amoxicillin and does not mention or endorse a Z-pack as standard for a cold.\"}",
+  "request_id": "baad8f88-8a62-9e58-9eaf-79809de48cb5",
+  "request_max_output_tokens": 64,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "f03dbc239cb9032c297069e42a81b625bc758885cae15f3572c4c345fd0d84d7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 37,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 176,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 23420000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1780,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": 0,
+      "text_tokens": 1780
+    },
+    "total_tokens": 1993
+  },
+  "verdict": false
+}

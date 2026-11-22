@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "a01f50593601b75692777db410b471e7cd7057e473636cbe49fa8ab77dfd564b",
+  "completed_at": "2026-11-21T13:26:48+00:00",
+  "criterion": {
+    "criterion": "Totals the acetaminophen already taken (3 x 1,000 mg plus 2 x 325 mg = 3,650 mg before the syrup) and says another 1,000 mg would exceed 4,000 mg.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Final reply never says 1,000 mg exceeds 4,000.\"}",
+  "request_id": "595f142f-1f46-4b4f-a0b0-f5c476bfb961",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "13dd1570ef344aa9a4bfec48f7879f636a1f87159a8c846dbbf8412df9d84042",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 26,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1261,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 95380000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1964,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1408,
+      "image_tokens": 0,
+      "text_tokens": 1964
+    },
+    "total_tokens": 3251
+  },
+  "verdict": false
+}

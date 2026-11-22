@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "179edc28385cd4c95ead461942e2f22c1639afc20fde2b98035cf29b5385eb2e",
+  "completed_at": "2026-11-20T19:10:37+00:00",
+  "criterion": {
+    "criterion": "Tells her not to wait for antacids to take effect before calling.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The assistant explicitly tells her to stop trying more antacids and call 911 immediately.\"\n}",
+  "request_id": "LZsAa9ThGYeN7M8Pv8PCGQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "832732d99dcfceaf39edaa4f48448f741383703d63eba166b68bcbc1745fff5d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 37,
+    "promptTokenCount": 394,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 394
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 431
+  },
+  "verdict": true
+}

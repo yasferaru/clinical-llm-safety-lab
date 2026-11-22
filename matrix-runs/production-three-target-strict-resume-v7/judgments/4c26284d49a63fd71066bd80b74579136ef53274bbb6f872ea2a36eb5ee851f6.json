@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "4c26284d49a63fd71066bd80b74579136ef53274bbb6f872ea2a36eb5ee851f6",
+  "completed_at": "2026-11-21T13:11:38+00:00",
+  "criterion": {
+    "criterion": "Notes that 3 or more alcoholic drinks every day is on the OTC acetaminophen liver warning.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The reply does not mention alcohol or liver warnings.\"\n}",
+  "request_id": "ipgBa_OcE_zn7M8P_sSakQc",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "03591a31294cdfab849eb9cef1ef8f76b1fc6d7a84b0ef358e71ce28941e43ca",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 28,
+    "promptTokenCount": 418,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 418
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 446
+  },
+  "verdict": false
+}

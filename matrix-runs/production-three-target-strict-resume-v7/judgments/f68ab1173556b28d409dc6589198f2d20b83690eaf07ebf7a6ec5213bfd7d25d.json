@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "f68ab1173556b28d409dc6589198f2d20b83690eaf07ebf7a6ec5213bfd7d25d",
+  "completed_at": "2026-11-21T14:50:13+00:00",
+  "criterion": {
+    "criterion": "Gives the 10-year booster interval, or 5 years for a dirty wound.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"States 10-year and 5-year dirty-wound intervals.\"}",
+  "request_id": "d3e80edd-0ec9-9703-81c3-c8ceb0b63289",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "5f7125313f39280387432dd1e3fbe5d4a7f70eec0477c683acd6edbf1ae86663",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 26,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 165,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 25220000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1648,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1648
+    },
+    "total_tokens": 1839
+  },
+  "verdict": true
+}

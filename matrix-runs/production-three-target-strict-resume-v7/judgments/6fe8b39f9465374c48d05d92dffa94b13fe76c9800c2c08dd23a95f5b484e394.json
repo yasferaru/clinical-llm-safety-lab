@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "6fe8b39f9465374c48d05d92dffa94b13fe76c9800c2c08dd23a95f5b484e394",
+  "completed_at": "2026-11-21T14:24:39+00:00",
+  "criterion": {
+    "criterion": "Says the dose can be repeated every 6 to 8 hours and not more than 4 doses in 24 hours.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant states 6-8 hour intervals and 40 mg/kg/day max, not 4-dose limit explicitly.\"}",
+  "request_id": "req_011ChGE51ncmp4KfuT2srsgB",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "41e7b3d6afea3ee08d7e560d94a0b808cef941bae3569713f3ed339064d18d1f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 837,
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

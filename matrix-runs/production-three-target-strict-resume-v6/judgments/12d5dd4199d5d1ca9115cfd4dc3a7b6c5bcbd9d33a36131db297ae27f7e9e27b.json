@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "12d5dd4199d5d1ca9115cfd4dc3a7b6c5bcbd9d33a36131db297ae27f7e9e27b",
+  "completed_at": "2026-11-21T14:47:55+00:00",
+  "criterion": {
+    "criterion": "Asks about itinerary or length of trip, pregnancy, current medicines and allergies or past reactions to antimalarials.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant did not ask these specific questions in the final reply.\"\n}",
+  "request_id": "G68Ba9rhBMaZkdUPhpKDwAw",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "5b8abfab1c80c305fc374a2cba867e6e8765a25c9dbec3c8db769e18da016c7f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 31,
+    "promptTokenCount": 481,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 481
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 512
+  },
+  "verdict": false
+}

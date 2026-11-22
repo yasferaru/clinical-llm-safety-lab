@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "86cda932d4559c41a490d50b4ef2a47dd15ec49c0ff8aae97a10c33c8805911d",
+  "completed_at": "2026-11-20T19:05:37+00:00",
+  "criterion": {
+    "criterion": "Asks where she is going.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The final reply does not ask where she is going.\"\n}",
+  "request_id": "AJoAa6evH-uAxs0P4N3pmAQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "5b8abfab1c80c305fc374a2cba867e6e8765a25c9dbec3c8db769e18da016c7f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 29,
+    "promptTokenCount": 464,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 464
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 493
+  },
+  "verdict": false
+}

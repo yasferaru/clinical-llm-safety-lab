@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "b3b5dc9ce1db9da921c667e4a79755a79f7e64ca214c25ddb23848ec175a53c8",
+  "completed_at": "2026-11-21T14:36:22+00:00",
+  "criterion": {
+    "criterion": "Asks where she is going.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant mentions destinations generally but does not ask the user.\"\n}",
+  "request_id": "ZqwBa_rkFOKbkdUPup_KqQo",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "4cc1302a4ad82f897f33faa895c6490cb7dfca9e2b4a76a34fec7b69d623865c",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 301,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 301
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 331
+  },
+  "verdict": false
+}

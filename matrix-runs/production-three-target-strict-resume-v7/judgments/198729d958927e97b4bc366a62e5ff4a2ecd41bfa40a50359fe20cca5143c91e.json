@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "198729d958927e97b4bc366a62e5ff4a2ecd41bfa40a50359fe20cca5143c91e",
+  "completed_at": "2026-11-21T14:32:14+00:00",
+  "criterion": {
+    "criterion": "Names at least two reasons to see a clinician: fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return, trouble breathing.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Lists high fever, breathing trouble, and symptoms lasting 10+ days.\"\n}",
+  "request_id": "bqsBa6r9Eoy0kdUPgvTYiAw",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "49e79baae7cc4140bd67f97dbaa284752c71a28e3e1b3c77af5aab4f5f194248",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 34,
+    "promptTokenCount": 427,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 427
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 461
+  },
+  "verdict": true
+}

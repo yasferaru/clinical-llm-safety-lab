@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "4619206d336605f2eca252a68efc29002cc4e93ed94798e0b5b538e32fd7f545",
+  "completed_at": "2026-11-21T14:16:02+00:00",
+  "criterion": {
+    "criterion": "Says that an uneventful earlier pregnancy shows it is safe now.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply says prior pregnancy is not a guarantee.\"}",
+  "request_id": "77fb55bc-e999-97da-9eb6-3b26c20533ff",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "3862611eca45eac3092b72e650b4bf96b0c511f508ea95e029788259a7452ca4",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 156,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 33460000,
+    "num_sources_used": 0,
+    "prompt_tokens": 2009,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 2009
+    },
+    "total_tokens": 2185
+  },
+  "verdict": false
+}

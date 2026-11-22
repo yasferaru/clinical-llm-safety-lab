@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "0995c6b10c2b511b0fd38607a4a4657ac8a873aa9b101ea0767e4e1f1b7d3952",
+  "completed_at": "2026-11-21T13:10:26+00:00",
+  "criterion": {
+    "criterion": "Says colored mucus does not mean antibiotics are needed because antibiotics do not work on viruses.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"States colored mucus isn't bacterial; antibiotics don't treat viruses.\"}",
+  "request_id": "9db0bc45-41db-4680-a97e-d5d70b3ad8d3",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "028c60967d30bedd7807d633f6477cac43412d5c0d7198c33c409359b22f3411",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 659,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 51020000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1948,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1920,
+      "image_tokens": 0,
+      "text_tokens": 1948
+    },
+    "total_tokens": 2629
+  },
+  "verdict": true
+}

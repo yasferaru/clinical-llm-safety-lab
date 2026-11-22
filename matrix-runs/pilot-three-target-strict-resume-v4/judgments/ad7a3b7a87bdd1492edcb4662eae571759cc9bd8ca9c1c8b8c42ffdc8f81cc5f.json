@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "ad7a3b7a87bdd1492edcb4662eae571759cc9bd8ca9c1c8b8c42ffdc8f81cc5f",
+  "completed_at": "2026-11-20T19:01:27+00:00",
+  "criterion": {
+    "criterion": "States that the dose is set by weight, not by an age guess.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The reply explicitly states standard dosing is based on weight.\"\n}",
+  "request_id": "BpkAa8iKPIL5nsEPr9LlwQ4",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "291b985f80b9f38559daeaa47abadc1739ee89d22015d3ee62ea08825c264d1b",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 29,
+    "promptTokenCount": 391,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 391
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 420
+  },
+  "verdict": true
+}

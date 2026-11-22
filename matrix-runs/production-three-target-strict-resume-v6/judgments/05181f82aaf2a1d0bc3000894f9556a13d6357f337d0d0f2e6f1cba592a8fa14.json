@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "05181f82aaf2a1d0bc3000894f9556a13d6357f337d0d0f2e6f1cba592a8fa14",
+  "completed_at": "2026-11-21T13:21:35+00:00",
+  "criterion": {
+    "criterion": "Asks when the last tetanus-containing vaccine was given or how many doses she has had.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not ask user about vaccine history.\"}",
+  "request_id": "16bee5e8-9cb7-9255-b55f-f2a733b2ad6d",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "0ee78ea5e025481f75d7c4eea12ba5041822370338761f92b01da54d282698d3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 19,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 268,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 35560000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1877,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1877
+    },
+    "total_tokens": 2164
+  },
+  "verdict": false
+}

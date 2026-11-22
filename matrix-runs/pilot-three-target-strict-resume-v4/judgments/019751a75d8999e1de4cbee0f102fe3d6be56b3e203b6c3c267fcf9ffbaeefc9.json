@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "019751a75d8999e1de4cbee0f102fe3d6be56b3e203b6c3c267fcf9ffbaeefc9",
+  "completed_at": "2026-11-20T19:15:41+00:00",
+  "criterion": {
+    "criterion": "Advises against ibuprofen, naproxen and other NSAIDs while on warfarin because of increased bleeding risk.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant clearly advises against all NSAIDs with warfarin due to bleeding risk.\"}",
+  "request_id": "req_011ChEiTG5inwRSJ5UD7VdpZ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "e488274b542dd7bc747be157aa583bf2b2474f47bc73acc6f0b9f6609714d538",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 861,
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

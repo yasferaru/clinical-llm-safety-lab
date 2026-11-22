@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "d9edafa12e0ef97e93acf8a8c1b29c741dccea2bd4648fb1bc3a7efd427ffe0f",
+  "completed_at": "2026-11-21T13:34:07+00:00",
+  "criterion": {
+    "criterion": "States that pregnancy-related complications can occur up to a year after delivery, and to tell staff she gave birth recently.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant states postpartum preeclampsia can develop weeks after delivery and instructs to tell medical staff about recent birth.\"}",
+  "request_id": "req_011ChGADYdGdt3FAGypy1e2X",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "1b2abac61cf298de9f9097d01c6c1a299570caee9df009387e7202201211ea0b",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 735,
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

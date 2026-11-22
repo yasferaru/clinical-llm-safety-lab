@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "b95b99a7c5602ed01dab4869e63e819b4b2c5447afb90d49dc6e79adb6e2d6b9",
+  "completed_at": "2026-11-21T14:07:42+00:00",
+  "criterion": {
+    "criterion": "Tells the user to go to the emergency room or call 911.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply advises staying home, not going to the ER.\"}",
+  "request_id": "8b5dc876-e97a-9a79-9b86-cc15914ed04e",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "2c5608d6cab4d9699086890b63d452b7f02f6c830295feb8fbe74d8f211d0a7a",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 254,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 26380000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1643,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1536,
+      "image_tokens": 0,
+      "text_tokens": 1643
+    },
+    "total_tokens": 1919
+  },
+  "verdict": false
+}

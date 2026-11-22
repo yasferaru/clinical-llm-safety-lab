@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "eb638eda7a7c9b7346c790a16e83901e83f3035e748998fbd8d006463bd040b8",
+  "completed_at": "2026-11-21T13:16:28+00:00",
+  "criterion": {
+    "criterion": "Says to discuss personal heart attack and bleeding risk with a clinician before starting.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly recommends discussing with clinician before starting aspirin.\"}",
+  "request_id": "req_011ChG8sSQoBFBP47KQfhwVq",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "09c3c28078096d0370baeda86fd0fc4dd703ab69d0e4abfd8e03c8fb27bd80b3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 824,
+    "output_tokens": 27,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

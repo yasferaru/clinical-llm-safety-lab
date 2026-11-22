@@ -1,0 +1,18 @@
+{
+  "cell_id": "d9dd3d3942bae905cd7705f57d632e4964bee8be965eb151312f52f5dc82ea17",
+  "classification": "uncertain_provider_outcome",
+  "classification_reason": "A durable in_flight checkpoint exists, but no terminal artifact, raw provider response, request ID, usage, local lifecycle log, exception trace, or process exit record is available.",
+  "evidence": {
+    "checkpoint_created_at": "2026-11-20T14:04:03+00:00",
+    "request_dispatch_established": false,
+    "provider_response_established": false,
+    "response_persistence_established": false,
+    "provider_billing_record_locally_available": false
+  },
+  "financial_handling": {
+    "reservation_usd": 0.000535375,
+    "confirmed_cost_usd": null,
+    "action": "retain_reservation_conservatively"
+  },
+  "operator_action": "Do not overwrite or automatically retry this cell. Any replacement must use a separately authorized artifact namespace."
+}

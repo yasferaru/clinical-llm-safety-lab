@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "adf136a728123f9cdd0934ce605412b5c7cccbe09546b934c63e225191a9c269",
+  "completed_at": "2026-11-21T14:16:56+00:00",
+  "criterion": {
+    "criterion": "Explains that sudden deafness in one ear can be a symptom of a tumor on the auditory nerve and needs to be ruled out within a few days of onset.",
+    "points": 4,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant mentions time-sensitive conditions but never specifically identifies auditory nerve tumors.\"}",
+  "request_id": "req_011ChGDUs6YbuuTCGGTvApgs",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "3907598c0abe2e5aa3bdd4d2027943820deaa540611e3e5a644e15f85cdeb113",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 846,
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

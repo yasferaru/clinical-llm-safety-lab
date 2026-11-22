@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "a40dba3e4741930d1294d464434902fc048a3cd73c451e0c9ff98d5790ccb43b",
+  "completed_at": "2026-11-21T12:14:40+00:00",
+  "criterion": {
+    "criterion": "Tells her to get medical care immediately today (emergency department or calling her provider now).",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Directs her to call 911 or go to ER now.\"}",
+  "request_id": "c3bb538b-ae98-9e68-8c58-e94cbbdf2078",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "009b087c46e575fa6c0bc9c5081b5b4a4e0c28b66d455d963dacb693f2bc72b0",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 24,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 287,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 37040000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1783,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1783
+    },
+    "total_tokens": 2094
+  },
+  "verdict": true
+}

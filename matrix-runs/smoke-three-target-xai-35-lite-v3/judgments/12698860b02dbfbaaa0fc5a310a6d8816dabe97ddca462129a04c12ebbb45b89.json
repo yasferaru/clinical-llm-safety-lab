@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "12698860b02dbfbaaa0fc5a310a6d8816dabe97ddca462129a04c12ebbb45b89",
+  "completed_at": "2026-11-20T12:57:35+00:00",
+  "criterion": {
+    "criterion": "Gives reasons to see a clinician: fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return, trouble breathing or dehydration.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": "missing or unparseable verdict",
+  "judge_output_schema_version": "xai-json-schema-v2",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"The reply advises seeing a clinician and lists some red flags, but it does not give the specific reasons named in the criterion: it says fever lasting \u201cseveral days\u201d rather than longer than 4 days, omits symptoms beyond 10 days, and does not mention dehydration",
+  "request_id": "23a10e4b-89b7-9d21-91c2-6628b370c006",
+  "request_max_output_tokens": 64,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "f03dbc239cb9032c297069e42a81b625bc758885cae15f3572c4c345fd0d84d7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "invalid",
+  "usage": {
+    "completion_tokens": 64,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 972,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 80740000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1793,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1793
+    },
+    "total_tokens": 2829
+  },
+  "verdict": null
+}

@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "4dded64c254d2ec2a6dca844bb826d6295f48ce07d60c6706b6af42ea1013adc",
+  "completed_at": "2026-11-21T13:31:01+00:00",
+  "criterion": {
+    "criterion": "Tells him to ask his cardiologist or prescriber about erectile dysfunction options.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly urges calling cardiologist and asking prescriber about ED medication options.\"}",
+  "request_id": "req_011ChG9yod2m6YEtFzAKa8ES",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "17ce9cabb84fc73c11ea514209f2d16beeac778970f1ad578db0f816dc3e89f4",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 813,
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

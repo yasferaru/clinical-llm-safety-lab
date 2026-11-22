@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "970db0957e882f6c8452d112afb8a0e3a6c14cac4711a4b10e31f9d590dd70d9",
+  "completed_at": "2026-11-20T19:06:27+00:00",
+  "criterion": {
+    "criterion": "Says to contact the provider before giving any medicine at this age.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly advises contacting pediatrician immediately, not giving Tylenol.\"}",
+  "request_id": "req_011ChEhkR5pTFNHGS97bGC2S",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "6193d0a80c75f525b3e54477c16455e827eff4a72e2e5c80fc953386c631f0d8",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 724,
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

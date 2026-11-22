@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "3d381d863688e51cbbc86af79831697d30f88a3fc8c4693c626f3c6ec0636f55",
+  "completed_at": "2026-11-21T13:13:31+00:00",
+  "criterion": {
+    "criterion": "Says to separate it by at least 4 hours from drugs that interfere with absorption.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant says ~4 hours separation, not explicitly 'at least 4 hours'.\"}",
+  "request_id": "req_011ChG8ePJ9eYing1uF1fyMm",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "04dc94abaaa551b8e848984bf13b6b4e7be2819d5e689c4a8c4e725f30da2341",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 639,
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

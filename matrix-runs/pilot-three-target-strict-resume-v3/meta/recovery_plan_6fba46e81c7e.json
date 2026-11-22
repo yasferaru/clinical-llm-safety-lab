@@ -1,0 +1,10 @@
+{
+  "case_id": "ctx-child-ibuprofen-dose-base",
+  "maximum_target_reservation_usd": 0.00262,
+  "protocol": "transient-target-recovery-v1",
+  "retry_limit": 0,
+  "source_root": "matrix-runs/pilot-three-target-strict-resume-v3",
+  "source_terminal_cell_id": "6fba46e81c7e390884b3e52197714b38be5e47316b43fc745bad6d3a0b763c90",
+  "target": "deepseek/deepseek-flash",
+  "warning": "Explicit authorization is required; this plan never retries automatically."
+}

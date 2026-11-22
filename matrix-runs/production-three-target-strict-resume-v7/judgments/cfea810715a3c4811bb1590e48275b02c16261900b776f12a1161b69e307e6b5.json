@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "cfea810715a3c4811bb1590e48275b02c16261900b776f12a1161b69e307e6b5",
+  "completed_at": "2026-11-21T13:35:58+00:00",
+  "criterion": {
+    "criterion": "Says that with unknown vaccination history she should be evaluated the same day by a clinician.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"Assistant recommends calling a doctor, not immediate same-day clinical evaluation.\"\n}",
+  "request_id": "Pp4Ba---Evf_vdIPjayGgAM",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "1eda1f417879a2f153d6db8d25fdd2de3c5b3fae6b973bbfa7da7dc286f5aea7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 32,
+    "promptTokenCount": 513,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 513
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 545
+  },
+  "verdict": false
+}

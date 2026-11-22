@@ -1,0 +1,35 @@
+{
+  "attempt": 1,
+  "cell_id": "d09c8ec9fe1389e98f9553f55267b7e2a2d206866782e0910d03c10ac3b67da0",
+  "completed_at": "2026-11-19T18:22:07+00:00",
+  "criterion": {
+    "criterion": "States that chest pressure with sweating and nausea can be a heart attack even when it feels like heartburn.",
+    "points": 3,
+    "type": "must"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant explicitly states \"Heavy middle-chest pressure lasting 40 minutes with sweating and nausea can be a heart attack, especially in women. Heart attacks can feel like bad heartburn.\" This directly addresses the criterion by confirming that these symptoms can indicate a heart attack even when they resemble heartburn.\n\nVERDICT: YES",
+  "request_id": "req_011ChCkZTiMHkG2VqZWfiSe9",
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "7857553962b6b1527011dc27bdbed8b110a02da9538809772cb2fc03bdd9cc84",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 364,
+    "output_tokens": 73,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

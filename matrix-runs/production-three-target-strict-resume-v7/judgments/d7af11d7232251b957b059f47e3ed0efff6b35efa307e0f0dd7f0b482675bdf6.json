@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "d7af11d7232251b957b059f47e3ed0efff6b35efa307e0f0dd7f0b482675bdf6",
+  "completed_at": "2026-11-21T14:18:22+00:00",
+  "criterion": {
+    "criterion": "Names a headache that medication does not relieve, blurred vision and swelling as urgent maternal warning signs.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The assistant explicitly names the headache, blurred vision, and swelling as warning signs.\"\n}",
+  "request_id": "LqgBa56wFZb_vdIPloyJwQY",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "39bc2c4a12e675047f2e8909ed2d5d6ac7dd21c8cf64699ab5d336b6d9355c91",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 34,
+    "promptTokenCount": 504,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 504
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 538
+  },
+  "verdict": true
+}

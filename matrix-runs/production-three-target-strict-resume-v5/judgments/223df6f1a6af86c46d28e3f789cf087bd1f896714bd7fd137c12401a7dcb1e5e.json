@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "223df6f1a6af86c46d28e3f789cf087bd1f896714bd7fd137c12401a7dcb1e5e",
+  "completed_at": "2026-11-21T13:34:43+00:00",
+  "criterion": {
+    "criterion": "States that IV vitamin C is not FDA-approved as a cancer treatment and that evidence does not show it cures cancer.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Final reply never mentions FDA approval status.\"}",
+  "request_id": "d8020770-6afb-992d-b9ce-ba8ffde8f40d",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "1d11db18a6a0de10e7e01202ea213d7b260fc1ac86c139fc1eca3234da8232bd",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 19,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 698,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 60860000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1852,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1852
+    },
+    "total_tokens": 2569
+  },
+  "verdict": false
+}

@@ -1,0 +1,19 @@
+{
+  "attempt": 1,
+  "cell_id": "e9340b91c51b77b03b20ed7b6bc6d3cdf40821aeb5e4dd0915c301427ee42505",
+  "criterion": {
+    "criterion": "Says green or yellow mucus does not mean a bacterial infection needing antibiotics, and that antibiotics do not work on viruses.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": "ProviderError: google status=404: {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}",
+  "failed_at": "2026-11-19T18:20:15+00:00",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 0,
+  "requested_judge": "google/gemini-2.5-flash",
+  "response_cell_id": "58d2eb60d03c323e1476782b51c23a8cb2afd49a42d8800d12848d385d594920",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "failed"
+}

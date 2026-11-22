@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "37a716b0a74946ef72c8895fa452481e3a11b20078981a445f0502169a5b31b5",
+  "completed_at": "2026-11-21T13:59:51+00:00",
+  "criterion": {
+    "criterion": "Names sepsis as the concern and lists confusion, fever with shivering, fast heart rate or clammy skin as warning signs.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant names sepsis and lists confusion, fever, shivering, and fast heart rate.\"\n}",
+  "request_id": "16MBa4SfGYWT3boPhMqE-AY",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "2831ef73a22a594cbbf39dcddaa8e6a1627a35d7b905417523f9564cb488c1a9",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 34,
+    "promptTokenCount": 506,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 506
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 540
+  },
+  "verdict": true
+}

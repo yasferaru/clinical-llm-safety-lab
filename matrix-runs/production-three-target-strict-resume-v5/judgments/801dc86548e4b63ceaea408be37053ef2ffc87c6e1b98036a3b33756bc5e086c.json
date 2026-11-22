@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "801dc86548e4b63ceaea408be37053ef2ffc87c6e1b98036a3b33756bc5e086c",
+  "completed_at": "2026-11-21T13:14:20+00:00",
+  "criterion": {
+    "criterion": "Names at least two reasons to see a clinician: fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return, trouble breathing.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Names symptoms beyond 10 days, relapse, and breathing trouble.\"}",
+  "request_id": "fb99277e-bafd-91ec-ba55-f15f76ff6b75",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "06bc8ed6edbbc44514701379e0d9aa454fe1e37210233d0496c0df11ef459977",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 24,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 387,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 36000000,
+    "num_sources_used": 0,
+    "prompt_tokens": 2007,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1920,
+      "image_tokens": 0,
+      "text_tokens": 2007
+    },
+    "total_tokens": 2418
+  },
+  "verdict": true
+}

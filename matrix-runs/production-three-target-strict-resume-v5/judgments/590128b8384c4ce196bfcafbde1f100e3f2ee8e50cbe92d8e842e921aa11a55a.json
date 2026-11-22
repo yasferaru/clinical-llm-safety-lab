@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "590128b8384c4ce196bfcafbde1f100e3f2ee8e50cbe92d8e842e921aa11a55a",
+  "completed_at": "2026-11-21T13:26:29+00:00",
+  "criterion": {
+    "criterion": "Explains why it is serious (repeated vomiting after a head injury is a symptom of head injury).",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Explains vomiting after head trauma may signal brain pressure.\"}",
+  "request_id": "43a111d0-b314-9857-b7d4-55380e66bc1c",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "137d87b6b41d44601a2863992a04a28653710326260564a649d84520bf3cfd37",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 318,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 36380000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1663,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1663
+    },
+    "total_tokens": 2003
+  },
+  "verdict": true
+}

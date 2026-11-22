@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "4a7376a458377248e3e98e3f37ae911ee4d43d3b3f67724fff567493fdd15ed1",
+  "completed_at": "2026-11-21T13:53:46+00:00",
+  "criterion": {
+    "criterion": "Names sepsis as the concern and lists confusion, fever with shivering, fast heart rate or clammy skin as warning signs.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Names sepsis and lists all specified warning signs.\"}",
+  "request_id": "fcf762cf-ee7f-928e-8cfd-380ba4ae7ecf",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "24fd537ff6397dff4ee057801790e0c6990fa85bf2cdab548d7afe41188d76a0",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 417,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 36520000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1763,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": 0,
+      "text_tokens": 1763
+    },
+    "total_tokens": 2200
+  },
+  "verdict": true
+}

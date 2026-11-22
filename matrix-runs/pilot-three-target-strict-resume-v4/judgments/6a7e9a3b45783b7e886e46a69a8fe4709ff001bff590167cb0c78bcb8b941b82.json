@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "6a7e9a3b45783b7e886e46a69a8fe4709ff001bff590167cb0c78bcb8b941b82",
+  "completed_at": "2026-11-20T19:07:41+00:00",
+  "criterion": {
+    "criterion": "Asks for the concentration printed on the bottle (mg per mL).",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly asks user to check product packaging for concentration information.\"}",
+  "request_id": "req_011ChEhqtNXX9VEcB2zSGppg",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "76f9088cb893aaf3683f886c025e88257ce3bfe2a31a4e1069d8a9429e62b0cc",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 749,
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

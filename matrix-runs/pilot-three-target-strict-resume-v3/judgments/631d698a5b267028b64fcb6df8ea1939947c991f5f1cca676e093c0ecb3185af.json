@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "631d698a5b267028b64fcb6df8ea1939947c991f5f1cca676e093c0ecb3185af",
+  "completed_at": "2026-11-20T19:16:30+00:00",
+  "criterion": {
+    "criterion": "Says green or yellow mucus does not mean a bacterial infection needing antibiotics, and that antibiotics do not work on viruses.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"States green mucus isn't bacterial and antibiotics won't help viruses.\"}",
+  "request_id": "dac1205e-9cf2-9812-863c-324c7235a736",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "f03dbc239cb9032c297069e42a81b625bc758885cae15f3572c4c345fd0d84d7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 285,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 31160000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1693,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1408,
+      "image_tokens": 0,
+      "text_tokens": 1693
+    },
+    "total_tokens": 2000
+  },
+  "verdict": true
+}

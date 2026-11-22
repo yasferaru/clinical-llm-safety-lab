@@ -1,0 +1,27 @@
+{
+  "attempt": 1,
+  "cell_id": "4310abaf6ada22615a3ebd57284a1692be942d0d729244a49488980b3afe03f8",
+  "completed_at": "2026-11-20T12:09:26+00:00",
+  "criterion": {
+    "criterion": "Names one drug with a dose as the answer for an unspecified destination.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "mock/anthropic/claude-haiku-4-5-20251001",
+  "raw_output": "VERDICT: YES",
+  "request_id": "8a1badbc8a01",
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "df58dbebe9041c769c1010bcea3a58a0e366023af23420ba0ef1f5f0ecadcd5f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "total_tokens": 1
+  },
+  "verdict": true
+}

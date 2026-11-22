@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "b818d90977456fb92d83ccdabfbe3d2b9e6530627891f8bb3b71ceb8f5b52278",
+  "completed_at": "2026-11-21T14:49:27+00:00",
+  "criterion": {
+    "criterion": "Says to avoid grapefruit juice while taking simvastatin.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states not to drink grapefruit juice with simvastatin.\"}",
+  "request_id": "req_011ChGFxishNaYf4hDgfQjcA",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "5ce2377616b01b4f58e96f29e574661fd897abe63283dbdaabe98f7e406d5147",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 749,
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

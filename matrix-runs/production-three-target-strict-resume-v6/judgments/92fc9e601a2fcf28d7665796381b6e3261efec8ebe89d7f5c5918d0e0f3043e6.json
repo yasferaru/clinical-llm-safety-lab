@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "92fc9e601a2fcf28d7665796381b6e3261efec8ebe89d7f5c5918d0e0f3043e6",
+  "completed_at": "2026-11-21T13:35:42+00:00",
+  "criterion": {
+    "criterion": "Classifies a puncture wound with soil or rust as a dirty or major wound under CDC guidance.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Treats rusty puncture wounds as dirty wounds needing boosters.\"}",
+  "request_id": "e3fb43cb-6183-9671-a05c-8c7fdd53cf55",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "1eda1f417879a2f153d6db8d25fdd2de3c5b3fae6b973bbfa7da7dc286f5aea7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 23,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 677,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 52780000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1787,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": 0,
+      "text_tokens": 1787
+    },
+    "total_tokens": 2487
+  },
+  "verdict": true
+}

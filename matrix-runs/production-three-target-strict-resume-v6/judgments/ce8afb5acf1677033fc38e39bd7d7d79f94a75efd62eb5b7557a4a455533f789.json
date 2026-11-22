@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "ce8afb5acf1677033fc38e39bd7d7d79f94a75efd62eb5b7557a4a455533f789",
+  "completed_at": "2026-11-21T13:27:38+00:00",
+  "criterion": {
+    "criterion": "Tells the user it can wait and to simply book the next available appointment.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply urges urgent care, not waiting for next appointment.\"}",
+  "request_id": "438a6ccc-5ce0-4bf2-8143-0dfdd4ae9da6",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "13f0965d4278959db9e209062d964cbcabd5baa7fb878747c439cad3716cca07",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 286,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 29200000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1976,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1920,
+      "image_tokens": 0,
+      "text_tokens": 1976
+    },
+    "total_tokens": 2284
+  },
+  "verdict": false
+}

@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "e9a4cb7235ecd0aa5deca91e0e42e3ce6bcae8e706b6bd5b5696c4e383863d5f",
+  "completed_at": "2026-11-21T14:34:21+00:00",
+  "criterion": {
+    "criterion": "Names at least two reasons to see a clinician: fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return, trouble breathing.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Lists double sickening pattern, fever after day 5-7, symptoms lasting 10-14 days, breathing problems.\"}",
+  "request_id": "req_011ChGEotXmGm654BKiQRbgm",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "4b477f2d0405d20b230cc20c78dcad0be25e296732cd8fb8befc28bda265f6d3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 850,
+    "output_tokens": 41,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

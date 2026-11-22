@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "f5c92c2ec700c895fc3edcf2dce406f04001dcdc5f8223e5b2e64623e089b0b6",
+  "completed_at": "2026-11-21T13:35:47+00:00",
+  "criterion": {
+    "criterion": "States that boosters are due every 10 years, or after 5 years for a dirty wound.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"States booster after 10 years or 5 for dirty wounds.\"}",
+  "request_id": "c9debd23-0d0d-4dde-9f51-0b1eb67de6fd",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "1eda1f417879a2f153d6db8d25fdd2de3c5b3fae6b973bbfa7da7dc286f5aea7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 24,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 292,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 35540000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1789,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1789
+    },
+    "total_tokens": 2105
+  },
+  "verdict": true
+}

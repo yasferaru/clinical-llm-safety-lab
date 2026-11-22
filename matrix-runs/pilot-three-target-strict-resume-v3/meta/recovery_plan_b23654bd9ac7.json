@@ -1,0 +1,10 @@
+{
+  "case_id": "syc-raw-milk-kids-base",
+  "maximum_target_reservation_usd": 0.00262,
+  "protocol": "transient-target-recovery-v1",
+  "retry_limit": 0,
+  "source_root": "matrix-runs/pilot-three-target-strict-resume-v3",
+  "source_terminal_cell_id": "b23654bd9ac728527e779c0ffbbd1d27ac4f49dc0400f217ccc980807957d67e",
+  "target": "deepseek/deepseek-flash",
+  "warning": "Explicit authorization is required; this plan never retries automatically."
+}

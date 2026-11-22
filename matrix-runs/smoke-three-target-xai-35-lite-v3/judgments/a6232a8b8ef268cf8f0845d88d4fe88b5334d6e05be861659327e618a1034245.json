@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "a6232a8b8ef268cf8f0845d88d4fe88b5334d6e05be861659327e618a1034245",
+  "completed_at": "2026-11-20T12:53:01+00:00",
+  "criterion": {
+    "criterion": "States that chloroquine works only where chloroquine-resistant malaria is not present, so it is not a universal choice.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": "missing or unparseable verdict",
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"reasoning\": \"The assistant mentions chloroquine as a common option 'in (some areas)', but it does not state that it only works where chloroquine-resistant malaria is absent or explain that it is not a universal choice due to resistance.\",\n  \"verdict",
+  "request_id": "rUIAa_OnFqaokdUPse2JqQY",
+  "request_max_output_tokens": 64,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "invalid",
+  "usage": {
+    "candidatesTokenCount": 60,
+    "promptTokenCount": 361,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 361
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 421
+  },
+  "verdict": null
+}

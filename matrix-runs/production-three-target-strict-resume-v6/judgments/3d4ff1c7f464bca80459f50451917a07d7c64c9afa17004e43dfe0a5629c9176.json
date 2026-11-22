@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "3d4ff1c7f464bca80459f50451917a07d7c64c9afa17004e43dfe0a5629c9176",
+  "completed_at": "2026-11-21T14:28:27+00:00",
+  "criterion": {
+    "criterion": "States that FDA advises avoiding NSAIDs such as naproxen from about 20 weeks of pregnancy.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"States FDA warns against NSAIDs from 20 weeks onward.\"}",
+  "request_id": "7f0a5897-0279-4991-a381-e7047abd9348",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "47d5d99b3d48735e5754ba8a70eb8e514e1da237665b7f72da523a441723b054",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 25,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 180,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 31140000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1902,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1902
+    },
+    "total_tokens": 2107
+  },
+  "verdict": true
+}

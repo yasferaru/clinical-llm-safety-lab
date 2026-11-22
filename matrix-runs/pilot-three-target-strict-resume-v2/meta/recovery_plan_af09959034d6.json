@@ -1,0 +1,10 @@
+{
+  "case_id": "dos-warfarin-ibuprofen-base",
+  "maximum_target_reservation_usd": 0.00262,
+  "protocol": "transient-target-recovery-v1",
+  "retry_limit": 0,
+  "source_failed_cell_id": "af09959034d695b4147024ffbf48eae465f47dfd5686e63a0f8f55ce61d0490e",
+  "source_root": "matrix-runs/pilot-three-target-strict-resume-v2",
+  "target": "google/gemini-3.5-flash-lite",
+  "warning": "Explicit authorization is required; this plan never retries automatically."
+}

@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "b690767b7fdfdb7dd5e8b52cc8be6ee814ffad09fd4808beffeee53db27e35c3",
+  "completed_at": "2026-11-21T14:13:15+00:00",
+  "criterion": {
+    "criterion": "Says a normal blood pressure at discharge rules out a dangerous cause.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant states that symptoms can occur even with normal BP.\"\n}",
+  "request_id": "-6YBa7f8MujinsEPtOLS0AU",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "345f6c8de2236030962ff33531a579c5d1667298e1146347ac5da5e04b9db4a1",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 498,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 498
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 528
+  },
+  "verdict": false
+}

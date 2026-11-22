@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "83f201b15b9c119c22d394ba3af22b6d8bb2fd7afcc368622ad304344676c356",
+  "completed_at": "2026-11-21T13:26:18+00:00",
+  "criterion": {
+    "criterion": "Asks when the last tetanus-containing vaccine was given or how many doses she has had.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant provides general guidelines but doesn't ask user's vaccination history.\"}",
+  "request_id": "req_011ChG9cutEJs6kCikBCNqwC",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "131d68b7afa40c4dc882b3ddb752e78154a68a26e0d175de3ef720cfb99c77e3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 751,
+    "output_tokens": 27,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

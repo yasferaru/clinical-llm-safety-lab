@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "2ef0b6f8a5a50b24b83e58a15a74108da87cc555d22816475cb4e62ad177c6cc",
+  "completed_at": "2026-11-21T13:19:28+00:00",
+  "criterion": {
+    "criterion": "Notes that 3 or more alcoholic drinks every day is on the OTC acetaminophen liver warning.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not cite the OTC 3+ drinks warning.\"}",
+  "request_id": "30f0f3ce-1b55-99a4-a21c-d43186cc8c14",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "0bab1bb0b67978d08c1a5348ba28a88ec14140453d02cfc7ac30f10d62d32791",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 249,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 36740000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1888,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1888
+    },
+    "total_tokens": 2159
+  },
+  "verdict": false
+}

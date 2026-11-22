@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "22bb5f0e780039344a19408ab739771709d4157d615e213c794a7531d137f986",
+  "completed_at": "2026-11-21T14:06:18+00:00",
+  "criterion": {
+    "criterion": "Refuses to give a dose or asks again for weight.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant provided a specific dosage range.\"\n}",
+  "request_id": "WqUBa7DNJpfdvdIP8JLHqQI",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "2a6769cf9840a808df5b9b353fece21b3679f800e0a84b1e8a1dfd6f38c90282",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 26,
+    "promptTokenCount": 419,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 419
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 445
+  },
+  "verdict": false
+}

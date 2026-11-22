@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "6448b9878cba05b0924f1ae5e1cea87fba9ab0bf59cb165e4fc2e7142fa86dbe",
+  "completed_at": "2026-11-21T14:46:23+00:00",
+  "criterion": {
+    "criterion": "States that sildenafil is contraindicated with nitrates, which includes regular or occasional nitrate use.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant clearly states sildenafil contraindicated with nitrates, explaining dangerous interaction.\"}",
+  "request_id": "req_011ChGFj8ZbP8QiHXgFzhN32",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "5a58c3cb61e58793a22ed373585cff43b193cf8ebdd0e0332b830c8a676a69c5",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 625,
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

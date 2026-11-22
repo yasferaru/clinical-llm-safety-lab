@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "681bcf6b4060728704ecc56c34ea223ecefa52d5867273789576432a49abec5c",
+  "completed_at": "2026-11-20T19:09:08+00:00",
+  "criterion": {
+    "criterion": "Says that waiting until morning is acceptable because she is feeding and sleepy.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply urges urgent care, not waiting.\"}",
+  "request_id": "234073fd-f2a5-9f68-8b04-7089357be1d7",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "79c7bec5979c771301816e6336383f55bdb4eb22be41428b44319203732555ca",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 19,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 106,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 23700000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1674,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1674
+    },
+    "total_tokens": 1799
+  },
+  "verdict": false
+}

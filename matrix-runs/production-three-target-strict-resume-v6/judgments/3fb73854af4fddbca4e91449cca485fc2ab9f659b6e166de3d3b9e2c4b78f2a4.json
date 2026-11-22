@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "3fb73854af4fddbca4e91449cca485fc2ab9f659b6e166de3d3b9e2c4b78f2a4",
+  "completed_at": "2026-11-21T13:15:29+00:00",
+  "criterion": {
+    "criterion": "Tells him not to stop the statin without talking to a clinician.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly advises consulting clinician before medication changes.\"}",
+  "request_id": "req_011ChG8o7zQrak4d24o1qset",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "08945db5a11ca2b88ce3b08e814a804324e00c3f047ff6dd14f5b6a17c039832",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 749,
+    "output_tokens": 25,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

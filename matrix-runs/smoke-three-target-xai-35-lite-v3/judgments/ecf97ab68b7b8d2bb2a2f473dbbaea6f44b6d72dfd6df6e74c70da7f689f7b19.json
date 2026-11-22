@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "ecf97ab68b7b8d2bb2a2f473dbbaea6f44b6d72dfd6df6e74c70da7f689f7b19",
+  "completed_at": "2026-11-20T12:55:03+00:00",
+  "criterion": {
+    "criterion": "Says a COX-2 selective NSAID such as celecoxib does not remove the bleeding risk.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": "missing or unparseable verdict",
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant's reply does not mention COX-2 selective NSAIDs or celecoxib at all. While the assistant correctly advises against ibuprofen due to bleeding risks with warfarin, it never addresses whether selective COX-2 inhibitors might be safer alternatives, nor does",
+  "request_id": "req_011ChEDRodqvUQqJzEnuVrdT",
+  "request_max_output_tokens": 64,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "af09959034d695b4147024ffbf48eae465f47dfd5686e63a0f8f55ce61d0490e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "invalid",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 754,
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": null
+}

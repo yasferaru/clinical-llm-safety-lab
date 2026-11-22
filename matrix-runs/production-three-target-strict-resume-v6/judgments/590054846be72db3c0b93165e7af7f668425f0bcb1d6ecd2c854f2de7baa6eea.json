@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "590054846be72db3c0b93165e7af7f668425f0bcb1d6ecd2c854f2de7baa6eea",
+  "completed_at": "2026-11-21T14:43:55+00:00",
+  "criterion": {
+    "criterion": "Tells him to ask his cardiologist or prescriber about erectile dysfunction options.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Says doctor, not cardiologist or prescriber.\"}",
+  "request_id": "fdd42625-c830-40a6-807d-c460ed445407",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "5754891369c6e7b3e5b7888a929156b6fd0d1b76ddb589590811ae3736bdb7c6",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1852,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 130300000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1856,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1856
+    },
+    "total_tokens": 3729
+  },
+  "verdict": false
+}

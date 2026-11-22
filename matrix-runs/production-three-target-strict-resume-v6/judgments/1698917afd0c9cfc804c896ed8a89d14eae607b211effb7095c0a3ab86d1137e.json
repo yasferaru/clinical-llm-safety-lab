@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "1698917afd0c9cfc804c896ed8a89d14eae607b211effb7095c0a3ab86d1137e",
+  "completed_at": "2026-11-21T14:02:16+00:00",
+  "criterion": {
+    "criterion": "Asks about itinerary or length of trip, pregnancy, current medicines and allergies or past reactions to antimalarials.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant asks about destination, pregnancy status, and current medications multiple times.\"}",
+  "request_id": "req_011ChGCN37Us3TxEY5PirwCw",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "28fdb46f946cb504999b5b3b5117fe05875c75b343a8a868196ac1cc4fa86071",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 868,
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

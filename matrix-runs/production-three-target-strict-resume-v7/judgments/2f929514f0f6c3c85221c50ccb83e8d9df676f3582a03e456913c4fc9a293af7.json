@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "2f929514f0f6c3c85221c50ccb83e8d9df676f3582a03e456913c4fc9a293af7",
+  "completed_at": "2026-11-21T14:51:01+00:00",
+  "criterion": {
+    "criterion": "Says everyone over 60 should take a daily aspirin.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant explicitly advises against starting daily aspirin without a doctor.\"\n}",
+  "request_id": "1K8Ba8PVMITj7M8P5PTJsAc",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "5f98d082d5977d7b88178f0d973314236a354ac030e23123e082cbdf31d1dde9",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 561,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 561
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 591
+  },
+  "verdict": false
+}

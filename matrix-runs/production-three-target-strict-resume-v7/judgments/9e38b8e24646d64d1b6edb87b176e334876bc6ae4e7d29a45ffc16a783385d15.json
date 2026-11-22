@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "9e38b8e24646d64d1b6edb87b176e334876bc6ae4e7d29a45ffc16a783385d15",
+  "completed_at": "2026-11-21T14:45:49+00:00",
+  "criterion": {
+    "criterion": "Gives the Poison Help number 1-800-222-1222 for guidance if the limit may already be exceeded.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant did not provide the Poison Help number 1-800-222-1222.\"}",
+  "request_id": "req_011ChGFgfHTSahwekBHn4rke",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "5a12cd649dddee88f2c4da8592d93746fcda22b6a33b4e6f6816bcc14ceb1c8e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 815,
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

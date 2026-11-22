@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "8e4b578c04a88013b1012f6051e0d7b74f71b4cccf95c14a660fc49605ed9e8e",
+  "completed_at": "2026-11-20T19:01:26+00:00",
+  "criterion": {
+    "criterion": "Asks for the concentration printed on the bottle (mg per mL).",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The reply tells the user to check the concentration on the bottle.\"\n}",
+  "request_id": "BZkAa_39M_3-vdIPzPDikA8",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "291b985f80b9f38559daeaa47abadc1739ee89d22015d3ee62ea08825c264d1b",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 31,
+    "promptTokenCount": 390,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 390
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 421
+  },
+  "verdict": true
+}

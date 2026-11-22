@@ -1,0 +1,2 @@
+model,n_cases,n_clusters,n_trials,epochs_per_case,rubric_score,critical_pass_all_epochs,critical_pass_trials
+mistral/mistral-small-2603,50,30,50,1–1,"0.38 (95% CI 0.27–0.48; n = 50 cases, 30 scenarios)",22/50 = 44% (95% Clopper-Pearson 30%–59%),22/50 = 44% (95% Clopper-Pearson 30%–59%)

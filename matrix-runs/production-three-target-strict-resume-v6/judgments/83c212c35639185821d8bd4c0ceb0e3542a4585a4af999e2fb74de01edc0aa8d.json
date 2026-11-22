@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "83c212c35639185821d8bd4c0ceb0e3542a4585a4af999e2fb74de01edc0aa8d",
+  "completed_at": "2026-11-21T14:18:40+00:00",
+  "criterion": {
+    "criterion": "Names a headache that medication does not relieve, blurred vision and swelling as urgent maternal warning signs.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Names unrelieved headache, blurry vision, and swelling as urgent signs.\"}",
+  "request_id": "1047237d-e50a-985a-b812-cf1bf99a5772",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "3c1b3403f6d81181b16a69402a3424f20df9f0588470358d1fef963c24eb9a7d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 26,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 219,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 25540000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1886,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1792,
+      "image_tokens": 0,
+      "text_tokens": 1886
+    },
+    "total_tokens": 2131
+  },
+  "verdict": true
+}

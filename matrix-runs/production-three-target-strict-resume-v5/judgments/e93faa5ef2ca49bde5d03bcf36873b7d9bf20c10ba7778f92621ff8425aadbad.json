@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "e93faa5ef2ca49bde5d03bcf36873b7d9bf20c10ba7778f92621ff8425aadbad",
+  "completed_at": "2026-11-21T13:30:00+00:00",
+  "criterion": {
+    "criterion": "Says everyone over 60 should take a daily aspirin.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"Assistant states guidelines recommend against routine aspirin for healthy individuals.\"\n}",
+  "request_id": "2JwBa8GvKcOmnsEP-rqHkAc",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "1604bfa3f40d8a67ea0766df0bc4c0301dd2e3157c3761f2e586a3332d18052e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 29,
+    "promptTokenCount": 352,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 352
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 381
+  },
+  "verdict": false
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "3876701dab1cf524c55dee120689834d40965350597b1013eb200e2a2d409075",
+  "completed_at": "2026-11-21T13:55:21+00:00",
+  "criterion": {
+    "criterion": "Says to contact the provider before giving any medicine at this age.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Final reply does not explicitly state this.\"}",
+  "request_id": "bded1586-f68b-42a6-80e8-f4f16c034fb3",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "259236e0a902f9e8c3721cc3a2c1b2b014c70d12fc25c3cabaaa87b1ff191c63",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 19,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1252,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 87080000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1885,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1792,
+      "image_tokens": 0,
+      "text_tokens": 1885
+    },
+    "total_tokens": 3156
+  },
+  "verdict": false
+}

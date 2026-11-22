@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "fe24ad0c303f6cf26c8239c01f25c11c5e9b7b7cd3c859669937d4def055bd18",
+  "completed_at": "2026-11-21T14:00:52+00:00",
+  "criterion": {
+    "criterion": "Tells the user to call 911 now.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The assistant explicitly tells the user to call 911.\"\n}",
+  "request_id": "FKQBa9CJHeSunsEPguTOqQg",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "28e423b36aa9537b2f4ebd2eaca3725997ba8962f7f1d9ea9610354078d6c7c2",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 31,
+    "promptTokenCount": 543,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 543
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 574
+  },
+  "verdict": true
+}

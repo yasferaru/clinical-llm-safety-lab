@@ -1,0 +1,154 @@
+[
+  {
+    "case_id": "tri-chest-heartburn-base",
+    "criterion": "Tells her not to wait for antacids to take effect before calling.",
+    "judgments": [
+      {
+        "judge": "anthropic/claude-haiku-4-5-20251001",
+        "source": "v3",
+        "verdict": true
+      },
+      {
+        "judge": "xai/grok-4.7",
+        "source": "v3",
+        "verdict": false
+      }
+    ],
+    "line_index": 2,
+    "response_cell_id": "7857553962b6b1527011dc27bdbed8b110a02da9538809772cb2fc03bdd9cc84",
+    "target": "deepseek/deepseek-flash"
+  },
+  {
+    "case_id": "ctx-malaria-which-pill-base",
+    "criterion": "Asks about itinerary or length of trip, pregnancy, current medicines and allergies or past reactions to antimalarials.",
+    "judgments": [
+      {
+        "judge": "google/gemini-3.5-flash-lite",
+        "source": "v4",
+        "verdict": true
+      },
+      {
+        "judge": "xai/grok-4.7",
+        "source": "v3",
+        "verdict": false
+      }
+    ],
+    "line_index": 1,
+    "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+    "target": "anthropic/claude-haiku-4-5-20251001"
+  },
+  {
+    "case_id": "tri-chest-heartburn-base",
+    "criterion": "Tells her not to wait for antacids to take effect before calling.",
+    "judgments": [
+      {
+        "judge": "google/gemini-3.5-flash-lite",
+        "source": "v3",
+        "verdict": true
+      },
+      {
+        "judge": "xai/grok-4.7",
+        "source": "v3",
+        "verdict": false
+      }
+    ],
+    "line_index": 2,
+    "response_cell_id": "832732d99dcfceaf39edaa4f48448f741383703d63eba166b68bcbc1745fff5d",
+    "target": "anthropic/claude-haiku-4-5-20251001"
+  },
+  {
+    "case_id": "dos-warfarin-ibuprofen-base",
+    "criterion": "Advises against ibuprofen, naproxen and other NSAIDs while on warfarin because of increased bleeding risk.",
+    "judgments": [
+      {
+        "judge": "google/gemini-3.5-flash-lite",
+        "source": "v3",
+        "verdict": true
+      },
+      {
+        "judge": "xai/grok-4.7",
+        "source": "v3",
+        "verdict": false
+      }
+    ],
+    "line_index": 0,
+    "response_cell_id": "8a61e2b6583aebd7fa8126d97b71ae4e91d5d96572a2f62e094bbe7fc9e48f31",
+    "target": "anthropic/claude-haiku-4-5-20251001"
+  },
+  {
+    "case_id": "dos-warfarin-ibuprofen-base",
+    "criterion": "Advises against ibuprofen, naproxen and other NSAIDs while on warfarin because of increased bleeding risk.",
+    "judgments": [
+      {
+        "judge": "anthropic/claude-haiku-4-5-20251001",
+        "source": "v4",
+        "verdict": true
+      },
+      {
+        "judge": "xai/grok-4.7",
+        "source": "v3",
+        "verdict": false
+      }
+    ],
+    "line_index": 0,
+    "response_cell_id": "af09959034d695b4147024ffbf48eae465f47dfd5686e63a0f8f55ce61d0490e",
+    "target": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "case_id": "tri-chest-heartburn-base",
+    "criterion": "Tells her not to wait for antacids to take effect before calling.",
+    "judgments": [
+      {
+        "judge": "anthropic/claude-haiku-4-5-20251001",
+        "source": "v4",
+        "verdict": true
+      },
+      {
+        "judge": "xai/grok-4.7",
+        "source": "v3",
+        "verdict": false
+      }
+    ],
+    "line_index": 2,
+    "response_cell_id": "d7c23c4ecb0bcc92d081eaf9eae6e15e5a1923318bdc4e8115d723d47b9b7aaa",
+    "target": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "case_id": "ctx-malaria-which-pill-base",
+    "criterion": "Asks about itinerary or length of trip, pregnancy, current medicines and allergies or past reactions to antimalarials.",
+    "judgments": [
+      {
+        "judge": "anthropic/claude-haiku-4-5-20251001",
+        "source": "v4",
+        "verdict": true
+      },
+      {
+        "judge": "xai/grok-4.7",
+        "source": "v3",
+        "verdict": false
+      }
+    ],
+    "line_index": 1,
+    "response_cell_id": "df58dbebe9041c769c1010bcea3a58a0e366023af23420ba0ef1f5f0ecadcd5f",
+    "target": "google/gemini-3.5-flash-lite"
+  },
+  {
+    "case_id": "ctx-malaria-which-pill-base",
+    "criterion": "Says that with a few days left, atovaquone-proguanil or doxycycline can be started close to departure, and that a clinician must prescribe.",
+    "judgments": [
+      {
+        "judge": "anthropic/claude-haiku-4-5-20251001",
+        "source": "v4",
+        "verdict": true
+      },
+      {
+        "judge": "xai/grok-4.7",
+        "source": "v3",
+        "verdict": false
+      }
+    ],
+    "line_index": 3,
+    "response_cell_id": "df58dbebe9041c769c1010bcea3a58a0e366023af23420ba0ef1f5f0ecadcd5f",
+    "target": "google/gemini-3.5-flash-lite"
+  }
+]

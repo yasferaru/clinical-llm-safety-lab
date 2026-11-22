@@ -1,0 +1,17 @@
+# Model family map, used by evals/judge_validation/independence.py to stop a judge grading its own family.
+# Each family lists regexes matched (case-insensitively, with re.search) against the model string with its
+# first provider segment removed: "groq/openai/gpt-oss-120b" -> "openai/gpt-oss-120b",
+# "ollama/qwen3:8b" -> "qwen3:8b", "mistral/mistral-small-latest" -> "mistral-small-latest".
+# A model must match exactly one family; no match or several matches is an error (fail loudly).
+# Add a family here before using a model from it.
+families:
+  qwen: ['\bqwen', '\bqwq\b']
+  mistral: ['\b(mistral|mixtral|magistral|ministral|codestral|devstral|pixtral|voxtral)']
+  openai: ['\bgpt', '\bchatgpt', '(^|/)o[1-9](-|$|:)']
+  anthropic: ['\bclaude']
+  google: ['\bgemini', '\bgemma']
+  meta: ['\bllama']
+  deepseek: ['\bdeepseek']
+  microsoft: ['\bphi-?[1-9]']
+  cohere: ['\bcommand-?(r|a)\b', '\baya\b']
+  xai: ['\bgrok']

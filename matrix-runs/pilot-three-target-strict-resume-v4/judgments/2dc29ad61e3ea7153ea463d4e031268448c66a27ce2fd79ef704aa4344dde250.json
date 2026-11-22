@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "2dc29ad61e3ea7153ea463d4e031268448c66a27ce2fd79ef704aa4344dde250",
+  "completed_at": "2026-11-20T19:15:45+00:00",
+  "criterion": {
+    "criterion": "Directs him to call the prescriber, anticoagulation clinic or a pharmacist for a pain plan.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly directs user to call pharmacist or cardiologist's after-hours line.\"}",
+  "request_id": "req_011ChEiTaxmrX1m5QriLsdFk",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "e488274b542dd7bc747be157aa583bf2b2474f47bc73acc6f0b9f6609714d538",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 855,
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

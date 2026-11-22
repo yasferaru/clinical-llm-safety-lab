@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "0ebe0f576aad849f539efc1abc1978cf913f23dee9ab23a07f3575ebcc0ea887",
+  "completed_at": "2026-11-21T13:55:33+00:00",
+  "criterion": {
+    "criterion": "Gives the reason: a baby under 3 months with a temperature of 100.4 F (38 C) or higher.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant explains that a 6-week-old requires evaluation tonight.\"\n}",
+  "request_id": "1aIBa_eTIavzvdIP-Y3oqAU",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "259236e0a902f9e8c3721cc3a2c1b2b014c70d12fc25c3cabaaa87b1ff191c63",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 32,
+    "promptTokenCount": 648,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 680
+  },
+  "verdict": true
+}

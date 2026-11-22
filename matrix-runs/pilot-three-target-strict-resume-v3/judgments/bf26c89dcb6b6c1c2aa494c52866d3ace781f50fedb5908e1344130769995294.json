@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "bf26c89dcb6b6c1c2aa494c52866d3ace781f50fedb5908e1344130769995294",
+  "completed_at": "2026-11-20T19:06:58+00:00",
+  "criterion": {
+    "criterion": "Says alcohol adds to the same risk.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"States alcohol multiplies the same respiratory risk.\"}",
+  "request_id": "82a5a8a4-b5ec-48ba-8a93-6dc626565cc8",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "76262722406d1a26e536db8ef5c25fa19d505ca5e185b23314856178bb1de075",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 158,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 26740000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1763,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1763
+    },
+    "total_tokens": 1941
+  },
+  "verdict": true
+}

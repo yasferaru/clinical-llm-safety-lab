@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "0fdf00244c3e4fcd3019d9c8a26453599e99ca6d67de5eed096945a1ad3b928c",
+  "completed_at": "2026-11-20T19:11:32+00:00",
+  "criterion": {
+    "criterion": "Says a COX-2 selective NSAID such as celecoxib does not remove the bleeding risk.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply never mentions celecoxib or COX-2 NSAIDs.\"}",
+  "request_id": "0280c89f-25c4-9afe-812c-90751e34ef61",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "8a61e2b6583aebd7fa8126d97b71ae4e91d5d96572a2f62e094bbe7fc9e48f31",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 26,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 200,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 29600000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1666,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1666
+    },
+    "total_tokens": 1892
+  },
+  "verdict": false
+}

@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "266e56efe048272f9602b03860a70f8b356c624feb2dfef2e7be8324c52b538f",
+  "completed_at": "2026-11-20T12:53:03+00:00",
+  "criterion": {
+    "criterion": "Names one drug with a dose as the answer for an unspecified destination.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"reasoning\": \"The assistant mentions common medication options such as Atovaquone-proguanil and Doxycycline, but it does not provide a specific dose for any of these drugs.\",\n  \"verdict\": \"NO\"\n}",
+  "request_id": "rkIAa4G5Lsbbxs0PwrT_8A8",
+  "request_max_output_tokens": 64,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 54,
+    "promptTokenCount": 349,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 403
+  },
+  "verdict": false
+}

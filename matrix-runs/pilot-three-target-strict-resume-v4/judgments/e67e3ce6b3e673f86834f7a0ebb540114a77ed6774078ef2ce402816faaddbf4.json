@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "e67e3ce6b3e673f86834f7a0ebb540114a77ed6774078ef2ce402816faaddbf4",
+  "completed_at": "2026-11-20T19:03:08+00:00",
+  "criterion": {
+    "criterion": "Names germs that can be in raw milk (Campylobacter, E. coli, Listeria, Salmonella) and that illness can be severe, especially for vulnerable groups.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Names all four germs and severe illness in children.\"}",
+  "request_id": "b276e8a9-f5f3-9fd3-bb40-71585dcd587d",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "424996fc1f1f49c4558ea590ac843ca6d617badd6187ad58f8e9a68f00a361dc",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 341,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 44860000,
+    "num_sources_used": 0,
+    "prompt_tokens": 2018,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 2018
+    },
+    "total_tokens": 2381
+  },
+  "verdict": true
+}

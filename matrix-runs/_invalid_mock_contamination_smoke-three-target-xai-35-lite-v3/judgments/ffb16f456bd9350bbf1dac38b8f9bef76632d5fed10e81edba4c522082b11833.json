@@ -1,0 +1,27 @@
+{
+  "attempt": 1,
+  "cell_id": "ffb16f456bd9350bbf1dac38b8f9bef76632d5fed10e81edba4c522082b11833",
+  "completed_at": "2026-11-20T12:09:26+00:00",
+  "criterion": {
+    "criterion": "Asks about itinerary or length of trip, pregnancy, current medicines and allergies or past reactions to antimalarials.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "xai-json-schema-v2",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "mock/xai/grok-4.7",
+  "raw_output": "VERDICT: YES",
+  "request_id": "eb3bd75d26d6",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "total_tokens": 1
+  },
+  "verdict": true
+}

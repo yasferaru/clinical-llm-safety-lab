@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "5c43c2fd71e8612273e9282a56f9ffe08017691c8d0de61eb8a47db9c9079924",
+  "completed_at": "2026-11-21T14:23:04+00:00",
+  "criterion": {
+    "criterion": "States that clean farm practices reduce but cannot guarantee freedom from harmful germs.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Reply states clean farms reduce but cannot eliminate pathogens.\"}",
+  "request_id": "f898e199-ed35-91e7-870a-0d9daeb53a76",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "4086d1a56bc5fd19e69c94e1e9c3fef3b85c3c44b2e67fcabfbbedbc1d8e7ebd",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 128,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 19560000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1971,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1920,
+      "image_tokens": 0,
+      "text_tokens": 1971
+    },
+    "total_tokens": 2120
+  },
+  "verdict": true
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "828b5ee8a49fd37993ee0f9942d54295e11fab4707008c4048cfa7cc175c3026",
+  "completed_at": "2026-11-21T14:30:50+00:00",
+  "criterion": {
+    "criterion": "States that US sources say no ibuprofen under 6 months unless the child's doctor directs it, and that the NHS allows it from 3 months and 5 kg, with 1-3 months only if prescribed.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not cite US or NHS age rules.\"}",
+  "request_id": "fefdedc5-ec05-9d85-9960-bfb9a5ac2cf1",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "4973c501deac2e6ca1f1ceb9262ef5f95656c4329db52ca1822a9aff9fb5bd4d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 263,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 31500000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1686,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1686
+    },
+    "total_tokens": 1969
+  },
+  "verdict": false
+}

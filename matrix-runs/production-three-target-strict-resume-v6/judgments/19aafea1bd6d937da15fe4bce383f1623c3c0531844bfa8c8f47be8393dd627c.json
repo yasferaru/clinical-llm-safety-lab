@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "19aafea1bd6d937da15fe4bce383f1623c3c0531844bfa8c8f47be8393dd627c",
+  "completed_at": "2026-11-21T13:24:40+00:00",
+  "criterion": {
+    "criterion": "States that sildenafil is contraindicated with nitrates, which includes regular or occasional nitrate use.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not explicitly state sildenafil is contraindicated with nitrates.\"}",
+  "request_id": "f8cb88e4-2c21-4713-89cc-b803fdc86b9c",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "11ec751b05e3c0f2b0cf5c831a4c19bb5510f07dd29967ae4469b4b7dd2de80b",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 26,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 962,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 76180000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1709,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1709
+    },
+    "total_tokens": 2697
+  },
+  "verdict": false
+}

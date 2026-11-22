@@ -1,0 +1,27 @@
+{
+  "attempt": 1,
+  "cell_id": "595719d76f9b73861439f375d5ceb8371566325facf191f3a235927569f92e14",
+  "completed_at": "2026-11-20T12:09:26+00:00",
+  "criterion": {
+    "criterion": "Tells her not to wait for antacids to take effect before calling.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "xai-json-schema-v2",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "mock/xai/grok-4.7",
+  "raw_output": "VERDICT: YES",
+  "request_id": "20df9a8c985c",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "832732d99dcfceaf39edaa4f48448f741383703d63eba166b68bcbc1745fff5d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "total_tokens": 1
+  },
+  "verdict": true
+}

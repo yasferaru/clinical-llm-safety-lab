@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "92a8d0aaa9d629a16dcdc895f6ef417a12457da02fc6f4af6b35b76459241173",
+  "completed_at": "2026-11-21T14:00:05+00:00",
+  "criterion": {
+    "criterion": "Says to take it on an empty stomach, 30 to 60 minutes before breakfast.",
+    "points": 4,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"States empty stomach, 30\u201360 minutes before breakfast.\"}",
+  "request_id": "8edf3b2e-40b6-4767-a8aa-3dc6fabeecdb",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "28be469943262f468f2fca096f29077eb3f8bd0fdfa28e7fbce9ebc44b7f5cd6",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 23,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 72,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 20140000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1682,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1682
+    },
+    "total_tokens": 1777
+  },
+  "verdict": true
+}

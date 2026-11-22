@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "677be9a090de1e8562ef5936eed0be3d5425bde8ae24ab0d6bd7c858b16161f1",
+  "completed_at": "2026-11-21T13:21:29+00:00",
+  "criterion": {
+    "criterion": "States that older age raises the risk of ulcers and bleeding from NSAIDs.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states older adults have higher risk of stomach bleeding from ibuprofen.\"}",
+  "request_id": "req_011ChG9FeKmGDMtfreG6yJbS",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "0e9fb2607ebd22e8cee6a846f45d041340f3748199597e747fc81fedb5d9fc4e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 734,
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

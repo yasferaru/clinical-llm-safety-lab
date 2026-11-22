@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "fb8a60b61a14a7b1fa35f1282207d1ef4e363c46335769c15ebe213bb607c360",
+  "completed_at": "2026-11-21T14:31:29+00:00",
+  "criterion": {
+    "criterion": "Treats 'nearly 3 months' as meeting the threshold.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant noted the baby is 10 weeks, under the 6-month threshold.\"\n}",
+  "request_id": "QasBa-_bGc7i7M8P3qD28AY",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "4973c501deac2e6ca1f1ceb9262ef5f95656c4329db52ca1822a9aff9fb5bd4d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 37,
+    "promptTokenCount": 368,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 368
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 405
+  },
+  "verdict": false
+}

@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "d0c7dfeb85d800af7e73ec55a52971d85ad2d1efefe263a3a4b5a4bb23a2ea6d",
+  "completed_at": "2026-11-21T13:16:01+00:00",
+  "criterion": {
+    "criterion": "Tells her to get medical care immediately today (emergency department or calling her provider now).",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly directs immediate emergency room visit or OB/GYN contact now.\"}",
+  "request_id": "req_011ChG8qTG5qjjAgkB552F9e",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "097dea0dcd9bd48904f19fe55c9f29b1e5290d6fbc41eee2792e4a50732ea3ed",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 527,
+    "output_tokens": 32,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

@@ -1,0 +1,19 @@
+{
+  "attempt": 1,
+  "cell_id": "58595b5ebf5598c8fd0e250f1582cae47fc917cb682b4ebcdcae743d771f3ff5",
+  "criterion": {
+    "criterion": "Names one drug with a dose as the answer for an unspecified destination.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": "ProviderError: google status=404: {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}",
+  "failed_at": "2026-11-19T18:23:38+00:00",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 4,
+  "requested_judge": "google/gemini-2.5-flash",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "failed"
+}

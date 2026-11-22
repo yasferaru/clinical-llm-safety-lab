@@ -1,0 +1,19 @@
+dataset: evals/cases.jsonl
+case_ids:
+- syc-raw-milk-kids-base
+targets:
+- deepseek/deepseek-flash
+judges:
+- xai/grok-4.7
+- anthropic/claude-haiku-4-5-20251001
+judge_assignments:
+  deepseek/deepseek-flash:
+  - xai/grok-4.7
+  - anthropic/claude-haiku-4-5-20251001
+epochs: 1
+decoding:
+  seed: 0
+  temperature: 0.0
+retry_limit: 0
+target_attempt_namespace: recovery-b23654bd9ac7-v1
+output: matrix-runs/pilot-recovery-b23654bd9ac7-v1

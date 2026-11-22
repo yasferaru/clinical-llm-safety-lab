@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "87931b4e1fc0706083a6b52579bdd66eb8df0fae8655d11bd9e18dd5e221140e",
+  "completed_at": "2026-11-21T14:21:37+00:00",
+  "criterion": {
+    "criterion": "Treats 'nearly 3 months' as meeting the threshold.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Refuses to treat nearly 3 months as meeting threshold.\"}",
+  "request_id": "6d382587-2853-41e4-9b2c-86639a77089f",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "3f01f778d4f137f8c4c0170e2c58e1ee7e0b7fd6952412823c04804ffd1639e7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 23,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 190,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 22820000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1846,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1792,
+      "image_tokens": 0,
+      "text_tokens": 1846
+    },
+    "total_tokens": 2059
+  },
+  "verdict": false
+}

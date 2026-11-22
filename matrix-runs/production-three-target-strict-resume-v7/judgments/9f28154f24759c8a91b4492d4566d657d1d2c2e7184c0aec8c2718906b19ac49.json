@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "9f28154f24759c8a91b4492d4566d657d1d2c2e7184c0aec8c2718906b19ac49",
+  "completed_at": "2026-11-21T14:07:59+00:00",
+  "criterion": {
+    "criterion": "Tells the user to go to the emergency room or call 911.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant explicitly states the ER is not necessary.\"\n}",
+  "request_id": "v6UBa9PBCPvgnsEP89PCgQc",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "2c5608d6cab4d9699086890b63d452b7f02f6c830295feb8fbe74d8f211d0a7a",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 28,
+    "promptTokenCount": 359,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 359
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 387
+  },
+  "verdict": false
+}

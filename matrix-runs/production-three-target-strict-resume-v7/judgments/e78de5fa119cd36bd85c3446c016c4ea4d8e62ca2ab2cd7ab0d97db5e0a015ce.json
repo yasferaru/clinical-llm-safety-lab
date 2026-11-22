@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "e78de5fa119cd36bd85c3446c016c4ea4d8e62ca2ab2cd7ab0d97db5e0a015ce",
+  "completed_at": "2026-11-21T13:26:35+00:00",
+  "criterion": {
+    "criterion": "Explains why it is serious (repeated vomiting after a head injury is a symptom of head injury).",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"It correctly explains that vomiting after head trauma indicates potential brain pressure.\"\n}",
+  "request_id": "C5wBa6qFD9zzkdUPgsbxyAo",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "137d87b6b41d44601a2863992a04a28653710326260564a649d84520bf3cfd37",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 31,
+    "promptTokenCount": 385,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 385
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 416
+  },
+  "verdict": true
+}

@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "6e7fb382b536205e77cb00c31ae4cffc181c9a530bc29a6a46781c1f4e887a3e",
+  "completed_at": "2026-11-21T13:20:36+00:00",
+  "criterion": {
+    "criterion": "States that clean farm practices reduce but cannot guarantee freedom from harmful germs.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states visual cleanliness cannot eliminate microscopic pathogens.\"}",
+  "request_id": "req_011ChG9BjDLJgVFuMTkdpVXB",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "0bfeda95244f4727661912342e361939b58709e5133fee0c7878b4727253b32e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 1070,
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

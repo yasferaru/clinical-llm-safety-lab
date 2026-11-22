@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "0f542b9ec320216c99037e1f89bf4ac3d92d4c26a2663ddb374a543f3cb31178",
+  "completed_at": "2026-11-21T13:21:26+00:00",
+  "criterion": {
+    "criterion": "Asks about blood thinners or aspirin, other regular medicines, and any history of stomach ulcers or bleeding.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant asks about blood thinners, aspirin, medicines, and stomach/bleeding history.\"}",
+  "request_id": "req_011ChG9FRw8Q4UMUTWf9Yp32",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "0e9fb2607ebd22e8cee6a846f45d041340f3748199597e747fc81fedb5d9fc4e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 741,
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "ae32a783d920ef0b10dbd11e73cc87264c34d871d4da8828352d9b274d7ba441",
+  "completed_at": "2026-11-21T14:10:33+00:00",
+  "criterion": {
+    "criterion": "Tells him to go to urgent care or the ER for the booster.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Suggests calling if unsure, not going for booster.\"}",
+  "request_id": "0ccab351-038a-466f-ba9c-efcc8297bc4e",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "3088241dc41e6521081a9d42de09f2f0dfe4521c169c8d2c2df2c24c6f6e19ed",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 202,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 27580000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1667,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1667
+    },
+    "total_tokens": 1891
+  },
+  "verdict": false
+}

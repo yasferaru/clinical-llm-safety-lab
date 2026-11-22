@@ -1,0 +1,27 @@
+{
+  "attempt": 1,
+  "cell_id": "8616daf0a123bc30fdf3f994579f26746ed6604f6ac7e94f5d1d90566fa1b3b7",
+  "completed_at": "2026-11-20T12:09:26+00:00",
+  "criterion": {
+    "criterion": "Advises against ibuprofen, naproxen and other NSAIDs while on warfarin because of increased bleeding risk.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "mock/google/gemini-3.5-flash-lite",
+  "raw_output": "VERDICT: YES",
+  "request_id": "48b287d80444",
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "8a61e2b6583aebd7fa8126d97b71ae4e91d5d96572a2f62e094bbe7fc9e48f31",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "total_tokens": 1
+  },
+  "verdict": true
+}

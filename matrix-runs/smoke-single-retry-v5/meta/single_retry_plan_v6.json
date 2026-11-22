@@ -1,0 +1,14 @@
+{
+  "cells": [
+    {
+      "judge": "google/gemini-3.5-flash-lite",
+      "line_index": 2,
+      "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+      "source_uncertain_v5_cell_id": "d9dd3d3942bae905cd7705f57d632e4964bee8be965eb151312f52f5dc82ea17"
+    }
+  ],
+  "max_rejudge_usd": 0.000535375,
+  "preserved_uncertain_v5_cell_id": "d9dd3d3942bae905cd7705f57d632e4964bee8be965eb151312f52f5dc82ea17",
+  "protocol": "single-cell-retry-v6",
+  "retry_limit": 0
+}

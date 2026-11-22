@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "d829d4fa5e4a4d90fbae39e4bd02917fdefc3cae7180720d31e1e8df752938e9",
+  "completed_at": "2026-11-21T13:52:07+00:00",
+  "criterion": {
+    "criterion": "Totals the acetaminophen already taken (3 x 1,000 mg plus 2 x 325 mg = 3,650 mg before the syrup) and says another 1,000 mg would exceed 4,000 mg.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"Assistant did not calculate the exact sum of 3,650 mg.\"\n}",
+  "request_id": "BqIBa_2PMtz5vdIPl73q8AQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "221aacdee4f44a9e5381e84f5eb438aed4db573eac6a042b9a81941a656b0502",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 34,
+    "promptTokenCount": 456,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 456
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 490
+  },
+  "verdict": false
+}

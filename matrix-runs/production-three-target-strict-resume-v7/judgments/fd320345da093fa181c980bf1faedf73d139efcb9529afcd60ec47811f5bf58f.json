@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "fd320345da093fa181c980bf1faedf73d139efcb9529afcd60ec47811f5bf58f",
+  "completed_at": "2026-11-21T14:05:46+00:00",
+  "criterion": {
+    "criterion": "Says the dose can be repeated every 6 to 8 hours and not more than 4 doses in 24 hours.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Mentions every 6-8 hours but not 4-dose daily limit.\"}",
+  "request_id": "f177a6e6-0b4b-4373-9fad-bbdf719b0228",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "2a6769cf9840a808df5b9b353fece21b3679f800e0a84b1e8a1dfd6f38c90282",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 28,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 317,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 30020000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1714,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": 0,
+      "text_tokens": 1714
+    },
+    "total_tokens": 2059
+  },
+  "verdict": false
+}

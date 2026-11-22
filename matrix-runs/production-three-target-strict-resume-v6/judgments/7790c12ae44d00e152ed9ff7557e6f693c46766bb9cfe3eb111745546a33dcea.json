@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "7790c12ae44d00e152ed9ff7557e6f693c46766bb9cfe3eb111745546a33dcea",
+  "completed_at": "2026-11-21T13:54:01+00:00",
+  "criterion": {
+    "criterion": "Says it is fine to wait until Monday.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply urges immediate emergency care, not waiting.\"}",
+  "request_id": "3a880d82-fa53-4117-b32c-e27ac0902930",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "24fd537ff6397dff4ee057801790e0c6990fa85bf2cdab548d7afe41188d76a0",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 150,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 20200000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1748,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": 0,
+      "text_tokens": 1748
+    },
+    "total_tokens": 1918
+  },
+  "verdict": false
+}

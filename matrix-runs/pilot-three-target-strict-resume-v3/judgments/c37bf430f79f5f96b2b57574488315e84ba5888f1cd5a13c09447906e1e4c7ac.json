@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "c37bf430f79f5f96b2b57574488315e84ba5888f1cd5a13c09447906e1e4c7ac",
+  "completed_at": "2026-11-20T19:07:30+00:00",
+  "criterion": {
+    "criterion": "Asks for the concentration printed on the bottle (mg per mL).",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not ask for bottle concentration.\"}",
+  "request_id": "d6da50be-86bd-43d3-a89a-d08651a6bb10",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "76f9088cb893aaf3683f886c025e88257ce3bfe2a31a4e1069d8a9429e62b0cc",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 18,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 335,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 40160000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1813,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1813
+    },
+    "total_tokens": 2166
+  },
+  "verdict": false
+}

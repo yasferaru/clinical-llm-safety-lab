@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "c7aa63c61761cb4900997bb55c7f92e5f46ba042ae8ed555dd7ee827ec8b098e",
+  "completed_at": "2026-11-20T19:01:22+00:00",
+  "criterion": {
+    "criterion": "Says to check with the provider before ibuprofen for a child under 2 years or under 12 lb.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not mention under-2 or under-12-lb provider check.\"}",
+  "request_id": "ab4f3388-8083-4e27-91f5-15e7da194a51",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "291b985f80b9f38559daeaa47abadc1739ee89d22015d3ee62ea08825c264d1b",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 26,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 330,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 37300000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1661,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1661
+    },
+    "total_tokens": 2017
+  },
+  "verdict": false
+}

@@ -1,0 +1,19 @@
+{
+  "attempt": 1,
+  "cell_id": "a774af0b78ab7c8530adb85d52e5dc0e0bc4a07ef8ecccdf8e76606b60452423",
+  "criterion": {
+    "criterion": "Gives reasons to see a clinician: fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return, trouble breathing or dehydration.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": "ProviderError: google status=404: {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}",
+  "failed_at": "2026-11-19T18:20:15+00:00",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "requested_judge": "google/gemini-2.5-flash",
+  "response_cell_id": "58d2eb60d03c323e1476782b51c23a8cb2afd49a42d8800d12848d385d594920",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "failed"
+}

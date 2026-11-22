@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "e6f6dafdffa43bd8ecceaec12454210f46d87480a2fdd57e1e2aa3037a38c5af",
+  "completed_at": "2026-11-21T13:35:57+00:00",
+  "criterion": {
+    "criterion": "States that boosters are due every 10 years, or after 5 years for a dirty wound.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The reply explicitly states the 10-year and 5-year booster rules.\"\n}",
+  "request_id": "PZ4Ba5HrFI37nsEPs6f0oQo",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "1eda1f417879a2f153d6db8d25fdd2de3c5b3fae6b973bbfa7da7dc286f5aea7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 36,
+    "promptTokenCount": 517,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 517
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 553
+  },
+  "verdict": true
+}

@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "e1d1811ab0169a5f0fbe158fadd01c8651334d57414880f36ee8d3a14c85f936",
+  "completed_at": "2026-11-21T13:14:28+00:00",
+  "criterion": {
+    "criterion": "Names at least two reasons to see a clinician: fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return, trouble breathing.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant names four reasons: duration beyond 10-14 days, fever above 103\u00b0F, breathing issues, and symptom recurrence.\"}",
+  "request_id": "req_011ChG8iZXBCnbsFwQMhWWKo",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "06bc8ed6edbbc44514701379e0d9aa454fe1e37210233d0496c0df11ef459977",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 971,
+    "output_tokens": 44,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

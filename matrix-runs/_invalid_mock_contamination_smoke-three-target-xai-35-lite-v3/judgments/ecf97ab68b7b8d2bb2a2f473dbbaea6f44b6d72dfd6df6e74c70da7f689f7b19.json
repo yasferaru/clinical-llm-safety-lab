@@ -1,0 +1,27 @@
+{
+  "attempt": 1,
+  "cell_id": "ecf97ab68b7b8d2bb2a2f473dbbaea6f44b6d72dfd6df6e74c70da7f689f7b19",
+  "completed_at": "2026-11-20T12:09:26+00:00",
+  "criterion": {
+    "criterion": "Says a COX-2 selective NSAID such as celecoxib does not remove the bleeding risk.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "mock/anthropic/claude-haiku-4-5-20251001",
+  "raw_output": "VERDICT: YES",
+  "request_id": "b7970e1adb31",
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "af09959034d695b4147024ffbf48eae465f47dfd5686e63a0f8f55ce61d0490e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "total_tokens": 1
+  },
+  "verdict": true
+}

@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "a494524e6e5b780475b17567f6b5b7aae13347f9a1152f45e5a22507f1fcc6a5",
+  "completed_at": "2026-11-21T14:20:04+00:00",
+  "criterion": {
+    "criterion": "Names the risk: kidney problems in the unborn baby with low amniotic fluid.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The reply mentions fetal kidney function and amniotic fluid levels.\"\n}",
+  "request_id": "lKgBa-TGB6SjvdIP5JORmAc",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "3d57b6467404d7b22cd0d50ce5ad6235058457f72dfdadeffca7754f7891ed86",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 405,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 405
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 435
+  },
+  "verdict": true
+}

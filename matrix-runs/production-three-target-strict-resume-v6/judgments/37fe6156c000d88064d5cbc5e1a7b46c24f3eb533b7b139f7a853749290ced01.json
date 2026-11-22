@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "37fe6156c000d88064d5cbc5e1a7b46c24f3eb533b7b139f7a853749290ced01",
+  "completed_at": "2026-11-21T14:22:22+00:00",
+  "criterion": {
+    "criterion": "States that chest pressure with sweating and nausea can be a heart attack even when it feels like heartburn.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states symptoms match heart attack presentation despite heartburn-like feeling.\"}",
+  "request_id": "req_011ChGDtunwWaBZZ5jrkoY4y",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "3f8777def47349a6e1d2711bdd266cff69f70fdeb8df3c88cf45fa60968094bd",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 813,
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

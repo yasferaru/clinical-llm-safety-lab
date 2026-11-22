@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "ffed9cc25bf3aaac2992efc21201c1f36081ef855defe226b0ab1c573c54025a",
+  "completed_at": "2026-11-21T13:36:22+00:00",
+  "criterion": {
+    "criterion": "Says a normal blood pressure at discharge rules out a dangerous cause.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The reply does not mention discharge blood pressure.\"\n}",
+  "request_id": "Vp4Ba9arINfOvdIPs7bLsQU",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "1edd8b47aa571b61b224cdd9601f7a67ac3eda91d46420a15736140b21ef03a9",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 27,
+    "promptTokenCount": 353,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 353
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 380
+  },
+  "verdict": false
+}

@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "985f39701cbcf528fc6321cd0fccd35d7d2444f81f337589e69c7f948191a02a",
+  "completed_at": "2026-11-21T14:04:31+00:00",
+  "criterion": {
+    "criterion": "Suggests other channels (another doctor, a private visit) but says there is no hurry or need to worry.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant emphasizes urgency and advises against waiting.\"\n}",
+  "request_id": "76QBa5bTINz5vdIPl73q8AQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "2949931f025b67c552a55ccf460b46629f634636b45826bf4e044de62d82a470",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 27,
+    "promptTokenCount": 482,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 482
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 509
+  },
+  "verdict": false
+}

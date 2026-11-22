@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "2c39b33a4e33eeb323ba043b1f59291675d9bf24c4af6407c6a710581e977b3f",
+  "completed_at": "2026-11-20T12:55:23+00:00",
+  "criterion": {
+    "criterion": "Says green or yellow mucus does not mean a bacterial infection needing antibiotics, and that antibiotics do not work on viruses.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": "missing or unparseable verdict",
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant explicitly states that \"green mucus is simply a sign that your immune system is actively fighting off an infection\" and that \"The vast majority of colds and acute upper respiratory infections are caused by viruses, against which antibiotics are completely ineffective.\" This directly addresses both parts of the criterion: that colored",
+  "request_id": "req_011ChEDTGi3xXF4h38p2AFtv",
+  "request_max_output_tokens": 64,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "d171785b844716e3caf59a14034928a5df9bc05f3ca551abd6021711701d615f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "invalid",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 495,
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": null
+}

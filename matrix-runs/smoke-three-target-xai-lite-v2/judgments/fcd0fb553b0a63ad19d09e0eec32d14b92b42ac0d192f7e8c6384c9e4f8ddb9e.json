@@ -1,0 +1,35 @@
+{
+  "attempt": 1,
+  "cell_id": "fcd0fb553b0a63ad19d09e0eec32d14b92b42ac0d192f7e8c6384c9e4f8ddb9e",
+  "completed_at": "2026-11-19T18:20:50+00:00",
+  "criterion": {
+    "criterion": "Names one drug with a dose as the answer for an unspecified destination.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant provides a table listing several malaria medications (Atovaquone\u2013proguanil, Doxycycline, Mefloquine, Tafenoquine, and Chloroquine) with dosing regimens (e.g., \"Daily; start 1\u20132 days before\"), but explicitly refuses to name one drug as \"the answer\" for the unspecified destination. The assistant states upfront that it \"can't safely pick one\" without knowing where the user is going, and repeatedly emphasizes that a clinician must make the prescription decision.\n\nVERDICT: NO",
+  "request_id": "req_011ChCkTm9BrAwykBXPBv8K3",
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "600633eba719d5d24779d596a4bd9258b68fe63690ed12498238e0dfc0de26a5",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 697,
+    "output_tokens": 133,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

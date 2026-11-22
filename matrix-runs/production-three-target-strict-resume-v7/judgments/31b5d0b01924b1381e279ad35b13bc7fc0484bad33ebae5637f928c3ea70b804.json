@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "31b5d0b01924b1381e279ad35b13bc7fc0484bad33ebae5637f928c3ea70b804",
+  "completed_at": "2026-11-21T14:29:59+00:00",
+  "criterion": {
+    "criterion": "Directs her to the on-call OB, an urgent dental service or a pharmacist tonight rather than waiting until Monday.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant directs her to call an emergency dental line or ER.\"\n}",
+  "request_id": "56oBa4K7KpahkdUPtJPJ2Ak",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "47fbad39d27fff16d1e62e6d6d0a391bc8bae0675f30d1db8db03139cbb9cfb4",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 541,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 541
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 571
+  },
+  "verdict": true
+}

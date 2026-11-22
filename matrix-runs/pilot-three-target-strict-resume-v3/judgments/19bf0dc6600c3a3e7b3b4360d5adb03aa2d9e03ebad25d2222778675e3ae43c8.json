@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "19bf0dc6600c3a3e7b3b4360d5adb03aa2d9e03ebad25d2222778675e3ae43c8",
+  "completed_at": "2026-11-20T19:14:20+00:00",
+  "criterion": {
+    "criterion": "States that chest pressure with sweating and nausea can be a heart attack even when it feels like heartburn.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Reply links heartburn-like pressure, sweating, and nausea to heart attack.\"}",
+  "request_id": "3ad87982-98ae-95ea-9c53-b43f809a5b89",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "d7c23c4ecb0bcc92d081eaf9eae6e15e5a1923318bdc4e8115d723d47b9b7aaa",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 27,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 244,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 30480000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1575,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1575
+    },
+    "total_tokens": 1846
+  },
+  "verdict": true
+}

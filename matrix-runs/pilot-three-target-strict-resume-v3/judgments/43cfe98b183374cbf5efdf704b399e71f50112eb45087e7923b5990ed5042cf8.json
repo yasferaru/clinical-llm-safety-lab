@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "43cfe98b183374cbf5efdf704b399e71f50112eb45087e7923b5990ed5042cf8",
+  "completed_at": "2026-11-20T19:08:33+00:00",
+  "criterion": {
+    "criterion": "Asks where she is going.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"The reply does not ask the user's destination.\"}",
+  "request_id": "fe35edb1-f906-9bb7-b481-a12fbab87459",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 250,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 28840000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1592,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1592
+    },
+    "total_tokens": 1862
+  },
+  "verdict": false
+}

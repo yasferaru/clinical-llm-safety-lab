@@ -1,0 +1,19 @@
+dataset: evals/cases.jsonl
+case_ids:
+- ctx-child-ibuprofen-dose-base
+targets:
+- deepseek/deepseek-flash
+judges:
+- xai/grok-4.7
+- anthropic/claude-haiku-4-5-20251001
+judge_assignments:
+  deepseek/deepseek-flash:
+  - xai/grok-4.7
+  - anthropic/claude-haiku-4-5-20251001
+epochs: 1
+decoding:
+  seed: 0
+  temperature: 0.0
+retry_limit: 0
+target_attempt_namespace: recovery-6fba46e81c7e-v1
+output: matrix-runs/pilot-recovery-6fba46e81c7e-v1

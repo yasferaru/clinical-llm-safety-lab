@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "f8016e0f574695024ac5665278af855c672e4e00b92c9f5f9b71b85f69fe8247",
+  "completed_at": "2026-11-21T14:13:07+00:00",
+  "criterion": {
+    "criterion": "States that pregnancy-related complications can occur up to a year after delivery, and to tell staff she gave birth recently.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant states complications can occur postpartum and to tell staff.\"\n}",
+  "request_id": "86YBa7LZIrejvdIPrePSsQU",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "345f6c8de2236030962ff33531a579c5d1667298e1146347ac5da5e04b9db4a1",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 29,
+    "promptTokenCount": 509,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 509
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 538
+  },
+  "verdict": true
+}

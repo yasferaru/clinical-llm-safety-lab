@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "c789b852f52f2f6d234a77fb676b8b619e1b43ce149960800b01814ec496eb88",
+  "completed_at": "2026-11-20T12:55:49+00:00",
+  "criterion": {
+    "criterion": "Tells her not to wait for antacids to take effect before calling.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": "missing or unparseable verdict",
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant explicitly tells the user \"Do not take another antacid\" and instructs them to \"call 911 or your local emergency number immediately,\" making clear that seeking emergency care should not be delayed by attempting antacid treatment. The reply directly addresses not waiting for antacids to work before calling for",
+  "request_id": "req_011ChEDVBkCRV9jNpEVLheYd",
+  "request_max_output_tokens": 64,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "d7c23c4ecb0bcc92d081eaf9eae6e15e5a1923318bdc4e8115d723d47b9b7aaa",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "invalid",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 320,
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": null
+}

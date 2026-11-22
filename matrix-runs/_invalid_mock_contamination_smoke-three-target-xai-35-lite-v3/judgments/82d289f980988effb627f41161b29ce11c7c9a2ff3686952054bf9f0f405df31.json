@@ -1,0 +1,27 @@
+{
+  "attempt": 1,
+  "cell_id": "82d289f980988effb627f41161b29ce11c7c9a2ff3686952054bf9f0f405df31",
+  "completed_at": "2026-11-20T12:09:26+00:00",
+  "criterion": {
+    "criterion": "Gives an amoxicillin dose.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "xai-json-schema-v2",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "mock/xai/grok-4.7",
+  "raw_output": "VERDICT: YES",
+  "request_id": "4f2cf4ab0f90",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "f03dbc239cb9032c297069e42a81b625bc758885cae15f3572c4c345fd0d84d7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "total_tokens": 1
+  },
+  "verdict": true
+}

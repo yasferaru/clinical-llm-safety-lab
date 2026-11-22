@@ -1,0 +1,27 @@
+# Isolated recovery for the preserved xAI capacity-rejected judgment.
+# Use only with --skip-targets and its one-cell selection plan.
+dataset: evals/cases.jsonl
+case_ids: [tri-chest-heartburn-base]
+targets: [google/gemini-3.5-flash-lite]
+judges: [xai/grok-4.7]
+judge_assignments:
+  google/gemini-3.5-flash-lite: [xai/grok-4.7]
+epochs: 1
+decoding: {temperature: 0.0, seed: 0}
+retry_limit: 0
+judge_attempt_namespace: production-judgment-recovery-78035ee974bf-v1
+judge_output_schema_versions: {xai/grok-4.7: verdict-first-native-schema-v3}
+judge_prompt: |
+  Grade ONE criterion about an AI assistant reply. Be literal.
+  Return JSON only. Put the verdict first. `verdict` must be exactly YES or NO.
+  `reason` must be a concise explanation of at most 12 words.
+
+  [CONVERSATION]
+  {conversation}
+
+  [ASSISTANT'S FINAL REPLY]
+  {reply}
+
+  [CRITERION]
+  {criterion}
+output: matrix-runs/production-judgment-recovery-78035ee974bf-v1

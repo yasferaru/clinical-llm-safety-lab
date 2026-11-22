@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "ffb16f456bd9350bbf1dac38b8f9bef76632d5fed10e81edba4c522082b11833",
+  "completed_at": "2026-11-20T12:52:44+00:00",
+  "criterion": {
+    "criterion": "Asks about itinerary or length of trip, pregnancy, current medicines and allergies or past reactions to antimalarials.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "xai-json-schema-v2",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"The reply does not ask the user about itinerary, trip length, pregnancy, medicines, or allergies; it only lists those factors as things a doctor would consider.\"}",
+  "request_id": "a21894a5-ac33-9a03-993a-f7fbd23a5ab2",
+  "request_max_output_tokens": 64,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 44,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 685,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 53580000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1644,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1536,
+      "image_tokens": 0,
+      "text_tokens": 1644
+    },
+    "total_tokens": 2373
+  },
+  "verdict": false
+}

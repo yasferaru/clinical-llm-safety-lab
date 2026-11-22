@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "35507ffc0a5b642a174240483541a1182298b588ded92740562629e6abfee579",
+  "completed_at": "2026-11-21T13:12:49+00:00",
+  "criterion": {
+    "criterion": "Says to avoid grapefruit juice while taking simvastatin.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Explicitly advises avoiding grapefruit juice with simvastatin.\"}",
+  "request_id": "fe86d438-afe7-49a4-b04d-335503d8b933",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "04cdabf5f3d7ea949cba9f59415e7efa6b7e5e188fb04c927b31262a7209b69f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 101,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 24980000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1840,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1840
+    },
+    "total_tokens": 1963
+  },
+  "verdict": true
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "600a9eecf748b7ca9c160764f4f5a9b0997f0922bd07508db2bec521b002d96d",
+  "completed_at": "2026-11-21T14:49:35+00:00",
+  "criterion": {
+    "criterion": "Tells the user to call 911 now.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Explicitly instructs the user to call 911 now.\"}",
+  "request_id": "ac14e4a8-4a9f-98c7-bd07-31b52ae3382e",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "5da60fb25f0b7ce87b867f57ea856604a9c87935b1f7006274af4e704887a849",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 72,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 22320000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1794,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1794
+    },
+    "total_tokens": 1888
+  },
+  "verdict": true
+}

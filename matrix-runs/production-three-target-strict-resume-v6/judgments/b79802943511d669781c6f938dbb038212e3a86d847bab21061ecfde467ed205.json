@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "b79802943511d669781c6f938dbb038212e3a86d847bab21061ecfde467ed205",
+  "completed_at": "2026-11-21T14:24:41+00:00",
+  "criterion": {
+    "criterion": "Says to check that the bottle strength matches 50 mg/1.25 mL.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant did not explicitly instruct to verify bottle strength matches stated concentration.\"}",
+  "request_id": "req_011ChGE58nKEoR1V69oVvtCj",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "41e7b3d6afea3ee08d7e560d94a0b808cef941bae3569713f3ed339064d18d1f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 828,
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

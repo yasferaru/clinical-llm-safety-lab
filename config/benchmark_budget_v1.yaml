@@ -1,0 +1,62 @@
+version: benchmark-budget-v6-gemini-35-flash-lite-provisional
+budget:
+  ceiling_usd: 25.00
+  stop_usd: 20.00
+  reserve_usd: 5.00
+  stage_limits_usd: {smoke: 0.60, pilot: 2.50, production: 16.00}
+  pilot_contingency_usd: 1.00  # not reservable or spendable without a new owner approval
+  ledger_path: matrix-runs/smoke_budget_ledger.json  # shared across smoke retry/config revisions
+dataset: {path: evals/cases.jsonl, sha256: 268f8ce0c9a80447d4102aad946b63ce692fa4eaba8e47e33094d740c914a8c4}
+epochs: 3
+targets:
+  - {id: anthropic/claude-haiku-4-5-20251001, family: anthropic, provider: anthropic, kind: proprietary}
+  # Provisional replacement after Gemini 2.5 Flash-Lite returned account-level 404.
+  # Requires one separately authorized generation-access probe before any smoke resume.
+  - {id: google/gemini-3.5-flash-lite, family: google, provider: google, kind: proprietary, availability: generation_access_required}
+  # Official current API alias; provider-reported version must be persisted per call.
+  - {id: deepseek/deepseek-flash, family: deepseek, provider: deepseek, kind: open_weight}
+judges:
+  - {id: xai/grok-4.7, family: xai, provider: xai}
+  - {id: google/gemini-3.5-flash-lite, family: google, provider: google}
+  - {id: anthropic/claude-haiku-4-5-20251001, family: anthropic, provider: anthropic}
+judge_assignments:
+  anthropic/claude-haiku-4-5-20251001: [xai/grok-4.7, google/gemini-3.5-flash-lite]
+  google/gemini-3.5-flash-lite: [xai/grok-4.7, anthropic/claude-haiku-4-5-20251001]
+  deepseek/deepseek-flash: [xai/grok-4.7, anthropic/claude-haiku-4-5-20251001]
+pricing_usd_per_million_tokens:
+  anthropic/claude-haiku-4-5-20251001: {input: 1.00, output: 5.00, verified_on: '2026-11-19'}
+  # Standard paid pricing; output price includes thinking tokens where billed.
+  # Source: https://ai.google.dev/gemini-api/docs/pricing (checked 2026-11-20).
+  google/gemini-3.5-flash-lite: {input: 0.30, output: 2.50, verified_on: '2026-11-20'}
+  # Conservative peak, cache-miss rate; off-peak is lower. No tools/search permitted.
+  deepseek/deepseek-flash: {input: 0.30, output: 1.20, verified_on: '2026-11-19'}
+  xai/grok-4.7: {input: 2.00, output: 6.00, verified_on: '2026-11-19'}
+request_limits:
+  # Google bills thinking tokens as output. Target cap is high enough for a clinical
+  # reply while remaining inside the smoke reservation; judges need only a tiny JSON object.
+  target_max_output_tokens: 1024
+  judge_max_output_tokens: 128
+  judge_max_output_tokens_by_provider: {anthropic: 128, google: 128, xai: 128}
+provider_execution_policy:
+  # Automatic retries are disabled until separately authorized. HTTP 429/503 can
+  # use bounded retries only when max_retries is explicitly raised in an approved config.
+  google: {connect_timeout_s: 10, read_timeout_s: 90, write_timeout_s: 30, pool_timeout_s: 30, min_interval_s: 4.1, max_retries: 0, circuit_breaker_failures: 3, circuit_breaker_cooldown_s: 90}
+  xai: {connect_timeout_s: 10, read_timeout_s: 120, write_timeout_s: 30, pool_timeout_s: 30, min_interval_s: 0.25, max_retries: 2, backoff_schedule_s: [30, 90], circuit_breaker_failures: 3, circuit_breaker_cooldown_s: 720}
+  anthropic: {connect_timeout_s: 10, read_timeout_s: 90, write_timeout_s: 30, pool_timeout_s: 30, min_interval_s: 0.1, max_retries: 0, circuit_breaker_failures: 3, circuit_breaker_cooldown_s: 90}
+  deepseek: {connect_timeout_s: 10, read_timeout_s: 120, write_timeout_s: 30, pool_timeout_s: 30, min_interval_s: 0.2, max_retries: 0, circuit_breaker_failures: 3, circuit_breaker_cooldown_s: 120}
+token_assumptions:
+  target_input_per_call: 200
+  target_output_per_call: 1024
+  judge_input_per_call: 600
+  judge_output_per_call: 64
+  retry_multiplier_low_base_high: [1.00, 1.10, 1.25]
+  # Current smoke retry_limit=1: reserve initial request plus one retry.
+  live_retry_reserve_multiplier: 2.00
+cost_calibration:
+  # Derived from the 99 newly executed v3 cells. Applied to future judge forecasts
+  # before retry reservation; xAI's value includes provider-reported reasoning billing.
+  safety_margin: 1.25
+  observed_judge_usd_per_call:
+    xai/grok-4.7: 0.0040994035
+    google/gemini-3.5-flash-lite: 0.0002461105
+    anthropic/claude-haiku-4-5-20251001: 0.0008768947

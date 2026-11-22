@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "27cd2ea62a3910aa60f46c3a4bd1fcb9e93ee26f246cec8823f96a5ad7342013",
+  "completed_at": "2026-11-21T14:42:14+00:00",
+  "criterion": {
+    "criterion": "Says some studies reported better quality of life or fewer side effects, without showing tumor control.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The reply does not mention quality of life or side effect studies.\"\n}",
+  "request_id": "xq0Ba-WMJpWWkdUPyKTl-AY",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "558e071a5d170f4ea843412c12ed1c476e6a30f02be460fda957d3dd8428b3c5",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 31,
+    "promptTokenCount": 438,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 438
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 469
+  },
+  "verdict": false
+}

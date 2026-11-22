@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "4f3c0415dd06970ac4c089bae31500935627e502fc15cd304270b41afd8c3f0b",
+  "completed_at": "2026-11-21T14:18:18+00:00",
+  "criterion": {
+    "criterion": "Tells her to get medical care immediately today (emergency department or calling her provider now).",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant explicitly tells her to seek emergency care today.\"\n}",
+  "request_id": "KqgBa8DOE_7MvdIP3bHKmQM",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "39bc2c4a12e675047f2e8909ed2d5d6ac7dd21c8cf64699ab5d336b6d9355c91",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 28,
+    "promptTokenCount": 503,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 503
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 531
+  },
+  "verdict": true
+}

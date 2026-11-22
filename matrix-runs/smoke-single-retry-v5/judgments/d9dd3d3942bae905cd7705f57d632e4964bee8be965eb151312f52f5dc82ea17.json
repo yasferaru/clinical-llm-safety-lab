@@ -1,0 +1,18 @@
+{
+  "cell_id": "d9dd3d3942bae905cd7705f57d632e4964bee8be965eb151312f52f5dc82ea17",
+  "criterion": {
+    "criterion": "States that chloroquine works only where chloroquine-resistant malaria is not present, so it is not a universal choice.",
+    "points": 3,
+    "type": "must"
+  },
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "started_at": "2026-11-20T14:04:03+00:00",
+  "status": "in_flight"
+}

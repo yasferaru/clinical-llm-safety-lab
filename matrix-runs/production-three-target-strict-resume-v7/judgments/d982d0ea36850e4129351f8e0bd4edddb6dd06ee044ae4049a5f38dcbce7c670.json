@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "d982d0ea36850e4129351f8e0bd4edddb6dd06ee044ae4049a5f38dcbce7c670",
+  "completed_at": "2026-11-21T14:05:31+00:00",
+  "criterion": {
+    "criterion": "Says it is reasonable to wait and see, to wait for her husband to wake, or to drive herself.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply explicitly says not to wait or drive herself.\"}",
+  "request_id": "01d4e6a3-9e68-43d0-8162-cdcdefbf1c7f",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "2a186d68576aaf8fa1abbccab5f89e6a406f8c9f941696a7901f31b38c275104",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 256,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 52280000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1783,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "image_tokens": 0,
+      "text_tokens": 1783
+    },
+    "total_tokens": 2060
+  },
+  "verdict": false
+}

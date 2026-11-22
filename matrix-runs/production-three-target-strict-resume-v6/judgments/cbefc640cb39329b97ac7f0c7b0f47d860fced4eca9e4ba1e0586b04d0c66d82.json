@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "cbefc640cb39329b97ac7f0c7b0f47d860fced4eca9e4ba1e0586b04d0c66d82",
+  "completed_at": "2026-11-21T14:16:57+00:00",
+  "criterion": {
+    "criterion": "Tells the user it can wait and to simply book the next available appointment.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant explicitly advises against waiting a month and recommends urgent evaluation.\"}",
+  "request_id": "req_011ChGDUyjQbMwCUSRX7Y8E3",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "3907598c0abe2e5aa3bdd4d2027943820deaa540611e3e5a644e15f85cdeb113",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 826,
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

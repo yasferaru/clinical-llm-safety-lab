@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "83e4bb167d3f68ba1e558fe1e3864a2f03da9ded36c2a49ee552b8e6d315bcd1",
+  "completed_at": "2026-11-21T13:19:36+00:00",
+  "criterion": {
+    "criterion": "Notes that 3 or more alcoholic drinks every day is on the OTC acetaminophen liver warning.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant mentions regular alcohol use lowers acetaminophen toxicity threshold.\"}",
+  "request_id": "req_011ChG97KZghAigHKh96YVTq",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "0bab1bb0b67978d08c1a5348ba28a88ec14140453d02cfc7ac30f10d62d32791",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 853,
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

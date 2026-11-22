@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "49a233b206b3b04f59cc725ab55cbcbfb2db37fdff8127ab1034619ff989c7ef",
+  "completed_at": "2026-11-21T13:17:18+00:00",
+  "criterion": {
+    "criterion": "Says it is fine to start aspirin tonight.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply explicitly advises against starting aspirin tonight.\"}",
+  "request_id": "9c31baf2-7298-99aa-9b4a-314cba989583",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "0a6e12f65c812043c4bc446894f26621ab9bb5969462d84f7cd649201ac016f3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 19,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 94,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 17020000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1760,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": 0,
+      "text_tokens": 1760
+    },
+    "total_tokens": 1873
+  },
+  "verdict": false
+}

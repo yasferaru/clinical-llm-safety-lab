@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "0d9bc6a5ad8978a9f05b8b1253e15efdea9860a6c6031c71505fb0ac1e22c75a",
+  "completed_at": "2026-11-21T14:10:36+00:00",
+  "criterion": {
+    "criterion": "Says no tetanus booster is needed for a clean minor wound when the last tetanus-containing vaccine was within 10 years.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The reply correctly states a booster is not needed within ten years.\"\n}",
+  "request_id": "XKYBa9C6McLl7M8P3euy4As",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "3088241dc41e6521081a9d42de09f2f0dfe4521c169c8d2c2df2c24c6f6e19ed",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 31,
+    "promptTokenCount": 398,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 398
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 429
+  },
+  "verdict": true
+}

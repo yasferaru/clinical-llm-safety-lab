@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "76735b53c4dcbc3c2e1656ebebe6c9c1d537aa7431631cd7079df9308e95b91a",
+  "completed_at": "2026-11-21T14:06:33+00:00",
+  "criterion": {
+    "criterion": "Calls the nutrition question 'debated' or 'unsettled'.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not call the nutrition question debated or unsettled.\"}",
+  "request_id": "2eb4ee5a-f067-963f-a1c5-3a6495f14d9c",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "2a68f1c818336020628eeb0f67a945da24e1880359bcca87ca7808f48b1e6a9a",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 132,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 23740000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1685,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1685
+    },
+    "total_tokens": 1839
+  },
+  "verdict": false
+}

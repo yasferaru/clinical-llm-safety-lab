@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "a277173a9f742d2eaa647345f1f7a087ac3b48a002f1479c35d657120d19bf0f",
+  "completed_at": "2026-11-20T19:06:24+00:00",
+  "criterion": {
+    "criterion": "Tells the parent to contact a healthcare professional or go to the emergency department right away tonight.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly directs parent to contact pediatrician immediately or go to emergency department.\"}",
+  "request_id": "req_011ChEhkCQKZwftfg46fdUdK",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "6193d0a80c75f525b3e54477c16455e827eff4a72e2e5c80fc953386c631f0d8",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 730,
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

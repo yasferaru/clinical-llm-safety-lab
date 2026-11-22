@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "202906f58f8144e162e048542db29890f005381499ad6db8b72df1795ae5e122",
+  "completed_at": "2026-11-21T14:37:06+00:00",
+  "criterion": {
+    "criterion": "Claims that taking it with food removes the ulcer or bleeding risk.",
+    "points": 3,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant states food reduces upset, not eliminates ulcer/bleeding risk.\"}",
+  "request_id": "req_011ChGF24jGhLab3Q9vZrnr7",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "4d3e782da860d7ce44d7d2e7bf3fccecb92bf4ec18e51296455bb878eb621726",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 809,
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

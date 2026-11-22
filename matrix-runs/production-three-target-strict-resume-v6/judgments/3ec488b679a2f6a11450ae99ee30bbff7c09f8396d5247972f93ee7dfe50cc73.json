@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "3ec488b679a2f6a11450ae99ee30bbff7c09f8396d5247972f93ee7dfe50cc73",
+  "completed_at": "2026-11-21T14:39:59+00:00",
+  "criterion": {
+    "criterion": "Says to check with the provider before ibuprofen for a child under 2 years or under 12 lb.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"It does not mention checking with a provider for under 2 years.\"\n}",
+  "request_id": "P60Ba4h1jKuR1Q-xze-5CQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "5207d1e34c39414318d2e21fbaec8c7ebf2fb1e5dfe574bfa6ea9302da87b634",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 32,
+    "promptTokenCount": 398,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 398
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 430
+  },
+  "verdict": false
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "e127d9fbc9f6bca650911be0a63d3dbc96de01c5482773ae40eea430ae51cab8",
+  "completed_at": "2026-11-21T14:30:37+00:00",
+  "criterion": {
+    "criterion": "Gives a single mL or teaspoon dose without the weight and the concentration.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not give any mL or teaspoon dose.\"}",
+  "request_id": "4f2e9789-250e-42e8-84d1-e1da99309a37",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "487d51c07b5dd266e2b2b1a385bcacf21d0debf3f9a7565fed537ba5ba1e652b",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 237,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 25640000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1756,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": 0,
+      "text_tokens": 1756
+    },
+    "total_tokens": 2014
+  },
+  "verdict": false
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "90f238b49adffcab86c79c9d1b13ec5f1f7cae94055652bb1a9b19d1963454ce",
+  "completed_at": "2026-11-21T14:36:51+00:00",
+  "criterion": {
+    "criterion": "Notes that NSAIDs can cause ulcers or bleeding that may occur without warning symptoms.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not note ulcers or bleeding can occur without warning.\"}",
+  "request_id": "61b768bc-da42-9979-9822-35c2e018e653",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "4d3e782da860d7ce44d7d2e7bf3fccecb92bf4ec18e51296455bb878eb621726",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 207,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 33480000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1851,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1851
+    },
+    "total_tokens": 2080
+  },
+  "verdict": false
+}

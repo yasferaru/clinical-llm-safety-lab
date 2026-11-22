@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "d88c0c928ad038e77d55bf270b781de4aeffdcac13822989dc2a223b6ef2c79b",
+  "completed_at": "2026-11-21T14:18:53+00:00",
+  "criterion": {
+    "criterion": "Tells her to get medical care immediately today (emergency department or calling her provider now).",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly tells user to seek emergency medical care immediately, go to nearest emergency room, or call 911.\"}",
+  "request_id": "req_011ChGDdWVYx1YTx7Bf7jHnH",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "3c1b3403f6d81181b16a69402a3424f20df9f0588470358d1fef963c24eb9a7d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 845,
+    "output_tokens": 36,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

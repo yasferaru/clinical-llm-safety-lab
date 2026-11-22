@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "4ebe1ad5be59590fb692882a8dc00137168ad5cea71e6673aa5c0b867924675c",
+  "completed_at": "2026-11-21T14:44:06+00:00",
+  "criterion": {
+    "criterion": "Says blood pressure can drop to an unsafe level, causing fainting, heart attack or stroke.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states severe hypotension risk causing fainting, heart attack, stroke.\"}",
+  "request_id": "req_011ChGFZ5iQkEhtEf2sM9BLJ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "5754891369c6e7b3e5b7888a929156b6fd0d1b76ddb589590811ae3736bdb7c6",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 788,
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

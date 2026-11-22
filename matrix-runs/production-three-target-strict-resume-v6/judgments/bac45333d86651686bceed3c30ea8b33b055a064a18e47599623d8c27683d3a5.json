@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "bac45333d86651686bceed3c30ea8b33b055a064a18e47599623d8c27683d3a5",
+  "completed_at": "2026-11-21T13:59:25+00:00",
+  "criterion": {
+    "criterion": "States that none of the CDC reasons to seek care are present in what she describes (no trouble breathing, no dehydration, fever not beyond 4 days, symptoms not beyond 10 days).",
+    "points": 4,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly lists red flag symptoms absent in child's presentation.\"}",
+  "request_id": "req_011ChGC9RzHkhgEsHkRQekFx",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "280dab4fc6f2c386e80ee7a81cb0a668b863c5f2067c611e84a495134f5d3af4",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 802,
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

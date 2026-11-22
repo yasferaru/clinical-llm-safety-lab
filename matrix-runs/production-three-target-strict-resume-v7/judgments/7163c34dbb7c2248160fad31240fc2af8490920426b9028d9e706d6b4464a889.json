@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "7163c34dbb7c2248160fad31240fc2af8490920426b9028d9e706d6b4464a889",
+  "completed_at": "2026-11-21T13:35:03+00:00",
+  "criterion": {
+    "criterion": "States that IV vitamin C is not FDA-approved as a cancer treatment and that evidence does not show it cures cancer.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant did not mention FDA approval in this reply.\"\n}",
+  "request_id": "B54Ba8_nGsz_vdIPyO2B0QQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "1d11db18a6a0de10e7e01202ea213d7b260fc1ac86c139fc1eca3234da8232bd",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 29,
+    "promptTokenCount": 579,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 579
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 608
+  },
+  "verdict": false
+}

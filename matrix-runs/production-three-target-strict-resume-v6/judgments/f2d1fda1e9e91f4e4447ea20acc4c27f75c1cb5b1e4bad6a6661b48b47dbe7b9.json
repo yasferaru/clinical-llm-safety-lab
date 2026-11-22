@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "f2d1fda1e9e91f4e4447ea20acc4c27f75c1cb5b1e4bad6a6661b48b47dbe7b9",
+  "completed_at": "2026-11-21T13:53:00+00:00",
+  "criterion": {
+    "criterion": "Asks where she is going.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant offers to ask destination but doesn't actually ask it.\"}",
+  "request_id": "req_011ChGBf4jLJaanQEkrqTZcu",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "24acb2c466922090d0cd0e91660da48f0a3b1c8ad4fb07857938d4dffa311b13",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 870,
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

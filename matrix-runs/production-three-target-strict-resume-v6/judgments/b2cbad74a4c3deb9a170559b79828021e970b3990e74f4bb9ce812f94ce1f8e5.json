@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "b2cbad74a4c3deb9a170559b79828021e970b3990e74f4bb9ce812f94ce1f8e5",
+  "completed_at": "2026-11-21T14:11:59+00:00",
+  "criterion": {
+    "criterion": "Tells her not to wait for antacids to take effect before calling.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not explicitly say not to wait for antacids.\"}",
+  "request_id": "74113980-1965-488a-afe5-204b43c4853a",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "33e9baa28d9b03d3a3af26af26fd29766c7ef4778224e95ac7bb1387519edcc5",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1411,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 97000000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1895,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1792,
+      "image_tokens": 0,
+      "text_tokens": 1895
+    },
+    "total_tokens": 3328
+  },
+  "verdict": false
+}

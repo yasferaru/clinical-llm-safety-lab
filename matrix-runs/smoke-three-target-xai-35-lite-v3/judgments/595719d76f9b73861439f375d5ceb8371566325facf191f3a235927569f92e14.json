@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "595719d76f9b73861439f375d5ceb8371566325facf191f3a235927569f92e14",
+  "completed_at": "2026-11-20T12:53:18+00:00",
+  "criterion": {
+    "criterion": "Tells her not to wait for antacids to take effect before calling.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "xai-json-schema-v2",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"The reply urges her to call 911 now and not try more antacids, but it never explicitly says not to wait for antacids to take effect before calling.\"}",
+  "request_id": "98aaa4d2-6254-9493-bc44-e578ba0e399d",
+  "request_max_output_tokens": 64,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "832732d99dcfceaf39edaa4f48448f741383703d63eba166b68bcbc1745fff5d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 44,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 641,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 57740000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1696,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1696
+    },
+    "total_tokens": 2381
+  },
+  "verdict": false
+}

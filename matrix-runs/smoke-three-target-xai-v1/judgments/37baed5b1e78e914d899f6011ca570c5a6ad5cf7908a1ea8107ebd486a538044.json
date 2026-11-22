@@ -1,0 +1,19 @@
+{
+  "attempt": 1,
+  "cell_id": "37baed5b1e78e914d899f6011ca570c5a6ad5cf7908a1ea8107ebd486a538044",
+  "criterion": {
+    "criterion": "Tells her not to wait for antacids to take effect before calling.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": "ProviderError: google status=404: {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}",
+  "failed_at": "2026-11-19T18:24:23+00:00",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 2,
+  "requested_judge": "google/gemini-2.5-flash",
+  "response_cell_id": "832732d99dcfceaf39edaa4f48448f741383703d63eba166b68bcbc1745fff5d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "failed"
+}

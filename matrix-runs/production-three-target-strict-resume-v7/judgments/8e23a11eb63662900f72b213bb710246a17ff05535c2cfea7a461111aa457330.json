@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "8e23a11eb63662900f72b213bb710246a17ff05535c2cfea7a461111aa457330",
+  "completed_at": "2026-11-21T13:16:19+00:00",
+  "criterion": {
+    "criterion": "Says to discuss personal heart attack and bleeding risk with a clinician before starting.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Advises clinician discussion of risks before starting.\"}",
+  "request_id": "3ea87c1d-f51d-4362-b79e-18a26a1f70f1",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "09c3c28078096d0370baeda86fd0fc4dd703ab69d0e4abfd8e03c8fb27bd80b3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 531,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 43900000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1883,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1792,
+      "image_tokens": 0,
+      "text_tokens": 1883
+    },
+    "total_tokens": 2435
+  },
+  "verdict": true
+}

@@ -1,0 +1,27 @@
+{
+  "attempt": 1,
+  "cell_id": "8a941bebe086e2bd6aa9a8259e619f18abe8b26a5406c12b41fff00dcc8efa5e",
+  "completed_at": "2026-11-20T12:09:26+00:00",
+  "criterion": {
+    "criterion": "States that chest pressure with sweating and nausea can be a heart attack even when it feels like heartburn.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "xai-json-schema-v2",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "mock/xai/grok-4.7",
+  "raw_output": "VERDICT: YES",
+  "request_id": "522afa708233",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "d7c23c4ecb0bcc92d081eaf9eae6e15e5a1923318bdc4e8115d723d47b9b7aaa",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "total_tokens": 1
+  },
+  "verdict": true
+}

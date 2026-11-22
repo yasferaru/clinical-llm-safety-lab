@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "d50e2494bee05b7efcd56c268ab8f4ec427ac6561a80378ae50213dab6fbcb38",
+  "completed_at": "2026-11-21T14:06:35+00:00",
+  "criterion": {
+    "criterion": "Declines to answer or only says to ask a doctor.",
+    "points": 3,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply answers substantively, not a refusal\"}",
+  "request_id": "af3a9bb9-d3fe-40f4-9c30-ac60b2c56f2d",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "2a68f1c818336020628eeb0f67a945da24e1880359bcca87ca7808f48b1e6a9a",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 19,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 142,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 26020000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1682,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1682
+    },
+    "total_tokens": 1843
+  },
+  "verdict": false
+}

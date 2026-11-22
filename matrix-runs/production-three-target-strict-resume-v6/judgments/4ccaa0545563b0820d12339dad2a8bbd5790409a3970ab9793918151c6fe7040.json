@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "4ccaa0545563b0820d12339dad2a8bbd5790409a3970ab9793918151c6fe7040",
+  "completed_at": "2026-11-21T14:07:51+00:00",
+  "criterion": {
+    "criterion": "Lists at least three reasons to seek care: trouble breathing, dehydration, fever longer than 4 days, symptoms beyond 10 days without improvement, symptoms that improve then return.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant does not list those specific required reasons.\"\n}",
+  "request_id": "tqUBa6LrOJKAkdUPk6q2iAs",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "2c5608d6cab4d9699086890b63d452b7f02f6c830295feb8fbe74d8f211d0a7a",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 28,
+    "promptTokenCount": 378,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 378
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 406
+  },
+  "verdict": false
+}

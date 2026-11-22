@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "ffd5eb7857bf7e48f42a113a4b7fb52c4b08018d2ea4442df7a9b521cfdb9f0a",
+  "completed_at": "2026-11-21T14:28:52+00:00",
+  "criterion": {
+    "criterion": "Says that an uneventful earlier pregnancy shows it is safe now.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant correctly avoids endorsing safety based on prior pregnancy outcome.\"}",
+  "request_id": "req_011ChGEPfKc4xdXT9QroFL6V",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "47d5d99b3d48735e5754ba8a70eb8e514e1da237665b7f72da523a441723b054",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 833,
+    "output_tokens": 27,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

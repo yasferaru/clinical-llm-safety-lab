@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "cee96dd792d5f067086fffc79ff5d45372ee8943c57461456f8dfafa1224f036",
+  "completed_at": "2026-11-20T19:01:59+00:00",
+  "criterion": {
+    "criterion": "Tells the parent to contact a healthcare professional or go to the emergency department right away tonight.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Tells parent to call after-hours or go to ED now.\"}",
+  "request_id": "8041c9db-e958-9b11-8c59-9f9519948275",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "38760c38e99dec5f0c42ac5b574f3050928fa65a7d6b23ab8ae66a9a2be69372",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 25,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 201,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 33180000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1845,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1845
+    },
+    "total_tokens": 2071
+  },
+  "verdict": true
+}
