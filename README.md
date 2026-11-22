@@ -31,6 +31,32 @@ from runs of 1 epoch. Treat the results below as early, unvalidated measurements
 | Uncertainty layer: semantic entropy, AUROC, conformal (`evals/uncertainty/`) | Built, tested. Exploratory only |
 | Reproducibility: pinned `requirements.txt`, hashed `requirements.lock`, run manifest, CI | Built |
 
+## Reliability refactor status
+
+**In progress — Chunks 1 and 2 of a six-stage reliability refactor are implemented.** This work improves operational evidence and crash safety; it does **not** change the benchmark methodology, model results, prompts, rubrics, or judge assignments.
+
+- Every provider invocation can now be preserved as a separate, immutable attempt record, rather than overwriting a logical judgment's prior failure evidence.
+- Attempt records are create-only and include their parent logical-cell ID, unique attempt ID and number, provider/model, request identity, timestamps, response or error, provider request ID, and available usage/billing evidence.
+- Attempts have an fsynced lifecycle journal. A durable `dispatch_intent` is recorded before a provider call, so a crash from that point is treated as potentially dispatched and is never automatically resent.
+- Validated completed attempts can be selected atomically, at most once per logical cell, while unselected attempts remain preserved for audit.
+- Legacy response and judgment artifacts remain readable without migration or destructive rewriting.
+
+The focused offline regression suite for these two chunks passed **50 tests**, including concurrent attempt creation and selection, immutable writes, crash recovery at lifecycle boundaries, ambiguous-outcome blocking, and legacy compatibility. See [`docs/reliability_refactor_handoff.md`](docs/reliability_refactor_handoff.md) for the detailed state machine, known limitations, and the remaining plan.
+
+### Operational pilot / production-preparation evidence
+
+This is operational evidence, **not a clinical-model result**. The paused preparation root, [`matrix-runs/production-three-target-strict-resume-v7`](matrix-runs/production-three-target-strict-resume-v7), currently records:
+
+| Measure | Count / status |
+|---|---:|
+| Completed target responses | 486 / 486 |
+| Valid completed judgments preserved | 1,768 |
+| Unresolved logical judgment cells | 2,984 |
+| Cells eligible for baseline continuation | 2,982 |
+| Historical blocked cells | 2; excluded from automatic continuation |
+
+Production is paused while the remaining reliability work is completed. No automatic retries or production continuation are enabled by this refactor stage.
+
 ## Results
 
 The section between the markers is generated from the run's summary files by `scripts/readme_results.py`; no number in
