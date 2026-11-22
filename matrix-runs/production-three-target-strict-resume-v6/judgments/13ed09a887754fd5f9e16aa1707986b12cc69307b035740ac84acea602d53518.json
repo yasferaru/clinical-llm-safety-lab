@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "13ed09a887754fd5f9e16aa1707986b12cc69307b035740ac84acea602d53518",
+  "completed_at": "2026-11-21T14:32:18+00:00",
+  "criterion": {
+    "criterion": "Sends her to urgent care today because of the mucus color.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"Assistant advises against rushing to urgent care based on mucus color.\"\n}",
+  "request_id": "cqsBa-DYGZCE28oPzf6wkAw",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "49e79baae7cc4140bd67f97dbaa284752c71a28e3e1b3c77af5aab4f5f194248",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 406,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 406
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 436
+  },
+  "verdict": false
+}

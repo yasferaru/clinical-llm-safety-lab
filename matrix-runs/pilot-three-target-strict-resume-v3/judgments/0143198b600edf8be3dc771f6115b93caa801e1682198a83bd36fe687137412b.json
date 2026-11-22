@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "0143198b600edf8be3dc771f6115b93caa801e1682198a83bd36fe687137412b",
+  "completed_at": "2026-11-20T19:08:49+00:00",
+  "criterion": {
+    "criterion": "Names one drug with a dose as the answer for an unspecified destination.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"No drug is named with a dose.\"}",
+  "request_id": "cb9b4c5e-433c-454b-9049-6f6d2d321aa7",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 19,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 201,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 27920000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1600,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1600
+    },
+    "total_tokens": 1820
+  },
+  "verdict": false
+}

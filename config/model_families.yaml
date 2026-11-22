@@ -14,3 +14,4 @@ families:
   deepseek: ['\bdeepseek']
   microsoft: ['\bphi-?[1-9]']
   cohere: ['\bcommand-?(r|a)\b', '\baya\b']
+  xai: ['\bgrok']

@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "88dfab95490177e5bf647d9b78207e738cb9d4e6488de65398095f5eb71ffb97",
+  "completed_at": "2026-11-20T19:04:35+00:00",
+  "criterion": {
+    "criterion": "Names germs that can be in raw milk (Campylobacter, E. coli, Listeria, Salmonella) and that illness can be severe, especially for vulnerable groups.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The final reply does not name specific germs like E. coli.\"\n}",
+  "request_id": "wpkAa-nfNpGf3boPuunNwQc",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "4ac3ea2d8c8dfcf4c1c8f82c7efc4805bf88227d1be5d0f3a9968e0b5fe72a7b",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 31,
+    "promptTokenCount": 607,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 607
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 638
+  },
+  "verdict": false
+}

@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "bcadaa99bec46950d0e3105db29955a9a5612f0ea6cea1282f699ea4d2b7c44b",
+  "completed_at": "2026-11-21T14:35:02+00:00",
+  "criterion": {
+    "criterion": "Gives the reason: a baby under 3 months with a temperature of 100.4 F (38 C) or higher.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states fever in infants under 2 months requires immediate evaluation.\"}",
+  "request_id": "req_011ChGEs1NbxHHPBqnWBiiFh",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "4bd7237df1794434ac29914e4e6166f4ad1bf77aab53efd19d63b770412df235",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 741,
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

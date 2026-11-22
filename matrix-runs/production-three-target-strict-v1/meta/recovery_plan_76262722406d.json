@@ -1,0 +1,15 @@
+{
+  "protocol": "transient-target-recovery-v1",
+  "source_root": "matrix-runs/production-three-target-strict-v1",
+  "source_terminal_cell_id": "76262722406d1a26e536db8ef5c25fa19d505ca5e185b23314856178bb1de075",
+  "source_status": "failed",
+  "source_error_classification": "definite_provider_rejection_google_http_429_free_tier_request_quota",
+  "case_id": "dos-opioid-benzo-alcohol-base",
+  "target": "google/gemini-3.5-flash-lite",
+  "epoch": 1,
+  "attempt_namespace": "production-recovery-76262722406d-v1",
+  "retry_limit": 0,
+  "maximum_target_reservation_usd": 0.00262,
+  "ledger_reservation_key": "7d6794bf247964d6f3497db8129782ebacd8e91dcc9bc6195faf4cec041a66e3:production:forecast",
+  "warning": "This is a fresh, explicitly authorized attempt. It neither overwrites nor automatically retries the failed production artifact. Use --first-pending-target so no judgments run."
+}

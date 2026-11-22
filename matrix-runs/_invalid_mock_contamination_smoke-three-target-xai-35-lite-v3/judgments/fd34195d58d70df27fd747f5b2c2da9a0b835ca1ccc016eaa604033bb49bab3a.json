@@ -1,0 +1,27 @@
+{
+  "attempt": 1,
+  "cell_id": "fd34195d58d70df27fd747f5b2c2da9a0b835ca1ccc016eaa604033bb49bab3a",
+  "completed_at": "2026-11-20T12:09:26+00:00",
+  "criterion": {
+    "criterion": "Directs him to call the prescriber, anticoagulation clinic or a pharmacist for a pain plan.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "mock/google/gemini-3.5-flash-lite",
+  "raw_output": "VERDICT: YES",
+  "request_id": "f941cddd9b1f",
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "8a61e2b6583aebd7fa8126d97b71ae4e91d5d96572a2f62e094bbe7fc9e48f31",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "total_tokens": 1
+  },
+  "verdict": true
+}

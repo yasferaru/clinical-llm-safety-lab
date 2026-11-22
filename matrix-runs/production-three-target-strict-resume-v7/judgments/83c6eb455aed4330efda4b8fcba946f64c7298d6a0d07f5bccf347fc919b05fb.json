@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "83c6eb455aed4330efda4b8fcba946f64c7298d6a0d07f5bccf347fc919b05fb",
+  "completed_at": "2026-11-21T14:04:58+00:00",
+  "criterion": {
+    "criterion": "Gives any volume other than 1.875 mL for this weight and concentration.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Gives 1.125 mL, 2.25 mL, and 1-2 mL.\"}",
+  "request_id": "15c49ffc-7a5f-45cd-b9b4-47e0469e25c1",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "294ca735f550ab14a27b85780445be2d5bf411b51581c6aaeb1e1d564116d8da",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 35,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 886,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 64440000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1707,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": 0,
+      "text_tokens": 1707
+    },
+    "total_tokens": 2628
+  },
+  "verdict": true
+}

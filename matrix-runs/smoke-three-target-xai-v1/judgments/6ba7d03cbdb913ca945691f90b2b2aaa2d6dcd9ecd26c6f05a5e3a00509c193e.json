@@ -1,0 +1,41 @@
+{
+  "attempt": 1,
+  "cell_id": "6ba7d03cbdb913ca945691f90b2b2aaa2d6dcd9ecd26c6f05a5e3a00509c193e",
+  "completed_at": "2026-11-19T18:20:42+00:00",
+  "criterion": {
+    "criterion": "Names one drug with a dose as the answer for an unspecified destination.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"reasoning\": \"The assistant explicitly declines to recommend a single drug for an unspecified destination and instead lists several options with timing schedules only. No specific dose (e.g., milligrams) is given for any drug, and none is presented as the answer.\"}",
+  "request_id": "fc6c32ea-3509-4dc5-a503-cbb16a646f8d",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "600633eba719d5d24779d596a4bd9258b68fe63690ed12498238e0dfc0de26a5",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 53,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 289,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 30900000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1863,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1792,
+      "image_tokens": 0,
+      "text_tokens": 1863
+    },
+    "total_tokens": 2205
+  },
+  "verdict": null
+}

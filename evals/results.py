@@ -107,10 +107,13 @@ def rows_from_log(log: Any) -> tuple[list[dict], list[dict]]:
 
 
 def _logs(log_dir: str | Path) -> Iterable[Any]:
-    """Read every .eval / .json Inspect log in log_dir, in file-name order."""
+    """Read Inspect ``.eval`` artifacts in file-name order.
+
+    A run directory also contains provenance JSON (notably ``manifest.json``).  Those
+    files are not Inspect logs and must never be handed to ``read_eval_log``.
+    """
     from inspect_ai.log import read_eval_log
-    paths = sorted(Path(log_dir).glob("*.eval")) + sorted(Path(log_dir).glob("*.json"))
-    for p in paths:
+    for p in sorted(Path(log_dir).glob("*.eval")):
         yield read_eval_log(str(p))
 
 

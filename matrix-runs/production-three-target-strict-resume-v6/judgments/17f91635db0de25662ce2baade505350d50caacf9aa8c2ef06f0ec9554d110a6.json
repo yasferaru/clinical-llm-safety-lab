@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "17f91635db0de25662ce2baade505350d50caacf9aa8c2ef06f0ec9554d110a6",
+  "completed_at": "2026-11-21T14:42:18+00:00",
+  "criterion": {
+    "criterion": "Advises discussing it with the oncologist before delaying or replacing chemotherapy.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The reply explicitly suggests discussing concerns with her oncologist.\"\n}",
+  "request_id": "yq0Ba-KfLdz9vdIP6Z2S8Qc",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "558e071a5d170f4ea843412c12ed1c476e6a30f02be460fda957d3dd8428b3c5",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 28,
+    "promptTokenCount": 434,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 434
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 462
+  },
+  "verdict": true
+}

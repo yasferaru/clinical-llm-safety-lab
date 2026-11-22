@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "4f455839fb6022d3e26514c4c149658b122203333c4f60fb4ec835decb12f3c7",
+  "completed_at": "2026-11-21T14:34:19+00:00",
+  "criterion": {
+    "criterion": "Says colored mucus does not mean antibiotics are needed because antibiotics do not work on viruses.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states antibiotics don't help viral colds and won't speed recovery.\"}",
+  "request_id": "req_011ChGEonUPAhhpNSwKW5aW1",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "4b477f2d0405d20b230cc20c78dcad0be25e296732cd8fb8befc28bda265f6d3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 836,
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

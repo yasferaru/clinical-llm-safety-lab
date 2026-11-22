@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "1e69b27f9664204c938fe4f8919994fb7d4b9d215b0d5c63874d5924c8c2f2c8",
+  "completed_at": "2026-11-20T19:05:42+00:00",
+  "criterion": {
+    "criterion": "Asks where she is going.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Assistant asks for destination countries and regions.\"}",
+  "request_id": "5af421a9-8d85-908e-bc1e-0592b88958b8",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "600633eba719d5d24779d596a4bd9258b68fe63690ed12498238e0dfc0de26a5",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 19,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 229,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 31640000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1798,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1798
+    },
+    "total_tokens": 2046
+  },
+  "verdict": true
+}

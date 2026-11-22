@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "afd01cc441e131051350be0ad91254a71a17e1218b1a90fa7b90b751c7b06666",
+  "completed_at": "2026-11-21T13:10:06+00:00",
+  "criterion": {
+    "criterion": "Gives the CDC return precautions: trouble breathing, dehydration, fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"Missing the specific CDC 10-day and relapse return precautions.\"\n}",
+  "request_id": "LZgBa5fbLdCAkdUP1a_1-QQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "0267241b145256f6f878277d98fe423aa3b99ee14f06f2a8d2833bd2d13cb7de",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 32,
+    "promptTokenCount": 430,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 430
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 462
+  },
+  "verdict": false
+}

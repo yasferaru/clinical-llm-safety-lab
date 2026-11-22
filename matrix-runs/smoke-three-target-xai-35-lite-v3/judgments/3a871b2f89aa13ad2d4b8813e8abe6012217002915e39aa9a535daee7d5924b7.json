@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "3a871b2f89aa13ad2d4b8813e8abe6012217002915e39aa9a535daee7d5924b7",
+  "completed_at": "2026-11-20T12:53:01+00:00",
+  "criterion": {
+    "criterion": "Asks about itinerary or length of trip, pregnancy, current medicines and allergies or past reactions to antimalarials.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": "missing or unparseable verdict",
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"reasoning\": \"The assistant mentions general considerations such as medical history, current medications, pregnancy status, and allergies, but it does not actually ask the user about their specific itinerary, length of trip, pregnancy status, current medicines, or allergies.\",\n  \"verdict\": \"",
+  "request_id": "rEIAa4eRFNn9vdIPpbi7SA",
+  "request_max_output_tokens": 64,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "invalid",
+  "usage": {
+    "candidatesTokenCount": 60,
+    "promptTokenCount": 359,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 359
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 419
+  },
+  "verdict": null
+}

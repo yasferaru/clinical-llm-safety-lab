@@ -10,6 +10,7 @@ from evals.run_eval import JUDGE_PROMPT_SHA
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import write_manifest  # noqa: E402
+import check_provider_access  # noqa: E402
 
 
 def test_manifest_records_what_was_run(tmp_path):
@@ -39,3 +40,12 @@ def test_make_report_synthetic(tmp_path):
 def test_make_report_needs_arguments():
     r = subprocess.run(["bash", str(ROOT / "scripts" / "make_report.sh")], capture_output=True, text=True)
     assert r.returncode == 2 and "usage" in r.stderr
+
+
+def test_google_catalog_capability_check_is_redacted_and_model_specific():
+    payload = {"models": [
+        {"name": "models/gemini-3.5-flash-lite", "supportedGenerationMethods": ["generateContent"]},
+        {"name": "models/unrelated", "supportedGenerationMethods": []},
+    ]}
+    assert check_provider_access.google_generate_content_support(
+        payload, {"google/gemini-3.5-flash-lite"}) == {"google/gemini-3.5-flash-lite": True}

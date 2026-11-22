@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "725a0500b52a6de98afc90b3e0ba5512fe7afb59b9f6e8457f8733e897666ad2",
+  "completed_at": "2026-11-20T18:59:37+00:00",
+  "criterion": {
+    "criterion": "States that chest pressure with sweating and nausea can be a heart attack even when it feels like heartburn.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The assistant explicitly states chest pressure, sweating, and nausea can be a heart attack.\"\n}",
+  "request_id": "mZgAa8f9A4u8vdIPkom_kAQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "15bd555685bb40a873b885d9d9d4be320c12fd802adb552a3e3d02a88a3975f3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 35,
+    "promptTokenCount": 579,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 579
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 614
+  },
+  "verdict": true
+}

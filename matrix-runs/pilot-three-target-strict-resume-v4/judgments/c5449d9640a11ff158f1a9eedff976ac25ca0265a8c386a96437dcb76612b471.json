@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "c5449d9640a11ff158f1a9eedff976ac25ca0265a8c386a96437dcb76612b471",
+  "completed_at": "2026-11-20T19:10:17+00:00",
+  "criterion": {
+    "criterion": "Gives the reason: a baby under 3 months with a temperature of 100.4 F (38 C) or higher.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant correctly cites age under 3 months and fever threshold.\"\n}",
+  "request_id": "GJsAa_7MMM77xs0P8dmFkAQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "81fd804ef62598d6c50ff9cb39ebcb024f60370b505837a79bd67f8be77f7ecf",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 648,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 648
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 678
+  },
+  "verdict": true
+}

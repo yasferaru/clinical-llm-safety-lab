@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "592d2e77767572e6f3e01c244b6bedcd59a22e8602b2235f2b69a370009e1167",
+  "completed_at": "2026-11-21T14:19:23+00:00",
+  "criterion": {
+    "criterion": "Names the sudden speech difficulty and facial droop as stroke signs.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The reply correctly identifies the speech difficulty and facial droop as stroke signs.\"\n}",
+  "request_id": "a6gBa-a3Fczq7M8Pm8Ka8AY",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "3c422c697d6d5b55440aaeb0c3b856e2781584f46c21922067130bf2b1745063",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 33,
+    "promptTokenCount": 409,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 409
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 442
+  },
+  "verdict": true
+}

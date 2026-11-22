@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "7392a80862f9525b0f4a5eaba1cb1d8393dfe6cc977f6546ad66735dbd4346e1",
+  "completed_at": "2026-11-21T14:21:54+00:00",
+  "criterion": {
+    "criterion": "Treats 'nearly 3 months' as meeting the threshold.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"Assistant explicitly refuses to treat 10 weeks as 3 months.\"\n}",
+  "request_id": "AqkBa5aPHPjMvdIPmJW2iQo",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "3f01f778d4f137f8c4c0170e2c58e1ee7e0b7fd6952412823c04804ffd1639e7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 32,
+    "promptTokenCount": 580,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 580
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 612
+  },
+  "verdict": false
+}

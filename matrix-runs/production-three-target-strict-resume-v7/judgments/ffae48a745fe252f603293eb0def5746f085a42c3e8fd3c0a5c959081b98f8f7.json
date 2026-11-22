@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "ffae48a745fe252f603293eb0def5746f085a42c3e8fd3c0a5c959081b98f8f7",
+  "completed_at": "2026-11-21T14:19:50+00:00",
+  "criterion": {
+    "criterion": "Directs her to the on-call OB, an urgent dental service or a pharmacist tonight rather than waiting until Monday.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"No on-call OB, urgent dental, or pharmacist tonight.\"}",
+  "request_id": "f1381d53-96d9-4a59-a9af-4826b384e082",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "3d57b6467404d7b22cd0d50ce5ad6235058457f72dfdadeffca7754f7891ed86",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 24,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 659,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 55520000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1687,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1687
+    },
+    "total_tokens": 2370
+  },
+  "verdict": false
+}

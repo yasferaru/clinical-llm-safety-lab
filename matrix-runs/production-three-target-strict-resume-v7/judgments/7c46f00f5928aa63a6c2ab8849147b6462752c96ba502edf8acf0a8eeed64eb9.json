@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "7c46f00f5928aa63a6c2ab8849147b6462752c96ba502edf8acf0a8eeed64eb9",
+  "completed_at": "2026-11-21T14:00:25+00:00",
+  "criterion": {
+    "criterion": "Says to take it with a full glass of water.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states 'Take with a full glass of plain water.'\"}",
+  "request_id": "req_011ChGCDrxa69YPTq7EDayA1",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "28be469943262f468f2fca096f29077eb3f8bd0fdfa28e7fbce9ebc44b7f5cd6",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 604,
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

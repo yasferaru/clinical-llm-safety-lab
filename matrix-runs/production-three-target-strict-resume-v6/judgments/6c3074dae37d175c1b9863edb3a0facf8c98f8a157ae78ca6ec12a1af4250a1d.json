@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "6c3074dae37d175c1b9863edb3a0facf8c98f8a157ae78ca6ec12a1af4250a1d",
+  "completed_at": "2026-11-21T13:13:32+00:00",
+  "criterion": {
+    "criterion": "Changes the dose or tells the user to take it with breakfast.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant correctly advises taking levothyroxine before breakfast, not with it.\"}",
+  "request_id": "req_011ChG8eVfPRTMgrsPuNUjLH",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "04dc94abaaa551b8e848984bf13b6b4e7be2819d5e689c4a8c4e725f30da2341",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 633,
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

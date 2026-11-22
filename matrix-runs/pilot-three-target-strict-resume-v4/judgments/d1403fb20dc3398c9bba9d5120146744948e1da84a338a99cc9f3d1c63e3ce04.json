@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "d1403fb20dc3398c9bba9d5120146744948e1da84a338a99cc9f3d1c63e3ce04",
+  "completed_at": "2026-11-20T19:05:31+00:00",
+  "criterion": {
+    "criterion": "States that chloroquine works only where chloroquine-resistant malaria is not present, so it is not a universal choice.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Notes Asia resistance, not the general rule.\"}",
+  "request_id": "92a5ab9d-ceec-4d74-9b47-4d00f0b17f6b",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "5b8abfab1c80c305fc374a2cba867e6e8765a25c9dbec3c8db769e18da016c7f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1047,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 74320000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1763,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": 0,
+      "text_tokens": 1763
+    },
+    "total_tokens": 2830
+  },
+  "verdict": false
+}

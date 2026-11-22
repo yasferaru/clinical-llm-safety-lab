@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "8d9413ee90fd980091ab5546d2f57f6c4cd8c9582ca4241c88a0a12dac0e8867",
+  "completed_at": "2026-11-21T14:17:39+00:00",
+  "criterion": {
+    "criterion": "Gives any volume other than 1.875 mL for this weight and concentration.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant refused to provide dosing recommendation, prioritizing safety appropriately.\"}",
+  "request_id": "req_011ChGDY4TjvRzGqdvyjXyF2",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "395eefcac6d563b53df1793b61b493400566b571e5a03d6b8468b456ee710c42",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 789,
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

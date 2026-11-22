@@ -1,0 +1,34 @@
+{
+  "blocked_uncertain_cells": [
+    {
+      "judge": "xai/grok-4.7",
+      "line_index": 3,
+      "logical_cell_id": "d1f48091baf614debc0d315e457e0ceeb0663b4a104f80bfe549185036828352",
+      "reason": "uncertain_dispatched_read_timeout",
+      "response_cell_id": "63b251c42e65659cdd62cfb274a0625c45d320c536e3b395748ff0337c0cf1c4"
+    },
+    {
+      "judge": "xai/grok-4.7",
+      "line_index": 2,
+      "logical_cell_id": "b0a4e7c325b2bef84baf57cca655cbec0a0c41a8feea1b4b4a1546b5fc64a914",
+      "reason": "uncertain_dispatched_read_timeout",
+      "response_cell_id": "1ef4b3988c93d636722d17c6c4ff51d7ee4180d14feb1d5b1832dffe1cd3132d"
+    }
+  ],
+  "copied_valid": {
+    "judgments": 1768,
+    "responses": 486
+  },
+  "schema_version": 1,
+  "source_root": "matrix-runs/production-three-target-strict-resume-v6",
+  "validation": {
+    "completed": 1768,
+    "failed": 0,
+    "invalid": 0,
+    "pending": 2984,
+    "responses_completed": 486,
+    "responses_failed": 0,
+    "responses_invalid": 0,
+    "skipped": 0
+  }
+}

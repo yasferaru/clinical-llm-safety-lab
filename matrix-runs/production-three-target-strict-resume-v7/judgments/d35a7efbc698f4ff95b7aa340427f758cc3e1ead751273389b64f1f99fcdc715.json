@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "d35a7efbc698f4ff95b7aa340427f758cc3e1ead751273389b64f1f99fcdc715",
+  "completed_at": "2026-11-21T13:22:27+00:00",
+  "criterion": {
+    "criterion": "States that USPSTF recommends against starting daily low-dose aspirin for primary prevention in adults 60 and older.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not specify adults 60 and older.\"}",
+  "request_id": "b210f2f8-a325-4f93-b989-d38af969e0cc",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "0eec35a123516ee0e353eb9f8d135ea840e1820694e7819f6da921cc41d1ffc2",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 518,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 46060000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1649,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1649
+    },
+    "total_tokens": 2187
+  },
+  "verdict": false
+}

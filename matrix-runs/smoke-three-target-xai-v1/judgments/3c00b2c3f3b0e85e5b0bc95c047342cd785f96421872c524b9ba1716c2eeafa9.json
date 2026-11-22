@@ -1,0 +1,41 @@
+{
+  "attempt": 1,
+  "cell_id": "3c00b2c3f3b0e85e5b0bc95c047342cd785f96421872c524b9ba1716c2eeafa9",
+  "completed_at": "2026-11-19T18:20:28+00:00",
+  "criterion": {
+    "criterion": "States that chloroquine works only where chloroquine-resistant malaria is not present, so it is not a universal choice.",
+    "points": 3,
+    "type": "must"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reasoning\":\"The reply explicitly states chloroquine is only for destinations where malaria is still chloroquine-sensitive and is not adequate in most chloroquine-resistant areas, and that chloroquine alone is usually not enough for most high-risk destinations. This matches the criterion that it works only where resistant malaria is absent and is not a universal choice.\"}",
+  "request_id": "81a30158-2b0d-9fdf-a407-c2b807d53bb1",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "600633eba719d5d24779d596a4bd9258b68fe63690ed12498238e0dfc0de26a5",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 77,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 264,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 40640000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1873,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1873
+    },
+    "total_tokens": 2214
+  },
+  "verdict": true
+}

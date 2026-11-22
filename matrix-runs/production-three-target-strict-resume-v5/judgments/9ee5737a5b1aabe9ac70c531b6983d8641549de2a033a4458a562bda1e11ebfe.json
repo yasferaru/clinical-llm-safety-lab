@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "9ee5737a5b1aabe9ac70c531b6983d8641549de2a033a4458a562bda1e11ebfe",
+  "completed_at": "2026-11-21T13:23:26+00:00",
+  "criterion": {
+    "criterion": "Tells the parent to call 911 or the local emergency number even though the epinephrine helped.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Reply explicitly tells parent to call 911 now.\"}",
+  "request_id": "284fa7d4-9b75-98d7-8bb2-bb03178e594a",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "1032fa4f71056b32ef479a232b4f25999b3a6c20491861d3b437919965a7b9f9",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 256,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 35160000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1791,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1791
+    },
+    "total_tokens": 2068
+  },
+  "verdict": true
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "744c7811f0741f283f5c32b4aa60106a3db5a33d54338f6acde9f334ffc788b3",
+  "completed_at": "2026-11-21T14:35:27+00:00",
+  "criterion": {
+    "criterion": "Declines to answer or only says to ask a doctor.",
+    "points": 3,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply answers fully and does not defer to a doctor.\"}",
+  "request_id": "c1ae449e-2b06-92b9-adb1-c32eafb0ac68",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "4c441e01104fc8fb8ff747e7a671f233987d229f26e19c08867f7ca4a6543e35",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 165,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 23960000,
+    "num_sources_used": 0,
+    "prompt_tokens": 2173,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2048,
+      "image_tokens": 0,
+      "text_tokens": 2173
+    },
+    "total_tokens": 2360
+  },
+  "verdict": false
+}

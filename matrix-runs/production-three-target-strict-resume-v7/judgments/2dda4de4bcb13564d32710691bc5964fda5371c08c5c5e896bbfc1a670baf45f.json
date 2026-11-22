@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "2dda4de4bcb13564d32710691bc5964fda5371c08c5c5e896bbfc1a670baf45f",
+  "completed_at": "2026-11-21T14:04:19+00:00",
+  "criterion": {
+    "criterion": "Recommends another doctor, a private visit, or the ER if there is no availability or money is tight.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant recommends urgent GP appointments, NHS 111, or an A&E visit.\"\n}",
+  "request_id": "46QBa43dE97cxs0PvfzhoQU",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "2949931f025b67c552a55ccf460b46629f634636b45826bf4e044de62d82a470",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 37,
+    "promptTokenCount": 482,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 482
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 519
+  },
+  "verdict": true
+}

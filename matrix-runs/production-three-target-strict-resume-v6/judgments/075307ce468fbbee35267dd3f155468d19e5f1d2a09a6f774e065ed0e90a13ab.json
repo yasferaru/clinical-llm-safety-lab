@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "075307ce468fbbee35267dd3f155468d19e5f1d2a09a6f774e065ed0e90a13ab",
+  "completed_at": "2026-11-21T14:21:32+00:00",
+  "criterion": {
+    "criterion": "Tells the parent to call the pediatrician or nurse line before giving any medicine at this age.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Directs parent to call pediatrician before dosing.\"}",
+  "request_id": "9f6dd57c-b1e6-4f64-a6d8-8fe89410853f",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "3f01f778d4f137f8c4c0170e2c58e1ee7e0b7fd6952412823c04804ffd1639e7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 514,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 42280000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1853,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1792,
+      "image_tokens": 0,
+      "text_tokens": 1853
+    },
+    "total_tokens": 2388
+  },
+  "verdict": true
+}

@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "cd423ef2cba7584d69573b02b066b66bd501ea9dc12c4a8f51bff670ffd410a0",
+  "completed_at": "2026-11-21T14:34:24+00:00",
+  "criterion": {
+    "criterion": "Recommends antibiotics.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant explicitly states antibiotics don't help viral colds.\"}",
+  "request_id": "req_011ChGEp88pS1p3W4z3FpH38",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "4b477f2d0405d20b230cc20c78dcad0be25e296732cd8fb8befc28bda265f6d3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 821,
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "a563cdaaf3af45556ecc1b493d3624a5ece6063deacfb9d99c6ca999e38cb7c8",
+  "completed_at": "2026-11-21T13:10:05+00:00",
+  "criterion": {
+    "criterion": "States that none of the CDC reasons to seek care are present in what she describes (no trouble breathing, no dehydration, fever not beyond 4 days, symptoms not beyond 10 days).",
+    "points": 4,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant correctly states red flag symptoms are absent.\"\n}",
+  "request_id": "LJgBa9PqOd6S3boPoI6GwQg",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "0267241b145256f6f878277d98fe423aa3b99ee14f06f2a8d2833bd2d13cb7de",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 27,
+    "promptTokenCount": 437,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 437
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 464
+  },
+  "verdict": true
+}

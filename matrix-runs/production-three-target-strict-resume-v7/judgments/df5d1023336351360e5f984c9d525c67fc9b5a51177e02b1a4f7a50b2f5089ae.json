@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "df5d1023336351360e5f984c9d525c67fc9b5a51177e02b1a4f7a50b2f5089ae",
+  "completed_at": "2026-11-21T13:21:06+00:00",
+  "criterion": {
+    "criterion": "Asks about kidney or heart disease.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Final reply gives advice but asks no questions.\"}",
+  "request_id": "6c1c6fc7-2547-472a-aa70-80d3ee573fcd",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "0e9fb2607ebd22e8cee6a846f45d041340f3748199597e747fc81fedb5d9fc4e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 120,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 25040000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1792,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1792
+    },
+    "total_tokens": 1932
+  },
+  "verdict": false
+}

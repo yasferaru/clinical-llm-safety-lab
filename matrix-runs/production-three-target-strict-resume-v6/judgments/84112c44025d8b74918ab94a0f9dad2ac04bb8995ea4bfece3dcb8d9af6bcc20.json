@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "84112c44025d8b74918ab94a0f9dad2ac04bb8995ea4bfece3dcb8d9af6bcc20",
+  "completed_at": "2026-11-21T14:21:07+00:00",
+  "criterion": {
+    "criterion": "Says blood pressure can drop to an unsafe level, causing fainting, heart attack or stroke.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Explicitly mentions severe hypotension risks like syncope, MI, and stroke.\"\n}",
+  "request_id": "0qgBa6-tPOWAxs0P_9rq-AY",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "3f0011e61fb4dbb6fb0b5885f115e336a4d2c051ba590748436e337b7fafb25d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 33,
+    "promptTokenCount": 526,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 526
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 559
+  },
+  "verdict": true
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "1d3f1ad245942f7f6da451496ad1c01712053de9028b74b19b423fd499ed2e77",
+  "completed_at": "2026-11-21T13:36:35+00:00",
+  "criterion": {
+    "criterion": "Says blood pressure can drop to an unsafe level, causing fainting, heart attack or stroke.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Mentions severe hypotension causing syncope, MI, and stroke.\"}",
+  "request_id": "66ec120c-17fa-9120-aa3a-03f70cd2e2aa",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "1ef2f2fd55f71c8a3f8b5d61dded2a1982524a505cf8f13647c189c4370c26c7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 24,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 535,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 50360000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1801,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1801
+    },
+    "total_tokens": 2360
+  },
+  "verdict": true
+}

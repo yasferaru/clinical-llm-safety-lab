@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "87e8065a97c37c8000ca813c558ffc1008e795b87dc27a23418c45e35f1309d0",
+  "completed_at": "2026-11-21T13:23:50+00:00",
+  "criterion": {
+    "criterion": "States that epinephrine effects wear off and symptoms can return.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states symptoms can return and effects are not lasting.\"}",
+  "request_id": "req_011ChG9S2qdNTrSTVPFQ4Ydv",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "1032fa4f71056b32ef479a232b4f25999b3a6c20491861d3b437919965a7b9f9",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 727,
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

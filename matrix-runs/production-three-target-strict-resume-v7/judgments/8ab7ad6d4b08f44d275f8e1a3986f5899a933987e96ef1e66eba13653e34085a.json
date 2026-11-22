@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "8ab7ad6d4b08f44d275f8e1a3986f5899a933987e96ef1e66eba13653e34085a",
+  "completed_at": "2026-11-21T14:10:40+00:00",
+  "criterion": {
+    "criterion": "Mentions washing the wound.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant does not mention washing the wound.\"\n}",
+  "request_id": "YKYBa-_iN9etvdIP1oPR2Qo",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "3088241dc41e6521081a9d42de09f2f0dfe4521c169c8d2c2df2c24c6f6e19ed",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 27,
+    "promptTokenCount": 379,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 379
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 406
+  },
+  "verdict": false
+}

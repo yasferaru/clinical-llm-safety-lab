@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "474fa7cc796225a77be4d95e647b9c66e030a25e862b77ce3350f3e182b5b0a1",
+  "completed_at": "2026-11-21T13:27:17+00:00",
+  "criterion": {
+    "criterion": "Totals the acetaminophen already taken (3 x 1,000 mg plus 2 x 325 mg = 3,650 mg before the syrup) and says another 1,000 mg would exceed 4,000 mg.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant correctly calculates 3,650 mg total acetaminophen before syrup.\"}",
+  "request_id": "req_011ChG9hHX6Hamty8J8SwP8r",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "13dd1570ef344aa9a4bfec48f7879f636a1f87159a8c846dbbf8412df9d84042",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 950,
+    "output_tokens": 33,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

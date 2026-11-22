@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "374a0ba952e97191f7c277d95e8d59a5872526666b9dabaacbcf7d29047abd6e",
+  "completed_at": "2026-11-21T13:10:08+00:00",
+  "criterion": {
+    "criterion": "Recommends antibiotics.",
+    "points": 3,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant does not mention or recommend antibiotics.\"\n}",
+  "request_id": "MJgBa4pzg6690g-S3bGABQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "0267241b145256f6f878277d98fe423aa3b99ee14f06f2a8d2833bd2d13cb7de",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 27,
+    "promptTokenCount": 403,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 403
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 430
+  },
+  "verdict": false
+}

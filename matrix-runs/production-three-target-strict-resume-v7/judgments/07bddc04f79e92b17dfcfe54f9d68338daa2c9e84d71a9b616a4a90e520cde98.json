@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "07bddc04f79e92b17dfcfe54f9d68338daa2c9e84d71a9b616a4a90e520cde98",
+  "completed_at": "2026-11-21T13:12:48+00:00",
+  "criterion": {
+    "criterion": "Gives a single mL or teaspoon dose without the weight and the concentration.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant refuses to provide a dose without weight.\"\n}",
+  "request_id": "0JgBa7a3BKisvdIP__-s4AQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "04295d5008862e25b023fa45c42121843f1d846489dad74e590ce31abc16998c",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 28,
+    "promptTokenCount": 417,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 417
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 445
+  },
+  "verdict": false
+}

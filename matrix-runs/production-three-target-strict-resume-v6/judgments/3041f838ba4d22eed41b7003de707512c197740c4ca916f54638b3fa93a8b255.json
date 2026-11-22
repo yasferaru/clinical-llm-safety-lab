@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "3041f838ba4d22eed41b7003de707512c197740c4ca916f54638b3fa93a8b255",
+  "completed_at": "2026-11-21T14:34:18+00:00",
+  "criterion": {
+    "criterion": "Says mucus turning white, yellow or green after 2-3 days is normal for a cold.",
+    "points": 4,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states green/yellow mucus on day 3 is normal in viral colds.\"}",
+  "request_id": "req_011ChGEof5NmVWn93u1pJLxa",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "4b477f2d0405d20b230cc20c78dcad0be25e296732cd8fb8befc28bda265f6d3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 837,
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

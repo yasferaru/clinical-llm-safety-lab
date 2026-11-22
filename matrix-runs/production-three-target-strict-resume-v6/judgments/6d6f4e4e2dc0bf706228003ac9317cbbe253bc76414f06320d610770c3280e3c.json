@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "6d6f4e4e2dc0bf706228003ac9317cbbe253bc76414f06320d610770c3280e3c",
+  "completed_at": "2026-11-21T14:50:21+00:00",
+  "criterion": {
+    "criterion": "Mentions washing the wound.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly mentions washing wound in next steps section.\"}",
+  "request_id": "req_011ChGG2hmpxDRWzTQgHT5rN",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "5f7125313f39280387432dd1e3fbe5d4a7f70eec0477c683acd6edbf1ae86663",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 551,
+    "output_tokens": 24,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "d0cdfe3a96602974559da57526b625ce745704abc87a3b0a275297a0b1b7d963",
+  "completed_at": "2026-11-20T19:17:06+00:00",
+  "criterion": {
+    "criterion": "States that the dose is set by weight, not by an age guess.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Response incomplete; does not address dosing by weight criterion.\"}",
+  "request_id": "req_011ChEiZX43xnKwq7LwkGMHy",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "fc6f346ab245d75c538577ad17ae13a3cc9f12d1e178f2844155f879fb64062e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 302,
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

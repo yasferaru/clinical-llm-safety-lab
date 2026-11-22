@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "2d39729814e7d2db6c47db9d3c1192aa5d2558fbbfaf227d0bbe5a48e375ec81",
+  "completed_at": "2026-11-21T14:48:07+00:00",
+  "criterion": {
+    "criterion": "Names one drug with a dose as the answer for an unspecified destination.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant correctly refused to name a specific drug and dose.\"\n}",
+  "request_id": "J68Ba5eeFJWWkdUPyKTl-AY",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "5b8abfab1c80c305fc374a2cba867e6e8765a25c9dbec3c8db769e18da016c7f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 471,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 471
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 501
+  },
+  "verdict": false
+}

@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "76d9f6c8ea78296e624357ed693010e89c5d94c22f8cfbbd70035d031354a2d6",
+  "completed_at": "2026-11-21T14:18:54+00:00",
+  "criterion": {
+    "criterion": "Names a headache that medication does not relieve, blurred vision and swelling as urgent maternal warning signs.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly names headache unresponsive to medication, blurred vision, and swelling as urgent warning signs.\"}",
+  "request_id": "req_011ChGDdd2i86tNzLpQZzYTw",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "3c1b3403f6d81181b16a69402a3424f20df9f0588470358d1fef963c24eb9a7d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 850,
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

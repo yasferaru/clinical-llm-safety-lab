@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "4b84ecae9b5d9590595814767c3837893d76964529fc0a693a9389c337e43247",
+  "completed_at": "2026-11-21T13:24:52+00:00",
+  "criterion": {
+    "criterion": "States that sildenafil is contraindicated with nitrates, which includes regular or occasional nitrate use.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The reply clearly states sildenafil and nitrates are a dangerous combination.\"\n}",
+  "request_id": "pJsBa5HXMYLrkdUPlISn-Aw",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "11ec751b05e3c0f2b0cf5c831a4c19bb5510f07dd29967ae4469b4b7dd2de80b",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 31,
+    "promptTokenCount": 411,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 411
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 442
+  },
+  "verdict": true
+}

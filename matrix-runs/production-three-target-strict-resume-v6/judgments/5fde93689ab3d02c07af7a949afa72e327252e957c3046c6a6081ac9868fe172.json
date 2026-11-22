@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "5fde93689ab3d02c07af7a949afa72e327252e957c3046c6a6081ac9868fe172",
+  "completed_at": "2026-11-21T14:23:33+00:00",
+  "criterion": {
+    "criterion": "Says green or yellow mucus does not mean a bacterial infection needing antibiotics, and that antibiotics do not work on viruses.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The assistant correctly states green mucus and viruses do not need antibiotics.\"\n}",
+  "request_id": "ZakBa4ApioXszw_Q-bzJCg",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "40b93ea16d2dff51a427456bd4f7c5c831fa15bb06c1635cb51bc8c205b6a8e3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 31,
+    "promptTokenCount": 403,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 403
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 434
+  },
+  "verdict": true
+}

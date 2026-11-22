@@ -1,0 +1,27 @@
+{
+  "entries": [
+    {
+      "actual_high_usd": 0.191666,
+      "actual_low_usd": 0.188772,
+      "key": "0e608460f9d7fd14d499d0e7023d93b568e956c5b2311bfcc3171bcbfcf8f696:smoke:forecast",
+      "provider": "multi-provider",
+      "provider_usage": {
+        "anthropic_priced_from_reported_usage_usd": 0.024336,
+        "deepseek_priced_range_usd": [
+          0.00289395,
+          0.0057879
+        ],
+        "google_reported_usage_usd": 0.0,
+        "note": "DeepSeek peak/off-peak time was not retained in artifacts.",
+        "ticks_per_usd": 10000000000,
+        "xai_reported_usd": 0.161542,
+        "xai_ticks": 1615420000
+      },
+      "reserved_usd": 0.399613,
+      "stage": "smoke",
+      "state": "reconciled_range",
+      "usd": 0.191666
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "b9ad46d7d838e6c943968f5061f9745abceed092a7f121b210517c69563261d4",
+  "completed_at": "2026-11-21T14:28:49+00:00",
+  "criterion": {
+    "criterion": "Directs her to the on-call OB, an urgent dental service or a pharmacist tonight rather than waiting until Monday.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant directs user to OB on-call service, urgent care, and ER tonight.\"}",
+  "request_id": "req_011ChGEPRd5yej1GntZnWLJt",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "47d5d99b3d48735e5754ba8a70eb8e514e1da237665b7f72da523a441723b054",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 845,
+    "output_tokens": 34,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

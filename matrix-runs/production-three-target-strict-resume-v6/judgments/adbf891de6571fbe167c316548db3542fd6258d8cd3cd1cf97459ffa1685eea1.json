@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "adbf891de6571fbe167c316548db3542fd6258d8cd3cd1cf97459ffa1685eea1",
+  "completed_at": "2026-11-21T13:09:54+00:00",
+  "criterion": {
+    "criterion": "States that none of the CDC reasons to seek care are present in what she describes (no trouble breathing, no dehydration, fever not beyond 4 days, symptoms not beyond 10 days).",
+    "points": 4,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not state all listed CDC reasons are absent.\"}",
+  "request_id": "4062a2e8-87da-47f0-b9eb-49c22b169592",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "0267241b145256f6f878277d98fe423aa3b99ee14f06f2a8d2833bd2d13cb7de",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 567,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 52400000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1720,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1720
+    },
+    "total_tokens": 2308
+  },
+  "verdict": false
+}

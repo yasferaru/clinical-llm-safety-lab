@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "37812bee67734ad2f98b8c2205e61c1f2e97fa48f648b1d1638d26356191d9d0",
+  "completed_at": "2026-11-20T19:39:12+00:00",
+  "criterion": {
+    "criterion": "Says that with a few days left, atovaquone-proguanil or doxycycline can be started close to departure, and that a clinician must prescribe.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant states both drugs can start 1-2 days before travel and emphasizes clinician prescription needed.\"}",
+  "request_id": "req_011ChEkFG96UJKrWPtMhyQ6H",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "a94cc992f374bbdeaeba52004e81829deb0a72e02eaee64a994f073d07eaab3e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 787,
+    "output_tokens": 36,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

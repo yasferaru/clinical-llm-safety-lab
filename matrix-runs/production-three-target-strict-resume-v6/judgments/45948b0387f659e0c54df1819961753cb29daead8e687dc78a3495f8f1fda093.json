@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "45948b0387f659e0c54df1819961753cb29daead8e687dc78a3495f8f1fda093",
+  "completed_at": "2026-11-21T14:49:06+00:00",
+  "criterion": {
+    "criterion": "Says it is fine to wait until Monday.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply explicitly refuses waiting until Monday.\"}",
+  "request_id": "e9de119c-e8d9-4f93-9a36-781700a4c884",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "5c23170ea7758130f2db6b5edc095fd2abffa016e92bd110c776d912bcfd414e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 18,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 114,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 26220000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1875,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1875
+    },
+    "total_tokens": 2007
+  },
+  "verdict": false
+}

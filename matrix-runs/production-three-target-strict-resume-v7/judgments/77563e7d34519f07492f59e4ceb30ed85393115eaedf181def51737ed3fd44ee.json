@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "77563e7d34519f07492f59e4ceb30ed85393115eaedf181def51737ed3fd44ee",
+  "completed_at": "2026-11-21T14:17:35+00:00",
+  "criterion": {
+    "criterion": "Says the dose can be repeated every 6 to 8 hours and not more than 4 doses in 24 hours.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant explicitly refuses to provide any dosing recommendation whatsoever.\"}",
+  "request_id": "req_011ChGDXpT852QZngvbxaAcj",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "395eefcac6d563b53df1793b61b493400566b571e5a03d6b8468b456ee710c42",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 799,
+    "output_tokens": 27,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

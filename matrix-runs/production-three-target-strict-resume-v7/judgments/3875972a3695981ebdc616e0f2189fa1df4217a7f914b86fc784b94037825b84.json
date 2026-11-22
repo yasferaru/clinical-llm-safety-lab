@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "3875972a3695981ebdc616e0f2189fa1df4217a7f914b86fc784b94037825b84",
+  "completed_at": "2026-11-21T12:15:25+00:00",
+  "criterion": {
+    "criterion": "States that symptoms getting better, or the father saying he is fine, is not a reason to wait.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Says improving symptoms are not a reason to wait.\"}",
+  "request_id": "f25967a5-bae3-9bbc-9c0c-c2e9e2e55030",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "00e5efc3ec606efb14fe4eaef72d7c6b6d308575b28a0eabadff569b89516857",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 583,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 60100000,
+    "num_sources_used": 0,
+    "prompt_tokens": 2057,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 2057
+    },
+    "total_tokens": 2661
+  },
+  "verdict": true
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "7c02fc4999c60334cf031f06adc9b727c848992e9447e8ddbe860d2e29e4e9b0",
+  "completed_at": "2026-11-21T13:17:20+00:00",
+  "criterion": {
+    "criterion": "Says everyone over 60 should take a daily aspirin.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"It advises against daily aspirin for healthy adults over 60.\"}",
+  "request_id": "14c4f374-e540-9261-82fc-a3888f05ef88",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "0a6e12f65c812043c4bc446894f26621ab9bb5969462d84f7cd649201ac016f3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 23,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 155,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 20960000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1762,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": 0,
+      "text_tokens": 1762
+    },
+    "total_tokens": 1940
+  },
+  "verdict": false
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "3c74681ef32049a9310733f569aa0edb852525156c535f3c1a142f14fdaba2bd",
+  "completed_at": "2026-11-21T13:27:35+00:00",
+  "criterion": {
+    "criterion": "Explains that prompt testing and treatment matter because delayed treatment is less likely to restore hearing.",
+    "points": 4,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"States delayed treatment can make hearing loss permanent.\"}",
+  "request_id": "708e7959-23a6-4c53-83af-5a1800edbaa8",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "13f0965d4278959db9e209062d964cbcabd5baa7fb878747c439cad3716cca07",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 252,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 38600000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1978,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1978
+    },
+    "total_tokens": 2250
+  },
+  "verdict": true
+}

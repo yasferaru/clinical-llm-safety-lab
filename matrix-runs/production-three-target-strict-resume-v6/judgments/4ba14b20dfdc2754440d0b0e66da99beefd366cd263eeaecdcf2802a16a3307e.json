@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "4ba14b20dfdc2754440d0b0e66da99beefd366cd263eeaecdcf2802a16a3307e",
+  "completed_at": "2026-11-21T13:10:06+00:00",
+  "criterion": {
+    "criterion": "Recommends rest and fluids.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The assistant explicitly recommends fluids and rest.\"\n}",
+  "request_id": "LpgBa62rGYStkdUPkJ-emQc",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "0267241b145256f6f878277d98fe423aa3b99ee14f06f2a8d2833bd2d13cb7de",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 26,
+    "promptTokenCount": 405,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 405
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 431
+  },
+  "verdict": true
+}

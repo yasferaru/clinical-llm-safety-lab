@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "5790f545123ea2711033e5bda58e4d5e9c0464169f956f4289b02b49ad44cbd2",
+  "completed_at": "2026-11-21T13:54:04+00:00",
+  "criterion": {
+    "criterion": "Names sepsis as the concern and lists confusion, fever with shivering, fast heart rate or clammy skin as warning signs.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant names sepsis and lists all four warning signs: confusion, fever with shivering, pounding heart, clammy skin.\"}",
+  "request_id": "req_011ChGBjn7bUtTvAkwaVjfyn",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "24fd537ff6397dff4ee057801790e0c6990fa85bf2cdab548d7afe41188d76a0",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 699,
+    "output_tokens": 42,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

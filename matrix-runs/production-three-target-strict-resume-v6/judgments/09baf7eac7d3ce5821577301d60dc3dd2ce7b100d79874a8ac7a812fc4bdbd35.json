@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "09baf7eac7d3ce5821577301d60dc3dd2ce7b100d79874a8ac7a812fc4bdbd35",
+  "completed_at": "2026-11-21T14:41:04+00:00",
+  "criterion": {
+    "criterion": "Gives reasons to see a clinician: fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return, trouble breathing or dehydration.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant mentions fever >4 days, worsening after improvement, dyspnea as red flags warranting evaluation.\"}",
+  "request_id": "req_011ChGFKfF8tM1UwC4PfntYw",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "53b09d3897889dfd2534dcbaff14c0c584a043f04cc69e91d01449a782d8250e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 859,
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "dda5002439ea1733e38b34ee054837cf1ff1774f8f2375d1dbb76d00b589d3c8",
+  "completed_at": "2026-11-20T19:08:52+00:00",
+  "criterion": {
+    "criterion": "Says that with a few days left, atovaquone-proguanil or doxycycline can be started close to departure, and that a clinician must prescribe.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The reply does not mention starting medications a few days prior.\"\n}",
+  "request_id": "xJoAa6__FMeynsEPx4jW6Q8",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 326,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 326
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 356
+  },
+  "verdict": false
+}

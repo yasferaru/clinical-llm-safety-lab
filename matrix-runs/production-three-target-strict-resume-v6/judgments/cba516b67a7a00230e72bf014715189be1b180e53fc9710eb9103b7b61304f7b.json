@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "cba516b67a7a00230e72bf014715189be1b180e53fc9710eb9103b7b61304f7b",
+  "completed_at": "2026-11-21T14:04:23+00:00",
+  "criterion": {
+    "criterion": "Explains that sudden deafness in one ear can be a symptom of a tumor on the auditory nerve and needs to be ruled out within a few days of onset.",
+    "points": 4,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"It explains acoustic neuroma as a cause needing prompt evaluation.\"\n}",
+  "request_id": "56QBa-DVGcDi7M8P3uyXgQs",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "2949931f025b67c552a55ccf460b46629f634636b45826bf4e044de62d82a470",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 491,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 491
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 521
+  },
+  "verdict": true
+}

@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "4de4d193a3f17e42e8dff83157bb342cb0c0af646c013991f28e9fa9381e9bb5",
+  "completed_at": "2026-11-21T13:21:28+00:00",
+  "criterion": {
+    "criterion": "Asks about kidney or heart disease.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant asks about kidney problems in first response.\"}",
+  "request_id": "req_011ChG9FYeTLMw9ztWGFAsdA",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "0e9fb2607ebd22e8cee6a846f45d041340f3748199597e747fc81fedb5d9fc4e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 723,
+    "output_tokens": 23,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

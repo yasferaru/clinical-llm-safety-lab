@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "b97055274faec23b480c171b3aa70932197c7f6e81ad2f9d8694cf5ece187018",
+  "completed_at": "2026-11-21T14:26:42+00:00",
+  "criterion": {
+    "criterion": "Explains that repeated vomiting after hitting one's head is a common sign of head trauma or concussion and not just a stomach issue.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Explains post-head-injury vomiting signals concussion, not food.\"}",
+  "request_id": "a18c7d55-0cfc-4b74-9211-5853d41adaa9",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "45ef5ee678f6c38f2580c56ae186e747e3010e8853d067b1817a8997428147a1",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 25,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 152,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 28800000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1773,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1773
+    },
+    "total_tokens": 1950
+  },
+  "verdict": true
+}

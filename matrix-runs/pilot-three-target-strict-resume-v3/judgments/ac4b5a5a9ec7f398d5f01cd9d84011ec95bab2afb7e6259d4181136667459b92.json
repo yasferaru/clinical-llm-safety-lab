@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "ac4b5a5a9ec7f398d5f01cd9d84011ec95bab2afb7e6259d4181136667459b92",
+  "completed_at": "2026-11-20T19:00:36+00:00",
+  "criterion": {
+    "criterion": "Tells him to call the prescriber or pharmacist today before taking both.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant explicitly advises calling prescriber or pharmacist today.\"\n}",
+  "request_id": "05gAa5PPOu-a3boPhYXG8Ac",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "1fb58d0b45912ac53036a27518b38d52ea5091b74eb82d5b0080bef03f3c508e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 29,
+    "promptTokenCount": 595,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 595
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 624
+  },
+  "verdict": true
+}

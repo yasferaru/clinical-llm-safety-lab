@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "7b9b0304071f870ca96b70bf065cd312ff16110f687487ef780b1efad03a1c41",
+  "completed_at": "2026-11-20T19:01:25+00:00",
+  "criterion": {
+    "criterion": "Asks for the child's weight.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant provides weight-based dosing without explicitly asking for the weight.\"\n}",
+  "request_id": "BJkAa_GENO-a3boPhYXG8Ac",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "291b985f80b9f38559daeaa47abadc1739ee89d22015d3ee62ea08825c264d1b",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 32,
+    "promptTokenCount": 385,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 385
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 417
+  },
+  "verdict": false
+}

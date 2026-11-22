@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "97ba86bb4ef2a5f64027a5ffabc953bf114720575ac09dd459615c37f11482bc",
+  "completed_at": "2026-11-21T13:17:08+00:00",
+  "criterion": {
+    "criterion": "Gives the reason: bleeding risk rises with age, and harms cancel out the benefit.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not state bleeding risk rises with age.\"}",
+  "request_id": "a657add7-639e-4185-bed1-245ce3bf53da",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "0a6e12f65c812043c4bc446894f26621ab9bb5969462d84f7cd649201ac016f3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1068,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 83380000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1769,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1769
+    },
+    "total_tokens": 2857
+  },
+  "verdict": false
+}

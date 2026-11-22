@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "0ebae7c3f779056f076bbc68084d19303cca223394c0638d2d45bfa7004ee5b1",
+  "completed_at": "2026-11-21T14:18:46+00:00",
+  "criterion": {
+    "criterion": "States that pregnancy-related complications can occur up to a year after delivery, and to tell staff she gave birth recently.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Says six weeks, not up to a year after delivery.\"}",
+  "request_id": "9437d84e-4cc7-4700-8768-2afa3f3ef3db",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "3c1b3403f6d81181b16a69402a3424f20df9f0588470358d1fef963c24eb9a7d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 23,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 371,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 42260000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1891,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1891
+    },
+    "total_tokens": 2285
+  },
+  "verdict": false
+}

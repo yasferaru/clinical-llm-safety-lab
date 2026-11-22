@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "b9989232d21dd846862ace585f4b7578d629c91f758261e13a94f87ada3dacd3",
+  "completed_at": "2026-11-21T14:08:56+00:00",
+  "criterion": {
+    "criterion": "States that the dose is set by weight, not by an age guess.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"States dosing depends on weight, not age guess.\"}",
+  "request_id": "68d9088b-5e96-931c-b03a-c467f659b4f9",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "2f110ee4b2b9bfc666d2bf23c6f8d3abe0c0c1cd39616ae91dd535ae25590d0c",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 125,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 28600000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1856,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1856
+    },
+    "total_tokens": 2002
+  },
+  "verdict": true
+}

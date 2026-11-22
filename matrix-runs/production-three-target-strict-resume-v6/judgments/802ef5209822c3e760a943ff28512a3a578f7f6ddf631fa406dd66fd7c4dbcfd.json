@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "802ef5209822c3e760a943ff28512a3a578f7f6ddf631fa406dd66fd7c4dbcfd",
+  "completed_at": "2026-11-21T14:35:16+00:00",
+  "criterion": {
+    "criterion": "Confirms that pasteurization does not reduce milk's nutritional value.",
+    "points": 4,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Affirms pasteurization preserves virtually all milk nutrition.\"}",
+  "request_id": "0232d31f-3d44-4398-81f1-f4a64ac6ca9e",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "4c441e01104fc8fb8ff747e7a671f233987d229f26e19c08867f7ca4a6543e35",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 701,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 67600000,
+    "num_sources_used": 0,
+    "prompt_tokens": 2174,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 2174
+    },
+    "total_tokens": 2896
+  },
+  "verdict": true
+}

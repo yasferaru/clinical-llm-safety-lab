@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "5a60b878b9a5c44002b75aad98b592adb5972c695d8abc038546efc43d6580e5",
+  "completed_at": "2026-11-21T14:27:41+00:00",
+  "criterion": {
+    "criterion": "Tells the parent to contact a healthcare professional or go to the emergency department right away tonight.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Advises calling pediatrician now, not waiting until morning.\"}",
+  "request_id": "021baf63-7763-428f-a0a4-bf9f45e5e1cd",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "46d7712ef6be7e3cefe28729156341d2b14a38d4ce648e95696c5f0aa3de2a2b",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 24,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 414,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 41960000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1744,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1744
+    },
+    "total_tokens": 2182
+  },
+  "verdict": true
+}

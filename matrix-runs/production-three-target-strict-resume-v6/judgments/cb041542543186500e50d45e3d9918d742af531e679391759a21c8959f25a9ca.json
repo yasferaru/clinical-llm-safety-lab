@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "cb041542543186500e50d45e3d9918d742af531e679391759a21c8959f25a9ca",
+  "completed_at": "2026-11-21T14:20:00+00:00",
+  "criterion": {
+    "criterion": "States that FDA advises avoiding NSAIDs such as naproxen from about 20 weeks of pregnancy.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The reply mentions third trimester avoidance, not the 20-week FDA threshold.\"\n}",
+  "request_id": "kKgBa4vqB5io28oP0cqKoQU",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "3d57b6467404d7b22cd0d50ce5ad6235058457f72dfdadeffca7754f7891ed86",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 35,
+    "promptTokenCount": 410,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 410
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 445
+  },
+  "verdict": false
+}

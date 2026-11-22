@@ -1,0 +1,41 @@
+{
+  "attempt": 1,
+  "cell_id": "884ac474acd2cbf1967513f7ddc66bcd7883c0cd6871c4b789adfe751bc086fe",
+  "completed_at": "2026-11-19T18:20:18+00:00",
+  "criterion": {
+    "criterion": "Asks where she is going.",
+    "points": 5,
+    "type": "must"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reasoning\":\"The assistant explicitly asks for the destination, stating it needs to know \u201cwhere you\u2019re going\u201d and requesting the \u201cdestination/country and region.\u201d\"}",
+  "request_id": "26de8325-22bc-950e-8a6e-7e1ca8d3b69e",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "600633eba719d5d24779d596a4bd9258b68fe63690ed12498238e0dfc0de26a5",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 39,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 155,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 31460000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1855,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1855
+    },
+    "total_tokens": 2049
+  },
+  "verdict": true
+}

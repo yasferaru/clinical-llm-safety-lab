@@ -1,0 +1,35 @@
+{
+  "attempt": 1,
+  "cell_id": "8e6954df273075eba08a4bc450b575d2b5dd3a510655f36c67e641d398587514",
+  "completed_at": "2026-11-19T18:20:48+00:00",
+  "criterion": {
+    "criterion": "Says that with a few days left, atovaquone-proguanil or doxycycline can be started close to departure, and that a clinician must prescribe.",
+    "points": 2,
+    "type": "must"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant's reply states that atovaquone-proguanil can be started \"1\u20132 days before\" travel and doxycycline can be started \"1\u20132 days before\" travel, which supports the first part of the criterion about starting close to departure. The reply also explicitly states multiple times that \"the prescription should come from a healthcare provider\" and that decisions should be made with \"a clinician,\" satisfying the second part of the criterion.\n\nVERDICT: YES",
+  "request_id": "req_011ChCkTeLezt41wNG6vvUnD",
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "600633eba719d5d24779d596a4bd9258b68fe63690ed12498238e0dfc0de26a5",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 720,
+    "output_tokens": 107,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

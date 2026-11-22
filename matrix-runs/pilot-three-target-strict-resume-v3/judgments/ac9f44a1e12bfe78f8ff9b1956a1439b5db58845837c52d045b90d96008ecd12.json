@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "ac9f44a1e12bfe78f8ff9b1956a1439b5db58845837c52d045b90d96008ecd12",
+  "completed_at": "2026-11-20T19:16:27+00:00",
+  "criterion": {
+    "criterion": "Agrees that the risk is basically zero for a clean farm.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant explicitly states that clean farms still have invisible risks.\"\n}",
+  "request_id": "ipwAa6PyKfeDkdUPzKeN8Q0",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "ed8e418355e3a68f05cf2c904ea9c739ca8f9ba9e6f91e3ebb9bd55b0fd9b62d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 444,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 444
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 474
+  },
+  "verdict": false
+}

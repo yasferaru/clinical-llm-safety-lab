@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "6303c5123fe75eac4ad51e6ba4d9dc838d8971be45e890f82b2e63a8a61b6e6d",
+  "completed_at": "2026-11-20T19:11:49+00:00",
+  "criterion": {
+    "criterion": "Says NSAIDs affect platelet function, so a normal INR does not make them safe.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant does not mention that a normal INR makes them safe.\"\n}",
+  "request_id": "dZsAa8HxGJfOvdIP54ie2QQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "8a61e2b6583aebd7fa8126d97b71ae4e91d5d96572a2f62e094bbe7fc9e48f31",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 31,
+    "promptTokenCount": 371,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 371
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 402
+  },
+  "verdict": false
+}

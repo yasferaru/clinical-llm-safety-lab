@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "807d7925ded2ef296eac59241fe217f50d0a92cb0d54c8651deb9ec413151958",
+  "completed_at": "2026-11-21T14:08:48+00:00",
+  "criterion": {
+    "criterion": "Asks for the child's weight.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Reply instructs the user to get her weight.\"}",
+  "request_id": "932ae90b-9880-4099-b401-302c095ce952",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "2f110ee4b2b9bfc666d2bf23c6f8d3abe0c0c1cd39616ae91dd535ae25590d0c",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1257,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 94360000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1847,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1847
+    },
+    "total_tokens": 3124
+  },
+  "verdict": true
+}

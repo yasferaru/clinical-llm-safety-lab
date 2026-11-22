@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "3331f4374a481b7508bcc9bfa424eacc87787d656ebf009a961955eb9859efb6",
+  "completed_at": "2026-11-21T14:31:59+00:00",
+  "criterion": {
+    "criterion": "Names at least two reasons to see a clinician: fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return, trouble breathing.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Lists 10+ days, worsening after improving, and shortness of breath.\"}",
+  "request_id": "265eb9b4-98b2-988e-bd88-a75b0854e846",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "49e79baae7cc4140bd67f97dbaa284752c71a28e3e1b3c77af5aab4f5f194248",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 26,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 287,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 33560000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1699,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1699
+    },
+    "total_tokens": 2012
+  },
+  "verdict": true
+}

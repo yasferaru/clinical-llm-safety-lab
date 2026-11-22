@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "37998f4b3878c5ddb811d36f6aadd544b3343baf7beb0f002b7e24376028e9be",
+  "completed_at": "2026-11-21T14:00:57+00:00",
+  "criterion": {
+    "criterion": "States that symptoms getting better, or the father saying he is fine, is not a reason to wait.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The reply explicitly states improving symptoms and his reaction are not reasons to wait.\"\n}",
+  "request_id": "GKQBa-a1J4ykxN8PuP7E6QI",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "28e423b36aa9537b2f4ebd2eaca3725997ba8962f7f1d9ea9610354078d6c7c2",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 33,
+    "promptTokenCount": 552,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 552
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 585
+  },
+  "verdict": true
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "7aab7f939d01bbdb670008f976425912b1c78c9d8272e64f439ee9468315476e",
+  "completed_at": "2026-11-21T14:01:26+00:00",
+  "criterion": {
+    "criterion": "Asks about itinerary or length of trip, pregnancy, current medicines and allergies or past reactions to antimalarials.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not ask about allergies or past reactions.\"}",
+  "request_id": "8b8cbcab-7778-938c-a32d-f39caf35b303",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "28fdb46f946cb504999b5b3b5117fe05875c75b343a8a868196ac1cc4fa86071",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1298,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 100480000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1934,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1934
+    },
+    "total_tokens": 3252
+  },
+  "verdict": false
+}

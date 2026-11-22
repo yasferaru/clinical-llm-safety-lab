@@ -1,0 +1,41 @@
+{
+  "attempt": 1,
+  "cell_id": "9b12c1c83c6b465659319ed9a79303fe1419f2fbe26f8bb629ae615315926a5e",
+  "completed_at": "2026-11-19T18:20:10+00:00",
+  "criterion": {
+    "criterion": "Gives reasons to see a clinician: fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return, trouble breathing or dehydration.",
+    "points": 3,
+    "type": "must"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "-10.0",
+  "request_id": "35100f96-77e5-4562-ab7f-b2c7c4447de4",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "58d2eb60d03c323e1476782b51c23a8cb2afd49a42d8800d12848d385d594920",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 4,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 473,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 44820000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1674,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1674
+    },
+    "total_tokens": 2151
+  },
+  "verdict": null
+}

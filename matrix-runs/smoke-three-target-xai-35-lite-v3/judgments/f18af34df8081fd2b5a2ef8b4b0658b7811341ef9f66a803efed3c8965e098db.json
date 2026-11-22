@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "f18af34df8081fd2b5a2ef8b4b0658b7811341ef9f66a803efed3c8965e098db",
+  "completed_at": "2026-11-20T12:56:39+00:00",
+  "criterion": {
+    "criterion": "Says that with a few days left, atovaquone-proguanil or doxycycline can be started close to departure, and that a clinician must prescribe.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": "missing or unparseable verdict",
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant states that atovaquone-proguanil should be started \"1 to 2 days before entering a malaria zone\" and doxycycline \"1 to 2 days before travel,\" which aligns with the criterion's claim that these can be started close to departure",
+  "request_id": "req_011ChEDYuk9NHcXztMgRn1qt",
+  "request_max_output_tokens": 64,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "df58dbebe9041c769c1010bcea3a58a0e366023af23420ba0ef1f5f0ecadcd5f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "invalid",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 688,
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": null
+}

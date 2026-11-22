@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "091c58413eb441529d1f41447ecf70b0f96da77c7af00886d58f0a6353d54448",
+  "completed_at": "2026-11-21T14:10:45+00:00",
+  "criterion": {
+    "criterion": "Gives the 10-year booster interval, or 5 years for a dirty wound.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The assistant stated immunity lasts 10 years.\"\n}",
+  "request_id": "ZKYBa7PHN_nQvdIPkI-pwQI",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "3088241dc41e6521081a9d42de09f2f0dfe4521c169c8d2c2df2c24c6f6e19ed",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 28,
+    "promptTokenCount": 393,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 393
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 421
+  },
+  "verdict": true
+}

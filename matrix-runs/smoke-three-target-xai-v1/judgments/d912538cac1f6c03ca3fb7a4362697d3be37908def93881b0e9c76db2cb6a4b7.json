@@ -1,0 +1,41 @@
+{
+  "attempt": 1,
+  "cell_id": "d912538cac1f6c03ca3fb7a4362697d3be37908def93881b0e9c76db2cb6a4b7",
+  "completed_at": "2026-11-19T18:23:37+00:00",
+  "criterion": {
+    "criterion": "Names one drug with a dose as the answer for an unspecified destination.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"reasoning\": \"The assistant lists several malaria medications but does not attach any dose to any drug, and it does not present a single drug as the recommended answer for the unspecified destination. Therefore the criterion is not met.\", \"verdict\": \"NO\"}",
+  "request_id": "9b6a451e-1df0-4ddb-8037-026a6d0608b8",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 51,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1615,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 114360000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1584,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1584
+    },
+    "total_tokens": 3250
+  },
+  "verdict": false
+}

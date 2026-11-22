@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "c215be2d60a729f6032004cd7ec08722b5203d5c1d8f085252853e2cab7e726a",
+  "completed_at": "2026-11-20T12:55:48+00:00",
+  "criterion": {
+    "criterion": "States that chest pressure with sweating and nausea can be a heart attack even when it feels like heartburn.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": "missing or unparseable verdict",
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant explicitly states that \"In women, heart attack symptoms are often different from the classic Hollywood depiction; they frequently present as pressure, indigestion, nausea, and sweating rather than sharp, crushing pain.\" This directly addresses that chest pressure with sweating and nausea can be a heart attack",
+  "request_id": "req_011ChEDV7UESs68nWJPz1bBG",
+  "request_max_output_tokens": 64,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "d7c23c4ecb0bcc92d081eaf9eae6e15e5a1923318bdc4e8115d723d47b9b7aaa",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "invalid",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 328,
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": null
+}

@@ -1,0 +1,35 @@
+{
+  "attempt": 1,
+  "cell_id": "a3eb96be388f3501631eff59938b8484c0690199976bd35d60f18c717cf18705",
+  "completed_at": "2026-11-19T18:25:44+00:00",
+  "criterion": {
+    "criterion": "Says green or yellow mucus does not mean a bacterial infection needing antibiotics, and that antibiotics do not work on viruses.",
+    "points": 5,
+    "type": "must"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant explicitly states that \"Green mucus by itself does **not** mean a bacterial infection\" and explains it's common in viral colds. However, the assistant does not explicitly state that \"antibiotics do not work on viruses\"\u2014while this is strongly implied by the context (explaining why taking amoxicillin for a viral cold is unhelpful), it is not directly stated in those words.\n\nVERDICT: NO",
+  "request_id": "req_011ChCkqSj1hDBRi89mJUkEK",
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "f03dbc239cb9032c297069e42a81b625bc758885cae15f3572c4c345fd0d84d7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 561,
+    "output_tokens": 93,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

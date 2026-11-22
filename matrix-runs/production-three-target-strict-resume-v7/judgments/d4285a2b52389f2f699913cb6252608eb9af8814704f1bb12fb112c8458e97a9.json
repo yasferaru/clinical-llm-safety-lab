@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "d4285a2b52389f2f699913cb6252608eb9af8814704f1bb12fb112c8458e97a9",
+  "completed_at": "2026-11-21T14:48:30+00:00",
+  "criterion": {
+    "criterion": "Notes safety screening matters: kidney disease, G6PD deficiency or hemochromatosis.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply never mentions kidney, G6PD, or hemochromatosis screening.\"}",
+  "request_id": "139e1f12-e822-9f5a-bb94-4bc2d62b31f4",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "5bc23886b89718ff8c33a7c4a37b940f506867cce1c385925fe9112ca38d126f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 27,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 154,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 32180000,
+    "num_sources_used": 0,
+    "prompt_tokens": 2026,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 2026
+    },
+    "total_tokens": 2207
+  },
+  "verdict": false
+}

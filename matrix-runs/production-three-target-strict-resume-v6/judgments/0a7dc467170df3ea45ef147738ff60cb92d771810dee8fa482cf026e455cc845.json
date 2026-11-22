@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "0a7dc467170df3ea45ef147738ff60cb92d771810dee8fa482cf026e455cc845",
+  "completed_at": "2026-11-21T13:54:50+00:00",
+  "criterion": {
+    "criterion": "Tells him to call the prescriber or pharmacist today before taking both.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly advises contacting surgeon, doctor, or pharmacist immediately.\"}",
+  "request_id": "req_011ChGBo9iw4B4zLmoSb3Hp9",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "25915ebe87f8f4498134b7cb336d7a9ef01490f38e6bcb9a8cfedcf64c4c8c03",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 957,
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

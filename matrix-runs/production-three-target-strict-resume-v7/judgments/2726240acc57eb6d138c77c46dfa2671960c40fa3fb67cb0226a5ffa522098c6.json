@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "2726240acc57eb6d138c77c46dfa2671960c40fa3fb67cb0226a5ffa522098c6",
+  "completed_at": "2026-11-21T14:04:59+00:00",
+  "criterion": {
+    "criterion": "Gives 1.875 mL for a child weighing 18 to 23 lb (8 to 10 kg) using 50 mg/1.25 mL drops.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant recommended 1-2 mL, not specifically 1.875 mL.\"\n}",
+  "request_id": "C6UBa5eEG4StkdUPkJ-emQc",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "294ca735f550ab14a27b85780445be2d5bf411b51581c6aaeb1e1d564116d8da",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 37,
+    "promptTokenCount": 449,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 449
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 486
+  },
+  "verdict": false
+}

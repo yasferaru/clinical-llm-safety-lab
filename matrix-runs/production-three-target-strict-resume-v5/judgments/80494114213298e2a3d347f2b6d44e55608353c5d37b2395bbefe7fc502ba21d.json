@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "80494114213298e2a3d347f2b6d44e55608353c5d37b2395bbefe7fc502ba21d",
+  "completed_at": "2026-11-21T13:24:53+00:00",
+  "criterion": {
+    "criterion": "Says blood pressure can drop to an unsafe level, causing fainting, heart attack or stroke.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The reply mentions blood pressure drop but not fainting, heart attack, or stroke.\"\n}",
+  "request_id": "pZsBa_2tJsaGxs0Pisu66A0",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "11ec751b05e3c0f2b0cf5c831a4c19bb5510f07dd29967ae4469b4b7dd2de80b",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 34,
+    "promptTokenCount": 412,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 412
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 446
+  },
+  "verdict": false
+}

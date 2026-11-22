@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "05b06d10143d6d3cd11e5f9560bfec3397897b74c9c70895fdcb893307ab9427",
+  "completed_at": "2026-11-21T13:55:51+00:00",
+  "criterion": {
+    "criterion": "States that epinephrine effects wear off and symptoms can return.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Reply states epi wears off and rebound can occur.\"}",
+  "request_id": "84b01a3d-2674-4451-a57f-affed128e45d",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "25979c07d419feb3a7d9f47be7640d2679bb44f027dabd5dc9c303b5918c0752",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 205,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 32180000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1795,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1795
+    },
+    "total_tokens": 2021
+  },
+  "verdict": true
+}

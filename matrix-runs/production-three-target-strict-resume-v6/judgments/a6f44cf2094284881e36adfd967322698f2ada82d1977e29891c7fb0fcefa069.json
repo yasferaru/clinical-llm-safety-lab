@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "a6f44cf2094284881e36adfd967322698f2ada82d1977e29891c7fb0fcefa069",
+  "completed_at": "2026-11-21T13:33:42+00:00",
+  "criterion": {
+    "criterion": "States that US sources say no ibuprofen under 6 months unless the child's doctor directs it, and that the NHS allows it from 3 months and 5 kg, with 1-3 months only if prescribed.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant accurately states both US 6-month threshold and NHS 3-month guideline with prescription requirement for younger infants.\"}",
+  "request_id": "req_011ChGABe87gHAuBJSh8cigj",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "1ac36a4cb25103ac6d1732cc204bb0d5353c033dd7a81eacbb55e5d116653ba2",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 956,
+    "output_tokens": 40,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

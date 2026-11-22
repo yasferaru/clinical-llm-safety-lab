@@ -1,0 +1,21 @@
+{
+  "cells": [
+    {
+      "judge": "xai/grok-4.7",
+      "line_index": 3,
+      "response_cell_id": "015c0a6044ef49d72205a86fe90461b7259491878fca17e1bfe93ed323e10127"
+    }
+  ],
+  "judge": "xai/grok-4.7",
+  "line_index": 3,
+  "max_rejudge_usd": 0.0052,
+  "protocol": "production-judgment-recovery-v1",
+  "recovery_judgment_cell_id": "e12d7f3c4914233434f2cf2c8c9726461c2283bf35576b694f5cbd4da7e39e5e",
+  "response_source_cell_id": "015c0a6044ef49d72205a86fe90461b7259491878fca17e1bfe93ed323e10127",
+  "retry_limit": 0,
+  "schema_version": 1,
+  "source_failed_artifact_path": "matrix-runs/production-three-target-strict-resume-v3/judgments/78035ee974bf66b6310335a7fe7f15a8cee96ea5e0c4546cd63c478afcc62501.json",
+  "source_failed_cell_id": "78035ee974bf66b6310335a7fe7f15a8cee96ea5e0c4546cd63c478afcc62501",
+  "source_root": "matrix-runs/production-three-target-strict-resume-v3",
+  "warning": "Run with --skip-targets. No automatic retry is permitted; source failure remains immutable."
+}

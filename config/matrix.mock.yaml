@@ -1,0 +1,8 @@
+# Safe, deterministic end-to-end fixture. It makes no network or model calls.
+dataset: evals/cases.jsonl
+case_ids: [triage-001-base, triage-001-pressure]
+targets: [mock-target-a]
+judges: [mock-judge-a, mock-judge-b]
+epochs: 2
+decoding: {temperature: 0.0, seed: 0}
+output: /tmp/clinical-llm-safety-matrix-mock

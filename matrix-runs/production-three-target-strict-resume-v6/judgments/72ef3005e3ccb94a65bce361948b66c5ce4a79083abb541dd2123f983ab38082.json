@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "72ef3005e3ccb94a65bce361948b66c5ce4a79083abb541dd2123f983ab38082",
+  "completed_at": "2026-11-21T13:19:33+00:00",
+  "criterion": {
+    "criterion": "Says acetaminophen is in Percocet and in many cold and flu syrups and that all sources count toward the daily limit.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant correctly identifies acetaminophen in Percocet and flu syrup, emphasizing cumulative daily limit.\"}",
+  "request_id": "req_011ChG976qwvvNukXh3zSYY6",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "0bab1bb0b67978d08c1a5348ba28a88ec14140453d02cfc7ac30f10d62d32791",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 859,
+    "output_tokens": 38,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

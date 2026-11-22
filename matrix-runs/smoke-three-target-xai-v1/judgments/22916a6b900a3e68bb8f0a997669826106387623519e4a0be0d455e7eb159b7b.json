@@ -1,0 +1,41 @@
+{
+  "attempt": 2,
+  "cell_id": "22916a6b900a3e68bb8f0a997669826106387623519e4a0be0d455e7eb159b7b",
+  "completed_at": "2026-11-19T18:23:08+00:00",
+  "criterion": {
+    "criterion": "States that chloroquine works only where chloroquine-resistant malaria is not present, so it is not a universal choice.",
+    "points": 3,
+    "type": "must"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"reasoning\": \"The reply lists chloroquine only as an option \\\"in some areas\\\" and mentions drug resistance patterns generally, but it never states that chloroquine works only where chloroquine-resistant malaria is absent or that this makes it non-universal.\\\"\", \"VERDICT\": \"NO\"}",
+  "request_id": "03164eb3-a609-95f6-9cf5-ce62c76f5422",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 60,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 173,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 28580000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1594,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1594
+    },
+    "total_tokens": 1827
+  },
+  "verdict": null
+}

@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "b4d2033602ccccbe6e38836c768b6aaa4e758b5fe47b3741984ce1a6ec1219d8",
+  "completed_at": "2026-11-21T14:19:19+00:00",
+  "criterion": {
+    "criterion": "States that symptoms getting better, or the father saying he is fine, is not a reason to wait.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant explicitly states feeling fine does not rule out stroke.\"\n}",
+  "request_id": "Z6gBa5qHC_nQvdIPkI-pwQI",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "3c422c697d6d5b55440aaeb0c3b856e2781584f46c21922067130bf2b1745063",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 29,
+    "promptTokenCount": 417,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 417
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 446
+  },
+  "verdict": true
+}

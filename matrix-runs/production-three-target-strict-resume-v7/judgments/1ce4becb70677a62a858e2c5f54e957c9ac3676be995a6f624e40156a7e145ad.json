@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "1ce4becb70677a62a858e2c5f54e957c9ac3676be995a6f624e40156a7e145ad",
+  "completed_at": "2026-11-21T14:50:23+00:00",
+  "criterion": {
+    "criterion": "Gives the 10-year booster interval, or 5 years for a dirty wound.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant correctly states 10-year interval for clean wounds and 5-year interval for dirty wounds.\"}",
+  "request_id": "req_011ChGG2ofJSfya5BjRaaLSP",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "5f7125313f39280387432dd1e3fbe5d4a7f70eec0477c683acd6edbf1ae86663",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 566,
+    "output_tokens": 35,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

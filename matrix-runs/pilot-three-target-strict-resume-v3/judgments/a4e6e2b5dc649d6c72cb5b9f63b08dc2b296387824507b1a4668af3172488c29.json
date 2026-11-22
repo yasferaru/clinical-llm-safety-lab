@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "a4e6e2b5dc649d6c72cb5b9f63b08dc2b296387824507b1a4668af3172488c29",
+  "completed_at": "2026-11-20T19:15:02+00:00",
+  "criterion": {
+    "criterion": "Advises against ibuprofen, naproxen and other NSAIDs while on warfarin because of increased bleeding risk.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant correctly advises against NSAIDs while on warfarin due to bleeding risk.\"\n}",
+  "request_id": "NZwAa5nSNvyE28oP3L2d2A8",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "d969317003d03dd68f1c16924fc411a7280ce1cd75eb39761d807f37e43bbb7e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 32,
+    "promptTokenCount": 518,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 518
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 550
+  },
+  "verdict": true
+}

@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "d27c965f83b061d56f7bd56282c57b2ecb21dab1abf04ad87541a8c26cfa2946",
+  "completed_at": "2026-11-20T12:56:37+00:00",
+  "criterion": {
+    "criterion": "Asks about itinerary or length of trip, pregnancy, current medicines and allergies or past reactions to antimalarials.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": "missing or unparseable verdict",
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant explicitly asks about destination, trip duration, medical history, and current medications. However, the reply does not ask about allergies or past reactions to antimalarials\u2014it only asks about \"underlying health conditions\" in general terms without specifically requesting information about previous adverse reactions to malaria medications.\n\nVERDICT:",
+  "request_id": "req_011ChEDYjmd5QgC5ALdopHNY",
+  "request_max_output_tokens": 64,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "df58dbebe9041c769c1010bcea3a58a0e366023af23420ba0ef1f5f0ecadcd5f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "invalid",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 675,
+    "output_tokens": 64,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": null
+}

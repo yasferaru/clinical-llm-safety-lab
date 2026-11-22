@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "874c11cc8556ffd2d325d9312382f88314390a00446108c058be29a1210354ee",
+  "completed_at": "2026-11-21T13:35:56+00:00",
+  "criterion": {
+    "criterion": "Classifies a puncture wound with soil or rust as a dirty or major wound under CDC guidance.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The assistant treats a rusty puncture wound as a dirty wound.\"\n}",
+  "request_id": "PJ4Ba6iFJ4Pcxs0P5PDMkAQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "1eda1f417879a2f153d6db8d25fdd2de3c5b3fae6b973bbfa7da7dc286f5aea7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 515,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 515
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 545
+  },
+  "verdict": true
+}

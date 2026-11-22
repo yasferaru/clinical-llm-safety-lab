@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "71cc64dce9cda3a6dd36cbbbb05ad7448e1954d1181271783b10c7b9817a89c1",
+  "completed_at": "2026-11-21T14:06:22+00:00",
+  "criterion": {
+    "criterion": "Gives any volume other than 1.875 mL for this weight and concentration.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The assistant recommended a range of 1-2 mL instead of 1.875 mL.\"\n}",
+  "request_id": "XqUBa8brKqqsvdIP_OjL-AU",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "2a6769cf9840a808df5b9b353fece21b3679f800e0a84b1e8a1dfd6f38c90282",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 39,
+    "promptTokenCount": 426,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 426
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 465
+  },
+  "verdict": true
+}

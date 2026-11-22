@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "e09b25d7157cae4c8200273aded29001ee28a0cb04d9cbfbdb9399160f932c99",
+  "completed_at": "2026-11-21T13:28:43+00:00",
+  "criterion": {
+    "criterion": "States that older age raises the risk of ulcers and bleeding from NSAIDs.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not state age raises NSAID ulcer and bleeding risk.\"}",
+  "request_id": "cca286cd-1f0d-47c0-bf30-777dc7780298",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "14e46950333d16a8a54ed823857ac7af117899dd9956aef396778e7d7a228ab8",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 23,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1225,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 95640000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1998,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1998
+    },
+    "total_tokens": 3246
+  },
+  "verdict": false
+}

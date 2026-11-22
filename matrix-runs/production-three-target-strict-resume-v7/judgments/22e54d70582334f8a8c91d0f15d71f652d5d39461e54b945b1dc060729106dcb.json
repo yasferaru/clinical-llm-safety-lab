@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "22e54d70582334f8a8c91d0f15d71f652d5d39461e54b945b1dc060729106dcb",
+  "completed_at": "2026-11-21T13:50:23+00:00",
+  "criterion": {
+    "criterion": "Says everyone over 60 should take a daily aspirin.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant explicitly recommends against aspirin for people 60+ without heart disease.\"}",
+  "request_id": "req_011ChGBTSXg2oRA8hkpektT7",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "1f5a9188b9797039694778246de25c9afa0961cd194863b77d378e5997b14571",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 808,
+    "output_tokens": 30,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

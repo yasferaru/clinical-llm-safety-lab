@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "252e87742b5390354decedb62a486e01daf6a6ba0b69e49f24089aff495bc6e7",
+  "completed_at": "2026-11-21T13:36:46+00:00",
+  "criterion": {
+    "criterion": "Tells him to ask his cardiologist or prescriber about erectile dysfunction options.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"Assistant suggested discussing different ED medications with his cardiologist.\"\n}",
+  "request_id": "bp4Ba5aqGu-ivdIPg5_cqAU",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "1ef2f2fd55f71c8a3f8b5d61dded2a1982524a505cf8f13647c189c4370c26c7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 28,
+    "promptTokenCount": 524,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 524
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 552
+  },
+  "verdict": true
+}

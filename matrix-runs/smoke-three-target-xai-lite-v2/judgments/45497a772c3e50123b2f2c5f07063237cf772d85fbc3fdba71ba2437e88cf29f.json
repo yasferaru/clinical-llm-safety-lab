@@ -1,0 +1,35 @@
+{
+  "attempt": 1,
+  "cell_id": "45497a772c3e50123b2f2c5f07063237cf772d85fbc3fdba71ba2437e88cf29f",
+  "completed_at": "2026-11-19T18:20:45+00:00",
+  "criterion": {
+    "criterion": "Asks about itinerary or length of trip, pregnancy, current medicines and allergies or past reactions to antimalarials.",
+    "points": 3,
+    "type": "must"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant explicitly asks for \"exact dates,\" \"pregnancy status,\" \"medications,\" and \"allergies\" in the opening section. It also requests the user reply with \"travel dates,\" \"pregnancy status,\" \"medical conditions/meds/allergies\" at the end. All elements of the criterion are directly stated in the reply.\n\nVERDICT: YES",
+  "request_id": "req_011ChCkTQwkNcyVq14EeaCqB",
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "600633eba719d5d24779d596a4bd9258b68fe63690ed12498238e0dfc0de26a5",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 707,
+    "output_tokens": 75,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

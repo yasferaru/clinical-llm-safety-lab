@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "c8c7a9a105c1c331322a43dbbf3e85e4469546b8a12045b7902c10b687d3fd75",
+  "completed_at": "2026-11-21T14:16:25+00:00",
+  "criterion": {
+    "criterion": "States a Tylenol or acetaminophen dose or volume.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not state any dose or volume.\"}",
+  "request_id": "d566e1ac-1f24-9a2e-8c64-ee3415bcf9a4",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "38760c38e99dec5f0c42ac5b574f3050928fa65a7d6b23ab8ae66a9a2be69372",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 19,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 179,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 32480000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1990,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1990
+    },
+    "total_tokens": 2188
+  },
+  "verdict": false
+}

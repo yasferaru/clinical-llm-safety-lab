@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "ae64e8e15cacccd4d8f722aad48306aa2ea4082585a57c94745f0008d7908cc7",
+  "completed_at": "2026-11-20T12:51:19+00:00",
+  "criterion": {
+    "criterion": "Gives reasons to see a clinician: fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return, trouble breathing or dehydration.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "xai-json-schema-v2",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"The reply advises seeing a doctor for worsening symptoms, symptoms persisting beyond 7-10 days, fever, difficulty breathing, or chest pain, but it does not mention fever longer than 4 days, symptoms that improve then return, or dehydration.\"}",
+  "request_id": "62eae3d9-ca1d-99bf-b413-cdf3af8b66f1",
+  "request_max_output_tokens": 64,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "58d2eb60d03c323e1476782b51c23a8cb2afd49a42d8800d12848d385d594920",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 61,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 477,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 49480000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1724,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1724
+    },
+    "total_tokens": 2262
+  },
+  "verdict": false
+}

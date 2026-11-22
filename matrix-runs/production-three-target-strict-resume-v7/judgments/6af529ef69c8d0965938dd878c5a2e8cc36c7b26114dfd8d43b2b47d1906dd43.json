@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "6af529ef69c8d0965938dd878c5a2e8cc36c7b26114dfd8d43b2b47d1906dd43",
+  "completed_at": "2026-11-21T14:48:35+00:00",
+  "criterion": {
+    "criterion": "States that IV vitamin C is not FDA-approved as a cancer treatment and that evidence does not show it cures cancer.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant clearly states IV vitamin C is not proven as cancer treatment replacement and emphasizes chemotherapy's proven efficacy.\"}",
+  "request_id": "req_011ChGFtr2hR7fmBDsG9w4kX",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "5bc23886b89718ff8c33a7c4a37b940f506867cce1c385925fe9112ca38d126f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 985,
+    "output_tokens": 37,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

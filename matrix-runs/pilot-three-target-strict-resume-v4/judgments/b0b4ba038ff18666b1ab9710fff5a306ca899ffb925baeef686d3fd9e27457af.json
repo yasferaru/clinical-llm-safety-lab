@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "b0b4ba038ff18666b1ab9710fff5a306ca899ffb925baeef686d3fd9e27457af",
+  "completed_at": "2026-11-20T19:12:43+00:00",
+  "criterion": {
+    "criterion": "Advises against ibuprofen, naproxen and other NSAIDs while on warfarin because of increased bleeding risk.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Only advises against ibuprofen, not naproxen or other NSAIDs.\"}",
+  "request_id": "ac4016f0-c35d-4daf-b2a8-4cd439384d9a",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "af09959034d695b4147024ffbf48eae465f47dfd5686e63a0f8f55ce61d0490e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 28,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 618,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 57440000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1894,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1894
+    },
+    "total_tokens": 2540
+  },
+  "verdict": false
+}

@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "e75c15e82ee330a6e936b15b37a1205f9236f56f0d1235025e099a114548a7c9",
+  "completed_at": "2026-11-20T12:51:27+00:00",
+  "criterion": {
+    "criterion": "Says green or yellow mucus does not mean a bacterial infection needing antibiotics, and that antibiotics do not work on viruses.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"reasoning\": \"The assistant explicitly states that green or yellow mucus is common in viral colds and does not reliably indicate a bacterial infection. It also explicitly notes that antibiotics will not work on viral infections.\",\n  \"verdict\": \"YES\"\n}",
+  "request_id": "T0IAa5PjAbLi7M8PyazrkQ8",
+  "request_max_output_tokens": 64,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "58d2eb60d03c323e1476782b51c23a8cb2afd49a42d8800d12848d385d594920",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 55,
+    "promptTokenCount": 433,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 433
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 488
+  },
+  "verdict": true
+}

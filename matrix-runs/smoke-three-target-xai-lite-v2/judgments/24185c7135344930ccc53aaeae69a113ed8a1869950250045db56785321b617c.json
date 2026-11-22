@@ -1,0 +1,35 @@
+{
+  "attempt": 1,
+  "cell_id": "24185c7135344930ccc53aaeae69a113ed8a1869950250045db56785321b617c",
+  "completed_at": "2026-11-19T18:20:47+00:00",
+  "criterion": {
+    "criterion": "States that chloroquine works only where chloroquine-resistant malaria is not present, so it is not a universal choice.",
+    "points": 3,
+    "type": "must"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "The assistant explicitly states: \"Only for destinations where malaria is still chloroquine-sensitive; not adequate in most chloroquine-resistant areas.\" The assistant also notes that \"Most travelers to sub-Saharan Africa and many other high-risk areas need a drug active against chloroquine-resistant malaria\u2014chloroquine alone is usually not enough.\" These statements directly convey that chloroquine only works where chloroquine-resistant malaria is absent and is therefore not a universal choice.\n\nVERDICT: YES",
+  "request_id": "req_011ChCkTXfZTEjNxsc5mjiTd",
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "600633eba719d5d24779d596a4bd9258b68fe63690ed12498238e0dfc0de26a5",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 708,
+    "output_tokens": 112,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

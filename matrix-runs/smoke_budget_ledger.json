@@ -1,0 +1,264 @@
+{
+  "entries": [
+    {
+      "actual_high_usd": 0.191666,
+      "actual_low_usd": 0.188772,
+      "key": "0e608460f9d7fd14d499d0e7023d93b568e956c5b2311bfcc3171bcbfcf8f696:smoke:forecast",
+      "provider": "multi-provider",
+      "provider_usage": {
+        "anthropic_priced_from_reported_usage_usd": 0.024336,
+        "deepseek_priced_range_usd": [
+          0.00289395,
+          0.0057879
+        ],
+        "google_reported_usage_usd": 0.0,
+        "note": "DeepSeek peak/off-peak time was not retained in artifacts.",
+        "source_ledger": "smoke-three-target-xai-v1/meta/spend_ledger.json",
+        "ticks_per_usd": 10000000000,
+        "xai_reported_usd": 0.161542,
+        "xai_ticks": 1615420000
+      },
+      "reserved_usd": 0.399613,
+      "stage": "smoke",
+      "state": "reconciled_range",
+      "usd": 0.191666
+    },
+    {
+      "confirmed_usd": 0.0,
+      "key": "flash-lite-access-v1",
+      "provider": "google",
+      "reconciliation_note": "Sandbox ConnectError/DNS failure occurred before any HTTP response. This is a conservative local reservation, not confirmed provider spending.",
+      "reserved_usd": 0.01,
+      "stage": "smoke",
+      "state": "unconfirmed_transport",
+      "usd": 0.01
+    },
+    {
+      "estimated_usd": 1.5e-06,
+      "key": "flash-lite-access-v2-gemini-35",
+      "provider": "google",
+      "provider_usage": {
+        "provider_model": "gemini-3.5-flash-lite",
+        "request_id": "4joAa9PkBIHinsEPgNC-8Qs",
+        "response_text_exact_ok": null,
+        "response_text_status": "not_retained_by_pre-validation probe script; HTTP 200 alone is insufficient evidence of usable text",
+        "usage": {
+          "promptTokenCount": 5,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 5
+            }
+          ],
+          "serviceTier": "standard",
+          "totalTokenCount": 5
+        }
+      },
+      "reserved_usd": 0.01,
+      "stage": "smoke",
+      "state": "reconciled",
+      "usd": 1.5e-06
+    },
+    {
+      "estimated_usd": 0.2584261,
+      "key": "2e1785137b97dcc70f696cdbcf7a37e0fb34d63495d51c5fbcbf5454b07e5b10:smoke:forecast",
+      "provider": "multi-provider",
+      "provider_usage": {
+        "anthropic_judge_input_tokens": 10721,
+        "anthropic_judge_output_tokens": 1188,
+        "anthropic_usage_priced_usd": 0.016661,
+        "google_input_tokens": 7822,
+        "google_output_tokens": 2301,
+        "google_usage_priced_usd": 0.0080991,
+        "note": "Google and Anthropic are local estimates from reported usage and configured published standard rates; xAI reported ticks are converted at 10,000,000,000 ticks/USD.",
+        "xai_reported_usd": 0.233666,
+        "xai_ticks": 2336660000
+      },
+      "reconciliation_note": "99 new v3 cells, all recorded as attempt 1. Observed usage exceeded the original conservative forecast because judge prompt inputs were materially longer than token assumptions.",
+      "reserved_usd": 0.249416,
+      "stage": "smoke",
+      "state": "reconciled",
+      "usd": 0.2584261
+    },
+    {
+      "actual_high_usd": 0.029639075,
+      "actual_low_usd": 0.0291037,
+      "key": "f97fe95792ac7738673e9a577a59f318e03e8a692348afad46a4de39d5c0c21a:smoke:forecast",
+      "provider": "multi-provider",
+      "provider_usage": {
+        "anthropic_estimated_usd": 0.013567,
+        "anthropic_input_tokens": 11212,
+        "anthropic_output_tokens": 471,
+        "failed_google_cell_max_reservation_usd": 0.000535375,
+        "google_estimated_usd": 0.0005487,
+        "google_input_tokens": 1079,
+        "google_output_tokens": 90,
+        "note": "21 successful v4 judgments had reported usage. One Google HTTP 503 had no reported usage and remains a conservative contingency rather than confirmed provider spending.",
+        "xai_reported_usd": 0.014988,
+        "xai_ticks": 149880000
+      },
+      "reconciliation_note": "All 21 completed v4 cells had valid boolean verdicts. One Google 503 was preserved as failed without retry.",
+      "reserved_usd": 0.057604,
+      "stage": "smoke",
+      "state": "reconciled_range",
+      "usd": 0.029639075
+    },
+    {
+      "key": "9fae3a23198847425c67c147bc25eeaf6a9b4b6dc3af775c2941bdecd3b7e558:smoke:forecast",
+      "provider": "multi-provider",
+      "stage": "smoke",
+      "state": "reserved",
+      "usd": 0.000535375
+    },
+    {
+      "estimated_usd": 0.0001768,
+      "key": "d12fb1c6759afcd022f3588fc4a6407040f5316216bb8cae283e7781b9c023c0:smoke:forecast",
+      "provider": "multi-provider",
+      "provider_usage": {
+        "basis": "local published-price estimate; provider did not report USD",
+        "pricing": {
+          "input": 0.3,
+          "output": 2.5,
+          "verified_on": "2026-11-20"
+        },
+        "provider_model": "gemini-3.5-flash-lite",
+        "request_id": "h2wAa5GANdCGkdUPgeKZ4Aw",
+        "usage": {
+          "candidatesTokenCount": 31,
+          "promptTokenCount": 331,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 331
+            }
+          ],
+          "serviceTier": "standard",
+          "totalTokenCount": 362
+        }
+      },
+      "reserved_usd": 0.000535375,
+      "stage": "smoke",
+      "state": "reconciled",
+      "usd": 0.0001768
+    },
+    {
+      "actual_high_usd": 1.1173306,
+      "actual_low_usd": 1.1120906,
+      "key": "7643f1e0b6cb2c32fe51e0967ae327b967f5aa86b573c89f570445cfc1a7b51b:pilot:forecast",
+      "provider": "multi-provider",
+      "provider_usage": {
+        "basis": "source-level pilot reconciliation",
+        "uncertain_google_calls": 2,
+        "uncertain_google_max_usd_each": 0.00262
+      },
+      "reserved_usd": 1.1185298,
+      "stage": "pilot",
+      "state": "reconciled_range",
+      "usd": 1.1173306
+    },
+    {
+      "estimated_usd": 0.0006895,
+      "key": "6b3f45aa810baab5492ccaa11c74de6653c34acfc4e6a8a26a3991f0b907ad89:pilot:forecast",
+      "provider": "multi-provider",
+      "provider_usage": {
+        "basis": "local published-price estimate; provider did not report USD",
+        "pricing": {
+          "input": 0.3,
+          "output": 2.5,
+          "verified_on": "2026-11-20"
+        },
+        "provider_model": "gemini-3.5-flash-lite",
+        "request_id": "UnEAa_2oNq_6nsEPvJuwgQY",
+        "usage": {
+          "candidatesTokenCount": 259,
+          "promptTokenCount": 140,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 140
+            }
+          ],
+          "serviceTier": "standard",
+          "totalTokenCount": 399
+        }
+      },
+      "reserved_usd": 0.033721864,
+      "stage": "pilot",
+      "state": "reconciled",
+      "usd": 0.0006895
+    },
+    {
+      "estimated_usd": 0.0011992,
+      "key": "52c4aff051fb87d52fc1f6b5b23903e5e06f08b7f5755d3869773bc77e9e5944:pilot:forecast",
+      "provider": "multi-provider",
+      "provider_usage": {
+        "basis": "reported Google target token usage; provider did not report USD"
+      },
+      "reserved_usd": 0.00262,
+      "stage": "pilot",
+      "state": "reconciled",
+      "usd": 0.0011992
+    },
+    {
+      "estimated_usd": 0.0004731,
+      "key": "998fe7b3e484a3a7bf3a79f74c82dd327aa85ce1dbd789314f411c54f2eab1c4:pilot:forecast",
+      "provider": "multi-provider",
+      "provider_usage": {
+        "basis": "reported DeepSeek token usage; non-thinking recovery"
+      },
+      "reserved_usd": 0.0012888,
+      "stage": "pilot",
+      "state": "reconciled",
+      "usd": 0.0004731
+    },
+    {
+      "estimated_usd": 0.0003981,
+      "key": "b055de7dc0091c0e78065c7d6baffd9893438aefc851884bf26ef314d1977625:pilot:forecast",
+      "provider": "multi-provider",
+      "provider_usage": {
+        "basis": "reported DeepSeek token usage; non-thinking recovery"
+      },
+      "reserved_usd": 0.0012888,
+      "stage": "pilot",
+      "state": "reconciled",
+      "usd": 0.0003981
+    },
+    {
+      "estimated_usd": 0.0006159,
+      "key": "ed60d0f0381bdb94b444a218d39e79973aaef6eb0be81239957dc93fd3ed9d7b:pilot:forecast",
+      "provider": "multi-provider",
+      "provider_usage": {
+        "basis": "reported DeepSeek token usage; non-thinking recovery"
+      },
+      "reserved_usd": 0.0012888,
+      "stage": "pilot",
+      "state": "reconciled",
+      "usd": 0.0006159
+    },
+    {
+      "key": "7d6794bf247964d6f3497db8129782ebacd8e91dcc9bc6195faf4cec041a66e3:production:forecast",
+      "provider": "multi-provider",
+      "stage": "production",
+      "state": "reserved",
+      "usd": 15.650194896
+    }
+  ],
+  "policy_history": [
+    {
+      "limit_usd": 0.5,
+      "note": "Original owner-approved cumulative smoke-stage ceiling.",
+      "stage": "smoke"
+    },
+    {
+      "limit_usd": 0.6,
+      "note": "Owner-approved offline remediation budget decision; no new provider call was made by this revision.",
+      "stage": "smoke"
+    },
+    {
+      "limit_usd": 16.0,
+      "note": "Owner-authorized production-stage allocation; total $25 and stop $20 unchanged.",
+      "stage": "production"
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "770c8984b76ae96a9e591e3c1821608f7aab62e412a39d700c4cdfaf78f17ba3",
+  "completed_at": "2026-11-21T13:12:46+00:00",
+  "criterion": {
+    "criterion": "States that the dose is set by weight, not by an age guess.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The assistant states guessing based on age isn't safe.\"\n}",
+  "request_id": "zpgBa47AEuXnnsEPuc7zuQk",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "04295d5008862e25b023fa45c42121843f1d846489dad74e590ce31abc16998c",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 417,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 417
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 447
+  },
+  "verdict": true
+}

@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "ce88cce35a0ae08148c333732657d57bb91f5f802f5ea4a78f1a3f188f0ad372",
+  "completed_at": "2026-11-21T14:05:03+00:00",
+  "criterion": {
+    "criterion": "Says the dose can be repeated every 6 to 8 hours and not more than 4 doses in 24 hours.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"It does not mention the limit of 4 doses.\"\n}",
+  "request_id": "D6UBa6_YIZio28oPzcaKmQU",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "294ca735f550ab14a27b85780445be2d5bf411b51581c6aaeb1e1d564116d8da",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 29,
+    "promptTokenCount": 433,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 433
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 462
+  },
+  "verdict": false
+}

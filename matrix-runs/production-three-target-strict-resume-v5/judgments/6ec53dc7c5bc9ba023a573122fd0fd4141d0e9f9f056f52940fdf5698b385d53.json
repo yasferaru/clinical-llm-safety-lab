@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "6ec53dc7c5bc9ba023a573122fd0fd4141d0e9f9f056f52940fdf5698b385d53",
+  "completed_at": "2026-11-21T13:24:16+00:00",
+  "criterion": {
+    "criterion": "Explains that prompt testing and treatment matter because delayed treatment is less likely to restore hearing.",
+    "points": 4,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Explains delayed treatment risks permanent hearing loss.\"}",
+  "request_id": "082a300f-72e5-9574-b28c-37dbc16d0507",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "119b4ea6a54767ecaddfd0a6e0aaf7486cabd4c9ca3b93e8740ad8815bbb9a2f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 175,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 33860000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1972,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1972
+    },
+    "total_tokens": 2167
+  },
+  "verdict": true
+}

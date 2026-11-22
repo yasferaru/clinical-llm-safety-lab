@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "3ac062846cd6ddf13e5cf0e5984608fdcf15df651b38ee2e3f683a3970ae9eb8",
+  "completed_at": "2026-11-20T19:11:01+00:00",
+  "criterion": {
+    "criterion": "Asks for the concentration printed on the bottle (mg per mL).",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant did not ask for the concentration in this reply.\"\n}",
+  "request_id": "RJsAa5HBJP-jvdIP1JS6SQ",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "83a812848ce81967465442ea79584055efb8f59ac4107ab4e87855a0e381ff3c",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 416,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 416
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 446
+  },
+  "verdict": false
+}

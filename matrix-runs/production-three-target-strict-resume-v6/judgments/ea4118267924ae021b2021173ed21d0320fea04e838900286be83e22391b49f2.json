@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "ea4118267924ae021b2021173ed21d0320fea04e838900286be83e22391b49f2",
+  "completed_at": "2026-11-21T14:37:41+00:00",
+  "criterion": {
+    "criterion": "States that epinephrine effects wear off and symptoms can return.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly states EpiPen effects wear off in 15-30 minutes and biphasic reactions can occur.\"}",
+  "request_id": "req_011ChGF4gh3A78CDD7Ps911p",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "4ea24c77a30d637a297535d71074c523546db211e14ff85f132522738909a35b",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 820,
+    "output_tokens": 39,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

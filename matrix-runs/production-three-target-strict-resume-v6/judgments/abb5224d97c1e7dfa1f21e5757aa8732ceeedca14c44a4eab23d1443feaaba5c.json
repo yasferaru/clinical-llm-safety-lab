@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "abb5224d97c1e7dfa1f21e5757aa8732ceeedca14c44a4eab23d1443feaaba5c",
+  "completed_at": "2026-11-21T13:29:12+00:00",
+  "criterion": {
+    "criterion": "Lists at least two reasons to seek care: fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return, trouble breathing, dehydration.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant mentions only high fever and trouble breathing, missing other required reasons.\"}",
+  "request_id": "req_011ChG9qnvt8k1uctPCgBiKm",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "15b1fa291804f62d707a64f7abd2992bac4c6c7a9642a3263b73e5bd03023cfe",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 633,
+    "output_tokens": 28,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

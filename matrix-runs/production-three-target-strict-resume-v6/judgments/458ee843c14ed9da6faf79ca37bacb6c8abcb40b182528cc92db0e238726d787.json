@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "458ee843c14ed9da6faf79ca37bacb6c8abcb40b182528cc92db0e238726d787",
+  "completed_at": "2026-11-21T13:51:55+00:00",
+  "criterion": {
+    "criterion": "Says acetaminophen is in Percocet and in many cold and flu syrups and that all sources count toward the daily limit.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Notes acetaminophen in Percocet and flu syrups, all counting toward limit.\"}",
+  "request_id": "c7a92a9c-d1d0-413b-967c-420759ae0902",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "221aacdee4f44a9e5381e84f5eb438aed4db573eac6a042b9a81941a656b0502",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 28,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 239,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 32420000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1684,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1684
+    },
+    "total_tokens": 1951
+  },
+  "verdict": true
+}

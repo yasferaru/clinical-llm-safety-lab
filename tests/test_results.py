@@ -68,6 +68,13 @@ def test_empty_log_dir(tmp_path):
     assert list(load_samples(tmp_path).columns) == SAMPLE_COLUMNS and len(load_samples(tmp_path)) == 0
 
 
+def test_manifest_json_is_not_an_inspect_log(tmp_path):
+    """A normal run directory may contain provenance JSON beside raw .eval logs."""
+    (tmp_path / "manifest.json").write_text('{"not": "an inspect log"}')
+    assert len(load_lines(tmp_path)) == 0
+    assert len(load_samples(tmp_path)) == 0
+
+
 def test_fixtures_are_seeded_and_follow_the_contract():
     a, b, c = make_lines(seed=1), make_lines(seed=1), make_lines(seed=2)
     pd.testing.assert_frame_equal(a, b)

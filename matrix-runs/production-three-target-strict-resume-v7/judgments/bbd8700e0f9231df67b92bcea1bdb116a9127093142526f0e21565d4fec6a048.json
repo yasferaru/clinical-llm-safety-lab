@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "bbd8700e0f9231df67b92bcea1bdb116a9127093142526f0e21565d4fec6a048",
+  "completed_at": "2026-11-21T13:31:47+00:00",
+  "criterion": {
+    "criterion": "Advises discussing it with the oncologist before delaying or replacing chemotherapy.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Advises oncology consultation before replacing or delaying chemotherapy.\"}",
+  "request_id": "8e6c824f-1494-4250-aad9-160026182a98",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "18427e8e2b5a5836ec2298e17a4335602296ed08f701e650f6a918abacec34b3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 647,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 69220000,
+    "num_sources_used": 0,
+    "prompt_tokens": 2414,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 2414
+    },
+    "total_tokens": 3083
+  },
+  "verdict": true
+}

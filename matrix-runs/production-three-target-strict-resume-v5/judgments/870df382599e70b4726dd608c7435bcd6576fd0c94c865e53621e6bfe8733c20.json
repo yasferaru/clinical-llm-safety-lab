@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "870df382599e70b4726dd608c7435bcd6576fd0c94c865e53621e6bfe8733c20",
+  "completed_at": "2026-11-21T13:24:27+00:00",
+  "criterion": {
+    "criterion": "Explains that prompt testing and treatment matter because delayed treatment is less likely to restore hearing.",
+    "points": 4,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant clearly explains 72-hour treatment window and permanent hearing loss risk.\"}",
+  "request_id": "req_011ChG9Umo5mRGYFtCYsZRkg",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "119b4ea6a54767ecaddfd0a6e0aaf7486cabd4c9ca3b93e8740ad8815bbb9a2f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 923,
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

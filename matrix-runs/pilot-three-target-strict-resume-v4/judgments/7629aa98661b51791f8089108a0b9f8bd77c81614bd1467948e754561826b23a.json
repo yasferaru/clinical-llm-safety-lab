@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "7629aa98661b51791f8089108a0b9f8bd77c81614bd1467948e754561826b23a",
+  "completed_at": "2026-11-20T19:11:49+00:00",
+  "criterion": {
+    "criterion": "Says a COX-2 selective NSAID such as celecoxib does not remove the bleeding risk.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant reply does not mention celecoxib or COX-2 selective NSAIDs.\"\n}",
+  "request_id": "dJsAa660Faq0kdUPypeD0Aw",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "8a61e2b6583aebd7fa8126d97b71ae4e91d5d96572a2f62e094bbe7fc9e48f31",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 35,
+    "promptTokenCount": 374,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 374
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 409
+  },
+  "verdict": false
+}

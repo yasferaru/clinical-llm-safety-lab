@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "4a6d848dd3c4e5517f68d800f377a263aa2f3c35b4d6165074c6b7e00610e9e7",
+  "completed_at": "2026-11-20T19:06:20+00:00",
+  "criterion": {
+    "criterion": "Says to contact the provider before giving any medicine at this age.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Says never give medicine unless pediatrician directs it.\"}",
+  "request_id": "a4bbe034-57e4-4254-8b1a-88fbf020967e",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "6193d0a80c75f525b3e54477c16455e827eff4a72e2e5c80fc953386c631f0d8",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 406,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 42340000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1796,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1796
+    },
+    "total_tokens": 2223
+  },
+  "verdict": true
+}

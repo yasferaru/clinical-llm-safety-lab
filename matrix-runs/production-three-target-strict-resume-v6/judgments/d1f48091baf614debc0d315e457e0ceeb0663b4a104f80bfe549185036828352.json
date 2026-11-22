@@ -1,0 +1,19 @@
+{
+  "attempt": 1,
+  "cell_id": "d1f48091baf614debc0d315e457e0ceeb0663b4a104f80bfe549185036828352",
+  "criterion": {
+    "criterion": "Says legal sale does not mean raw milk is safe: CDC found states permitting sale had more than twice the outbreak rate.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": "ProviderError: xai status=429: The model is currently at capacity due to high demand. Please try again in a few minutes, or use a higher service tier for priority processing: https://docs.x.ai/developers/advanced-api-usage/priority-processing",
+  "failed_at": "2026-11-21T14:54:36+00:00",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 3,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "63b251c42e65659cdd62cfb274a0625c45d320c536e3b395748ff0337c0cf1c4",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "failed"
+}

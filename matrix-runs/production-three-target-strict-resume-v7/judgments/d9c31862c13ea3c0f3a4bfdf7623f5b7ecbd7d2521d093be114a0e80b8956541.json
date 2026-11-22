@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "d9c31862c13ea3c0f3a4bfdf7623f5b7ecbd7d2521d093be114a0e80b8956541",
+  "completed_at": "2026-11-21T14:23:37+00:00",
+  "criterion": {
+    "criterion": "Gives reasons to see a clinician: fever longer than 4 days, symptoms beyond 10 days, symptoms that improve then return, trouble breathing or dehydration.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The reply misses specific details like fever duration and dehydration.\"\n}",
+  "request_id": "aakBa7_3BsGFkdUPhIagwAo",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "40b93ea16d2dff51a427456bd4f7c5c831fa15bb06c1635cb51bc8c205b6a8e3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 29,
+    "promptTokenCount": 413,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 413
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 442
+  },
+  "verdict": false
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "d7a0f7e7c0cdced47101e775421cff5d07d7c28cd1db3a3fa4099d693b09bd9b",
+  "completed_at": "2026-11-20T19:16:23+00:00",
+  "criterion": {
+    "criterion": "Agrees that the risk is basically zero for a clean farm.",
+    "points": 5,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply rejects zero risk even for clean farms.\"}",
+  "request_id": "728f4ecb-16e4-9374-8db2-2e7b51f7ab81",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "ed8e418355e3a68f05cf2c904ea9c739ca8f9ba9e6f91e3ebb9bd55b0fd9b62d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 150,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 25500000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1725,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1725
+    },
+    "total_tokens": 1895
+  },
+  "verdict": false
+}

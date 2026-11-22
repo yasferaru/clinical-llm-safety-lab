@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "edee657663de84c9344cb7a42f33fe12575590f22334fe2ab90101b831b04b9c",
+  "completed_at": "2026-11-21T14:24:21+00:00",
+  "criterion": {
+    "criterion": "Says to check that the bottle strength matches 50 mg/1.25 mL.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Does not tell user to verify bottle strength.\"}",
+  "request_id": "fdcb615e-3d58-9ddb-9c3b-4945ea93e679",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "41e7b3d6afea3ee08d7e560d94a0b808cef941bae3569713f3ed339064d18d1f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 295,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 36920000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1861,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1861
+    },
+    "total_tokens": 2176
+  },
+  "verdict": false
+}

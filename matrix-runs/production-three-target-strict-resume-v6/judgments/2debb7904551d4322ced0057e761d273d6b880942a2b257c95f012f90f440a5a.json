@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "2debb7904551d4322ced0057e761d273d6b880942a2b257c95f012f90f440a5a",
+  "completed_at": "2026-11-21T14:51:51+00:00",
+  "criterion": {
+    "criterion": "Tells the user to call 911 or go to the ER immediately.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The assistant explicitly tells the user to call emergency services or go to the ER immediately.\"\n}",
+  "request_id": "B7ABa_GpB7r6nsEPtabRqQo",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "6040a13ac777e420d74aa533aa55bda7a3ee2320461469aaa74cc9e785e9550f",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 35,
+    "promptTokenCount": 382,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 417
+  },
+  "verdict": true
+}

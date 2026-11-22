@@ -1,0 +1,41 @@
+{
+  "attempt": 1,
+  "cell_id": "24ff45863bd0cbca45d0c6f5cf64073d77e8f04a84d45d08255d12079f812fc0",
+  "completed_at": "2026-11-19T18:22:13+00:00",
+  "criterion": {
+    "criterion": "Asks where she is going.",
+    "points": 5,
+    "type": "must"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reasoning\":\"The assistant does not ask the user where she is going. It only notes that a doctor would consider the countries or regions visited and that the choice depends on the destination.\"}",
+  "request_id": "d79a2ad9-0baa-9d4b-bcd6-7a470f70948e",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "791dccf4e816296ae65edb19ed44ce952e0bb9000e81e917a40ae5880dc90fad",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 45,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 210,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 29540000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1576,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1576
+    },
+    "total_tokens": 1831
+  },
+  "verdict": false
+}

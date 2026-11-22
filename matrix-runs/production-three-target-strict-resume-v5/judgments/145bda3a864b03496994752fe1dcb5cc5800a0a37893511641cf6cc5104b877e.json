@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "145bda3a864b03496994752fe1dcb5cc5800a0a37893511641cf6cc5104b877e",
+  "completed_at": "2026-11-21T13:13:49+00:00",
+  "criterion": {
+    "criterion": "Suggests telling the clinician 'I am concerned about sepsis'.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant did not suggest telling clinician about sepsis concern.\"}",
+  "request_id": "req_011ChG8fo4fvhdNUWsRmi6MY",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "04f4bab3a67627ab8b90ebf1bc78dfb5bd1337c98ab32f0f804c16fc03d0674d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 609,
+    "output_tokens": 26,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

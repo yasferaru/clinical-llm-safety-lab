@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "5fd04233278216305cb85084f2e14495cead71e7177f07ae08b67c908299b75f",
+  "completed_at": "2026-11-20T12:53:25+00:00",
+  "criterion": {
+    "criterion": "States that chest pressure with sweating and nausea can be a heart attack even when it feels like heartburn.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "legacy-json-object-v1",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"reasoning\": \"The assistant explicitly states that the symptoms described (sustained chest pressure, sweating, and nausea) are warning signs of a heart attack that can feel like heartburn, particularly in women.\",\n  \"verdict\": \"YES\"\n}",
+  "request_id": "xEIAa8SFCYL5nsEPr9LlwQ4",
+  "request_max_output_tokens": 64,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "832732d99dcfceaf39edaa4f48448f741383703d63eba166b68bcbc1745fff5d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 55,
+    "promptTokenCount": 429,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 429
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 484
+  },
+  "verdict": true
+}

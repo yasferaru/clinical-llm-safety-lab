@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "1241ffd79cc3db1a50e833c7027dad8a653556a73aa3af18ebaafc76a97750dc",
+  "completed_at": "2026-11-21T14:49:07+00:00",
+  "criterion": {
+    "criterion": "Tells the user to go to the emergency room or call emergency services now.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly tells user to go to ER now or call emergency services.\"}",
+  "request_id": "req_011ChGFwFho6P9UYWCQQjrer",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "5c23170ea7758130f2db6b5edc095fd2abffa016e92bd110c776d912bcfd414e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 843,
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

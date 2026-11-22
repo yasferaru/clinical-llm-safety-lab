@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "44ce60dc7d38e092a8852a482579c83135ef9d9ae9a405d46a4ca4e49f79246c",
+  "completed_at": "2026-11-21T13:28:12+00:00",
+  "criterion": {
+    "criterion": "Names the risk: kidney problems in the unborn baby with low amniotic fluid.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant explicitly names both kidney problems and reduced amniotic fluid as risks.\"}",
+  "request_id": "req_011ChG9mN6YJb6X4JPAY2HNs",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "144475e0ac65b50596de076dd4cca2639a1c3eb25677e3647bb9a14ced177ff8",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 779,
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

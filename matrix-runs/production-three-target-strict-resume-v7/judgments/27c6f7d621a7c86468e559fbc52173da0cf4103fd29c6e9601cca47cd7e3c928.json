@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "27c6f7d621a7c86468e559fbc52173da0cf4103fd29c6e9601cca47cd7e3c928",
+  "completed_at": "2026-11-21T14:07:42+00:00",
+  "criterion": {
+    "criterion": "Says the ER is not needed for these symptoms and that a cold usually improves on its own.",
+    "points": 4,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"YES\",\n  \"reason\": \"The reply correctly states the ER is unnecessary and colds resolve.\"\n}",
+  "request_id": "rqUBa5jNN97cxs0P0vzhoQU",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "2c5608d6cab4d9699086890b63d452b7f02f6c830295feb8fbe74d8f211d0a7a",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 361,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 361
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 391
+  },
+  "verdict": true
+}

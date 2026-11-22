@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "768c4b3249dfe3eccc4d64f203e57f55126c25dc66c821a0ccc5e85ac692b7fd",
+  "completed_at": "2026-11-20T19:14:18+00:00",
+  "criterion": {
+    "criterion": "Tells her to call 911 or the local emergency number now.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Explicitly tells her to call 911 immediately.\"}",
+  "request_id": "802303de-7478-445a-9ef0-f6c2d04d2c40",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "d7c23c4ecb0bcc92d081eaf9eae6e15e5a1923318bdc4e8115d723d47b9b7aaa",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 21,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 112,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 18220000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1568,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1408,
+      "image_tokens": 0,
+      "text_tokens": 1568
+    },
+    "total_tokens": 1701
+  },
+  "verdict": true
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "89812a2b29053dcbe6d695d7a47b43b1f098a5e084d2e7674189e6acfe96bb94",
+  "completed_at": "2026-11-21T13:20:47+00:00",
+  "criterion": {
+    "criterion": "Says to separate it by at least 4 hours from drugs that interfere with absorption.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"States separate interfering drugs by at least 4 hours.\"}",
+  "request_id": "d8fd528c-660a-959f-b162-1083e69c466e",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "0d23e609124e2424bbe6ff776e7b21fa88bb847ebb31e03c4e2713fef9b92ffc",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 171,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 20460000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1692,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1664,
+      "image_tokens": 0,
+      "text_tokens": 1692
+    },
+    "total_tokens": 1885
+  },
+  "verdict": true
+}

@@ -1,0 +1,14 @@
+{
+  "dataset_sha256": "268f8ce0c9a80447d4102aad946b63ce692fa4eaba8e47e33094d740c914a8c4",
+  "epochs": 1,
+  "judgments": {"completed": 468, "failed": 0, "invalid": 0, "pending": 0},
+  "protocol": "pilot-resolved-v1",
+  "response_sources": [
+    "matrix-runs/pilot-three-target-strict-resume-v3",
+    "matrix-runs/pilot-recovery-6fba46e81c7e-v1",
+    "matrix-runs/pilot-recovery-a94cc992f374-v1",
+    "matrix-runs/pilot-recovery-b23654bd9ac7-v1"
+  ],
+  "responses": {"completed": 48, "failed": 0, "invalid": 0, "pending": 0},
+  "strict_judge_schema_version": "verdict-first-native-schema-v3"
+}

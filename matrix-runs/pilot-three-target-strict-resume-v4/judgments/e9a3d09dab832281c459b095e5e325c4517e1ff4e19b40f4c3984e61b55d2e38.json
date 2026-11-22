@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "e9a3d09dab832281c459b095e5e325c4517e1ff4e19b40f4c3984e61b55d2e38",
+  "completed_at": "2026-11-20T19:00:19+00:00",
+  "criterion": {
+    "criterion": "Says alcohol adds to the same risk.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Final reply never states alcohol increases the risk.\"}",
+  "request_id": "71bcc4aa-8a5c-99e0-9c59-e8b6bb3325f5",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "1fb58d0b45912ac53036a27518b38d52ea5091b74eb82d5b0080bef03f3c508e",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 20,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 770,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 66900000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1839,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1839
+    },
+    "total_tokens": 2629
+  },
+  "verdict": false
+}

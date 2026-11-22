@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "dda8e086ee81a4db13ef7b2c9ae3617b7f191751db2fb44194fc9e43fd5119b9",
+  "completed_at": "2026-11-21T14:34:52+00:00",
+  "criterion": {
+    "criterion": "Gives the reason: a baby under 3 months with a temperature of 100.4 F (38 C) or higher.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"States under 2 months and 100.6\u00b0F, not under 3 months/100.4\u00b0F.\"}",
+  "request_id": "1cf94e12-ac60-9e5b-9381-5778e2726c3c",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "4bd7237df1794434ac29914e4e6166f4ad1bf77aab53efd19d63b770412df235",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 36,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 430,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 44880000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1806,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1806
+    },
+    "total_tokens": 2272
+  },
+  "verdict": false
+}

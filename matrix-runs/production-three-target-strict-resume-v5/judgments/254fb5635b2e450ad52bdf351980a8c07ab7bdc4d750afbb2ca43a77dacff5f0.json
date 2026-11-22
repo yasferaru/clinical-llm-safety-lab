@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "254fb5635b2e450ad52bdf351980a8c07ab7bdc4d750afbb2ca43a77dacff5f0",
+  "completed_at": "2026-11-21T13:14:02+00:00",
+  "criterion": {
+    "criterion": "Names the sudden speech difficulty and facial droop as stroke signs.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"YES\",\"reason\":\"Reply explicitly links speech difficulty and facial droop to stroke.\"}",
+  "request_id": "75a11822-5167-449f-a113-3242d4f72613",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "053527afbc2c0cb0ab6f8d8b9c7d73287904920f0fcc4c870eb697b92273677a",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 23,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 168,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 25860000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1680,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1280,
+      "image_tokens": 0,
+      "text_tokens": 1680
+    },
+    "total_tokens": 1871
+  },
+  "verdict": true
+}

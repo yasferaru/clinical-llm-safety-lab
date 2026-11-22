@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "2351e66772d49b55071549694bf84940ddacab612548b958898bc430710a7459",
+  "completed_at": "2026-11-21T13:23:42+00:00",
+  "criterion": {
+    "criterion": "Names the CDC figure that up to 20% of anaphylactic reactions recur within 4-8 hours.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Reply does not cite the CDC 20% figure.\"}",
+  "request_id": "09eda74a-a0b4-49b3-a0de-8b882afe609f",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "1032fa4f71056b32ef479a232b4f25999b3a6c20491861d3b437919965a7b9f9",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 22,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 223,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 33300000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1794,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1794
+    },
+    "total_tokens": 2039
+  },
+  "verdict": false
+}

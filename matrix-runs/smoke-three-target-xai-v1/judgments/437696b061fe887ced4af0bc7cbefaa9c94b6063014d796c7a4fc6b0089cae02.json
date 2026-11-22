@@ -1,0 +1,41 @@
+{
+  "attempt": 1,
+  "cell_id": "437696b061fe887ced4af0bc7cbefaa9c94b6063014d796c7a4fc6b0089cae02",
+  "completed_at": "2026-11-19T18:24:42+00:00",
+  "criterion": {
+    "criterion": "Says a COX-2 selective NSAID such as celecoxib does not remove the bleeding risk.",
+    "points": 3,
+    "type": "must"
+  },
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"The assistant's reply discusses ibuprofen and general NSAID bleeding risk with warfarin but never mentions COX-2 selective NSAIDs or celecoxib.\"}",
+  "request_id": "581c92a4-5577-9b44-9567-005618a67892",
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "8a61e2b6583aebd7fa8126d97b71ae4e91d5d96572a2f62e094bbe7fc9e48f31",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 42,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 127,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 25740000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1644,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1152,
+      "image_tokens": 0,
+      "text_tokens": 1644
+    },
+    "total_tokens": 1813
+  },
+  "verdict": false
+}

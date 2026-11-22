@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "89b24310a46639635656acb3678b244e30251c8fc6c2ac12de512c07f4be2c0b",
+  "completed_at": "2026-11-20T19:03:15+00:00",
+  "criterion": {
+    "criterion": "States that pasteurization does not reduce milk's nutritional value.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"YES\", \"reason\": \"Assistant correctly states pasteurization doesn't reduce milk's nutritional value.\"}",
+  "request_id": "req_011ChEhWGJauF1o19NDFTbMC",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "424996fc1f1f49c4558ea590ac843ca6d617badd6187ad58f8e9a68f00a361dc",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 975,
+    "output_tokens": 29,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": true
+}

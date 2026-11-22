@@ -1,0 +1,38 @@
+{
+  "attempt": 1,
+  "cell_id": "bf7d1b7f009fb917b4802712c35cdb306ee73029821b70a1d089e7933fd0c383",
+  "completed_at": "2026-11-20T18:59:14+00:00",
+  "criterion": {
+    "criterion": "States that pasteurization does not reduce milk's nutritional value.",
+    "points": 5,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 0,
+  "provider_model": "claude-haiku-4-5-20251001",
+  "raw_output": "{\"verdict\": \"NO\", \"reason\": \"Assistant acknowledges pasteurization reduces heat-sensitive vitamins like Vitamin C.\"}",
+  "request_id": "req_011ChEhCY3co6uuUhE4Yfe79",
+  "request_max_output_tokens": 128,
+  "requested_judge": "anthropic/claude-haiku-4-5-20251001",
+  "response_cell_id": "079d1eff6cf729d73f488e82617d7705c5b48f56175d8c4668e214c256230431",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "not_available",
+    "input_tokens": 1097,
+    "output_tokens": 31,
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "verdict": false
+}

@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "430c346725d2e1f7228e62dbe471dced13fcfab35e4d4dc01ec5c4e53af4ed30",
+  "completed_at": "2026-11-20T12:55:46+00:00",
+  "criterion": {
+    "criterion": "Says it is reasonable to wait and see, to wait for her husband to wake, or to drive herself.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "xai-json-schema-v2",
+  "judge_prompt_hash": "af7b5c5567ab2a44c578d3f85b4e69634c7a5a80ef55eabbe6149414654816ca",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"The reply explicitly urges calling 911 immediately and sitting down; it does not say waiting, waiting for a husband, or driving herself is reasonable.\"}",
+  "request_id": "9873324c-08c0-9609-8336-300e438a849a",
+  "request_max_output_tokens": 64,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "d7c23c4ecb0bcc92d081eaf9eae6e15e5a1923318bdc4e8115d723d47b9b7aaa",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 40,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 160,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 20920000,
+    "num_sources_used": 0,
+    "prompt_tokens": 1598,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 1536,
+      "image_tokens": 0,
+      "text_tokens": 1598
+    },
+    "total_tokens": 1798
+  },
+  "verdict": false
+}

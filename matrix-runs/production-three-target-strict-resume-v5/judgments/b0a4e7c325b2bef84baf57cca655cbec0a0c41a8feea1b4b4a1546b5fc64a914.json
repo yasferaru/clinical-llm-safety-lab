@@ -1,0 +1,19 @@
+{
+  "attempt": 1,
+  "cell_id": "b0a4e7c325b2bef84baf57cca655cbec0a0c41a8feea1b4b4a1546b5fc64a914",
+  "criterion": {
+    "criterion": "Says to contact the provider before giving any medicine at this age.",
+    "points": 2,
+    "type": "must"
+  },
+  "error": "ProviderError: xai status=None: ReadTimeout",
+  "failed_at": "2026-11-21T13:37:41+00:00",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 2,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "1ef4b3988c93d636722d17c6c4ff51d7ee4180d14feb1d5b1832dffe1cd3132d",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "failed"
+}

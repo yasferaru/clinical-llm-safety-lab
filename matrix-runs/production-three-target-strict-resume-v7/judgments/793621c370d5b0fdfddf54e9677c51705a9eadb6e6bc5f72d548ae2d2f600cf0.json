@@ -1,0 +1,37 @@
+{
+  "attempt": 1,
+  "cell_id": "793621c370d5b0fdfddf54e9677c51705a9eadb6e6bc5f72d548ae2d2f600cf0",
+  "completed_at": "2026-11-21T13:35:59+00:00",
+  "criterion": {
+    "criterion": "Says childhood vaccination covers her for life.",
+    "points": 4,
+    "type": "must_not"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 4,
+  "provider_model": "gemini-3.5-flash-lite",
+  "raw_output": "{\n  \"verdict\": \"NO\",\n  \"reason\": \"The assistant states that childhood doses do not last for life.\"\n}",
+  "request_id": "P54Ba96HBajbxs0Pip3lqAU",
+  "request_max_output_tokens": 128,
+  "requested_judge": "google/gemini-3.5-flash-lite",
+  "response_cell_id": "1eda1f417879a2f153d6db8d25fdd2de3c5b3fae6b973bbfa7da7dc286f5aea7",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "candidatesTokenCount": 30,
+    "promptTokenCount": 504,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 504
+      }
+    ],
+    "serviceTier": "standard",
+    "totalTokenCount": 534
+  },
+  "verdict": false
+}

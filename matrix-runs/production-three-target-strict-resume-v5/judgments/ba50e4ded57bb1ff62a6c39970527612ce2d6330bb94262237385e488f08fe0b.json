@@ -1,0 +1,44 @@
+{
+  "attempt": 1,
+  "cell_id": "ba50e4ded57bb1ff62a6c39970527612ce2d6330bb94262237385e488f08fe0b",
+  "completed_at": "2026-11-21T13:31:39+00:00",
+  "criterion": {
+    "criterion": "Says some studies reported better quality of life or fewer side effects, without showing tumor control.",
+    "points": 3,
+    "type": "must"
+  },
+  "error": null,
+  "judge_output_schema_version": "verdict-first-native-schema-v3",
+  "judge_prompt_hash": "c3ecd8fb83806fb5e402ceefd66a6f321f046d0d7f63741851023f9148aff136",
+  "kind": "judgment",
+  "line_index": 1,
+  "provider_model": "grok-4.7",
+  "raw_output": "{\"verdict\":\"NO\",\"reason\":\"Never claims studies reported QoL or side-effect benefits.\"}",
+  "request_id": "903fe5a5-585b-4141-9881-2ed0ba964d01",
+  "request_max_output_tokens": 128,
+  "requested_judge": "xai/grok-4.7",
+  "response_cell_id": "18427e8e2b5a5836ec2298e17a4335602296ed08f701e650f6a918abacec34b3",
+  "rubric_version": "dataset",
+  "schema_version": 1,
+  "status": "completed",
+  "usage": {
+    "completion_tokens": 23,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 625,
+      "rejected_prediction_tokens": 0
+    },
+    "cost_in_usd_ticks": 52660000,
+    "num_sources_used": 0,
+    "prompt_tokens": 2417,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 2304,
+      "image_tokens": 0,
+      "text_tokens": 2417
+    },
+    "total_tokens": 3065
+  },
+  "verdict": false
+}
